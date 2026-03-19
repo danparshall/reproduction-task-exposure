@@ -437,7 +437,7 @@ Examples:
         "--temperature",
         type=float,
         default=None,
-        help="Temperature for all models (0.0 = deterministic). Default: provider defaults.",
+        help="Temperature override. Not recommended — see AGENTS.md 'Temperature' section. Default: provider defaults.",
     )
     parser.add_argument(
         "--max-tokens",
@@ -463,6 +463,29 @@ Examples:
         help=f"Checkpoint directory. Default: {DEFAULT_CHECKPOINT_DIR}",
     )
     args = parser.parse_args()
+
+    # Warn about temperature limitations:
+    #   - Gemini: T=0 causes thinking-token exhaustion (create_client drops it)
+    #   - Reasoning models (o-series, gpt-5-mini): API rejects T≠1 (client skips it)
+    #   - Anthropic: T=0 is NOT deterministic in practice (~87% inter-run stability)
+    # Temperature is not a useful lever for this pipeline. The --temperature flag
+    # exists for experimentation but the defaults are the settled approach.
+    if args.temperature is not None and args.temperature == 0.0:
+        affected = []
+        for name, _ in MODEL_TIERS[args.model_tier].values():
+            if name.startswith("gemini"):
+                affected.append(f"{name} (thinking-token exhaustion)")
+            elif "mini" in name or name.startswith("o"):
+                affected.append(f"{name} (reasoning model, only supports T=1)")
+        if affected:
+            print(
+                "WARNING: --temperature 0 will be silently dropped for: "
+                + ", ".join(affected)
+            )
+        print(
+            "NOTE: T=0 does not meaningfully improve classification stability. "
+            "See AGENTS.md 'Temperature' section for details."
+        )
 
     models = MODEL_TIERS[args.model_tier]
     if args.model:

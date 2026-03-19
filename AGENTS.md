@@ -122,8 +122,17 @@ All three providers run in parallel (independent rate limits). Gemini has the mo
 
 If you hit rate limits, the retry logic handles per-minute limits automatically. Per-day limits (Gemini Pro) will raise `QuotaExhaustedError` — wait until midnight Pacific or switch to mid-tier.
 
+### Temperature
+
+**Temperature is not a useful lever for this pipeline.** The `--temperature` flag exists for experimentation, but the defaults are the settled production approach.
+
+Per-provider behavior:
+- **Anthropic (Sonnet/Opus)**: No default temperature set (uses provider default). T=0 does *not* produce deterministic output — two T=0 runs with identical prompts show ~87% rating agreement and <4% reasoning text identity. The ~11% disagreement is genuine model uncertainty at classification boundaries, not sampling noise.
+- **OpenAI (GPT-5-mini)**: Reasoning model that rejects `temperature≠1`. The `is_reasoning` guard in `clients.py` silently skips temperature for these models. Non-reasoning OpenAI models get hardcoded T=0.
+- **Gemini**: Temperature is silently dropped by `create_client()`. T=0 causes greedy-decoding verbosity that exhausts `max_output_tokens` via thinking tokens — at T=0, Gemini Flash completed only 4/12 occupations in testing.
+
 ### Truncated responses
-If responses are being truncated, increase `--max-tokens` (default 16384). Some occupations with many tasks need more output tokens.
+Gemini's `max_output_tokens` budget includes internal thinking/reasoning tokens, not just the visible structured output. The structured response for the largest occupations needs ~4,200 visible tokens, but Gemini's internal reasoning can push total token usage well past 8,192. The default `--max-tokens 16384` provides safe headroom.
 
 ### Parse failures
 A "PARSE FAILED" message means the model's response didn't match the expected pipe-delimited format. The pipeline continues and the occupation can be re-run with `--model <name>`.

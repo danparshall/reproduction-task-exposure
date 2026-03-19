@@ -2,7 +2,7 @@
 
 **Reproduction package** for Parshall & Lopez-Luzuriaga (2026), "Measuring AI's Economic Reach: A Multi-Axis Task Exposure Framework."
 
-Paper and living abstract: [canaryinstitute.ai/research/task-exposure](https://canaryinstitute.ai/research/task-exposure)
+Living paper and abstract: [canaryinstitute.ai/research/task-exposure](https://canaryinstitute.ai/research/task-exposure)
 
 ## Overview
 
@@ -85,9 +85,23 @@ The pipeline checkpoints after each occupation — if interrupted, re-run the sa
 
 ### Comparing Results
 
-Your results appear in `output/results/`. Compare against the published results in `results/data_20260313_midtier/`.
+Your results appear in `output/results/`. Compare against the published results in `results/data_20260313_midtier/`:
+
+```bash
+python scripts/compare_results.py
+```
 
 Due to LLM non-determinism, individual ratings may differ, but aggregate distributions should be close. See `results/README.md` for column definitions.
+
+### A Note on Temperature and Determinism
+
+The pipeline does not set temperature by default — each provider uses its own default. A `--temperature` flag exists for experimentation, but **T=0 does not produce deterministic classifications**:
+
+- Two identical T=0 Sonnet runs agree on ~87% of ratings, with <4% of reasoning texts byte-identical. The ~11% disagreement is genuine model uncertainty at classification boundaries (mostly C1/C2), not sampling noise.
+- GPT-5-mini and other reasoning models reject `temperature≠1`.
+- Gemini at T=0 triggers a known thinking-token exhaustion bug and is silently blocked.
+
+The default `--max-tokens 16384` accounts for Gemini's internal reasoning overhead, which counts against `max_output_tokens`.
 
 ## Using an AI Coding Assistant
 
