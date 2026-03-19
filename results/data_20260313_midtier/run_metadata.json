@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-03-13T18:50:35.876135+00:00",
+  "soc_set": "full",
+  "n_occupations": 923,
+  "n_tasks": 18796,
+  "round": 2,
+  "model_tier": "mid",
+  "models": {
+    "sonnet": "claude-sonnet-4-6",
+    "gpt": "gpt-5-mini",
+    "gemini": "gemini-3-flash-preview"
+  },
+  "prompt_versions": {
+    "c": "v2",
+    "d": "v4.1",
+    "r": "v8"
+  },
+  "axes": [
+    "C",
+    "D",
+    "R"
+  ],
+  "reasoning_format": "per_axis",
+  "prompt_sha256": "f73a761c174f63a7b42ecab4acec4a8217f020b8989e36db781f259afe15dfb9"
+}
