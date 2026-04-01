@@ -73,14 +73,15 @@ from task_exposure.parser import parse_response  # noqa: E402
 
 # ── Config ───────────────────────────────────────────────────────────────
 
-# Load .env from project root
-_env_path = PROJECT_ROOT / ".env"
-if _env_path.exists():
-    load_dotenv(_env_path)
+# Load .env from project root (.env.local takes precedence)
+for _env_name in (".env.local", ".env"):
+    _env_path = PROJECT_ROOT / _env_name
+    if _env_path.exists():
+        load_dotenv(_env_path)
+        break
 else:
-    # Try .env.example location as hint
     print("NOTE: No .env file found. Copy .env.example to .env and add your API keys.")
-    print(f"  cp {PROJECT_ROOT / '.env.example'} {_env_path}")
+    print(f"  cp {PROJECT_ROOT / '.env.example'} {PROJECT_ROOT / '.env'}")
 
 ONET_DB = PROJECT_ROOT / "data" / "onet"
 PROFILES_CSV = PROJECT_ROOT / "data" / "extracted" / "occupation_profiles.csv"
@@ -132,6 +133,21 @@ MODEL_TIERS = {
         "opus": ("claude-opus-4-6", os.environ.get("ANTHROPIC_API_KEY", "")),
         "gpt52": ("gpt-5.2", os.environ.get("OPENAI_API_KEY", "")),
         "gemini_pro": ("gemini-3-pro-preview", os.environ.get("GEMINI_API_KEY", "")),
+    },
+    "early2024": {
+        "sonnet": ("claude-3-sonnet-20240229", os.environ.get("ANTHROPIC_API_KEY", "")),
+        "gpt": ("gpt-3.5-turbo-0125", os.environ.get("OPENAI_API_KEY", "")),
+        "gemini": ("gemini-1.0-pro", os.environ.get("GEMINI_API_KEY", "")),
+    },
+    "oldest": {
+        "sonnet": ("claude-sonnet-4-20250514", os.environ.get("ANTHROPIC_API_KEY", "")),
+        "gpt": ("gpt-4o-mini", os.environ.get("OPENAI_API_KEY", "")),
+        "gemini": ("gemini-2.5-flash", os.environ.get("GEMINI_API_KEY", "")),
+    },
+    "oldest_o1": {
+        "sonnet": ("claude-sonnet-4-20250514", os.environ.get("ANTHROPIC_API_KEY", "")),
+        "gpt": ("o1", os.environ.get("OPENAI_API_KEY", "")),
+        "gemini": ("gemini-2.5-flash", os.environ.get("GEMINI_API_KEY", "")),
     },
 }
 
@@ -238,6 +254,9 @@ async def classify_occupation(
     """Classify one occupation, save checkpoint on success."""
     try:
         raw = await client.classify(user_prompt, system_prompt=system_prompt)
+        if raw is None:
+            print(f"  [{model_label}] {title}: EMPTY RESPONSE (model returned None)")
+            return None
         parsed = parse_response(raw, reasoning_format=reasoning_format, axes=AXES)
 
         if parsed:

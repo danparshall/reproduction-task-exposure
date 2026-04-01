@@ -74,24 +74,61 @@ The 12-occupation test set includes: Hairdressers, HVAC Mechanics, Registered Nu
 ### Full Reproduction (~$100, 923 occupations)
 
 ```bash
-# Round 1: Initial classification
+# Step 1: Round 1 — initial classification
 python scripts/classify.py --soc-set full
 
-# Round 2: Consensus on disputed tasks
+# Step 2: Round 2 — consensus on disputed tasks
 python scripts/classify.py --soc-set full --round 2
+
+# Step 3: Aggregate — merge R1+R2 into final CSVs
+python scripts/aggregate.py
+
+# Step 4: Compare — check your results against published baseline
+python scripts/compare_results.py --yours output/results
 ```
 
-The pipeline checkpoints after each occupation — if interrupted, re-run the same command to resume.
+The pipeline checkpoints after each occupation — if interrupted, re-run the same command to resume. Steps 1-2 make API calls; steps 3-4 are local only.
 
 ### Comparing Results
 
-Your results appear in `output/results/`. Compare against the published results in `results/data_20260313_midtier/`:
+After aggregation, your results appear in `output/results/` as `consensus_r2.csv` and `disputed_r2.csv`. The comparison script reports task-level agreement, distribution-level agreement, and per-model divergence:
 
 ```bash
-python scripts/compare_results.py
+python scripts/compare_results.py --yours output/results
 ```
 
 Due to LLM non-determinism, individual ratings may differ, but aggregate distributions should be close. See `results/README.md` for column definitions.
+
+### Model Tiers and Temporal Stability
+
+The pipeline includes several model tiers in `scripts/classify.py`:
+
+| Tier | Anthropic | OpenAI | Google | Notes |
+|------|-----------|--------|--------|-------|
+| `mid` (default) | claude-sonnet-4-6 | gpt-5-mini | gemini-3-flash-preview | Current mid-tier, ~$100 for full run |
+| `flagship` | claude-opus-4-6 | gpt-5.2 | gemini-3-pro-preview | ~$500+ for full run |
+| `oldest` | claude-sonnet-4-20250514 | gpt-4o-mini | gemini-2.5-flash | Oldest still-available models |
+
+Use `--model-tier` to select: `python scripts/classify.py --model-tier oldest --soc-set full`
+
+**Temporal stability across model generations:** We tested the full 923-occupation pipeline with the oldest available mid-tier models (~6-12 months older than the defaults). Key findings:
+
+- **77.6% exact match** on consensus ratings vs. current mid-tier
+- **94.4% within one level** — nearly all drift is ±1 on the 0-4 scales
+- C axis (cognitive complexity): 78.5% exact match, stable across generations
+- D axis (deployment difficulty): 84.2% exact match, most stable axis
+- R axis (regulatory restrictions): 70.1% exact match, most sensitive to model capability (see below)
+- Distribution shapes are preserved: per-level shifts are <5 percentage points for C and D
+
+**R-axis sensitivity:** The R axis requires models to integrate domain-specific context (licensing data, apprenticeship requirements) from the occupation profile enrichment. GPT-4o-mini rates R=0 on ~95% of tasks in Round 1 with template reasoning ("No regulatory barriers"), regardless of the occupation's actual regulatory status. The two-round consensus protocol corrects this — GPT-4o-mini updates ~86% of its R-axis ratings in Round 2 when shown other models' reasoning — but some residual bias remains.
+
+**Model sunsetting limits reproducibility:** As of March 2026, no mid-tier models from early 2024 are available via API. Claude 3 Sonnet (March 2024) and Gemini 1.0 Pro (December 2023) are sunset; GPT-3.5-turbo survives but its 16K context window is too small for the framework's enriched prompts (~32K+ required). The practical reproducibility window is ~12 months before models are retired. This framework addresses that by demonstrating stability across model generations rather than pinning to specific model versions.
+
+**Gemini thinking tokens:** Gemini 2.5 Flash (and newer) uses thinking tokens that count against `max_output_tokens`. If you see truncation errors, run Gemini separately with a higher limit:
+
+```bash
+python scripts/classify.py --model gemini --max-tokens 32768
+```
 
 ### A Note on Temperature and Determinism
 
@@ -122,6 +159,8 @@ O*NET data files are bundled in `data/onet/` (public domain). Pre-compiled licen
 
 ```
 ├── scripts/classify.py          # Main classification pipeline
+├── scripts/aggregate.py         # Merge R1+R2 checkpoints into final CSVs
+├── scripts/compare_results.py   # Compare your results against published baseline
 ├── src/task_exposure/           # Python package
 │   ├── clients.py               #   LLM API clients (3 providers)
 │   ├── prompts.py               #   CDR axis definitions & prompt formatting

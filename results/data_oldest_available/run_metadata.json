@@ -1,0 +1,33 @@
+{
+  "description": "Temporal stability test — oldest available mid-tier models (March 2026)",
+  "timestamp": "2026-04-01",
+  "soc_set": "full",
+  "n_occupations": 923,
+  "n_tasks_r2": 23846,
+  "rounds": "R1 + R2 (c-round)",
+  "model_tier": "oldest",
+  "models": {
+    "sonnet": "claude-sonnet-4-20250514",
+    "gpt": "gpt-4o-mini",
+    "gemini": "gemini-2.5-flash"
+  },
+  "model_release_dates": {
+    "sonnet": "May 2025",
+    "gpt": "July 2024",
+    "gemini": "Early 2025"
+  },
+  "prompt_versions": {
+    "c": "v2",
+    "d": "v4.1",
+    "r": "v8"
+  },
+  "axes": ["C", "D", "R"],
+  "reasoning_format": "per_axis",
+  "notes": {
+    "gemini_max_tokens": "32768 (thinking tokens require higher budget than default 16384)",
+    "gemini_coverage": "893/923 SOCs in R1 (30 returned empty responses); all disputes covered in R2",
+    "gpt_r_axis": "GPT-4o-mini rates R=0 on ~95% of tasks in R1; corrects ~86% in R2 c-round",
+    "consensus_rate": "98.2% per-axis after R2",
+    "vs_current_midtier": "77.6% exact match, 94.4% within one level"
+  }
+}
