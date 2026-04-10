@@ -1,0 +1,1015 @@
+task_id,label,explanation
+39,E2,"The LLM can help analyze data and suggest standards, but it cannot physically examine samples or direct testing. Software could be built on top of the LLM to automate some of these processes."
+32,E2,"The LLM can assist in planning and coordinating activities, but the implementation of these plans requires human intervention. Software could be built on top of the LLM to automate some of these processes."
+34,E1,"The LLM can assist in reviewing schedules, making decisions about inventory and staffing, and planning work procedures."
+35,E1,The LLM can assist in reviewing operations and suggesting solutions to production or processing problems.
+36,E2,"The LLM can assist in evaluating staff performance based on provided data, but hiring, training, and resolving personnel grievances require human intervention."
+40,E2,"The LLM can assist in developing tracking or quality control systems and analyzing reports, but implementing these systems requires additional software."
+38,E1,The LLM can assist in preparing and maintaining reports or records.
+41,E1,The LLM can assist in reviewing plans and suggesting new products or processes based on the provided information.
+33,E1,The LLM can assist in developing budgets and approving expenditures based on the provided data.
+44,E1,"The LLM can summarize current literature in the quality control field, but it cannot retrieve up-to-date facts from the Internet unless they are captured in the input."
+43,E2,"The LLM can assist in coordinating procedures for facility maintenance or equipment modification, but implementing these procedures requires human intervention."
+37,E1,The LLM can assist in initiating or coordinating inventory or cost control programs.
+45,E2,"The LLM can assist in analyzing materials prices, but negotiating prices with suppliers requires human intervention."
+21332,E2,"The LLM can assist in developing audit procedures, but conducting site audits requires human intervention."
+21333,E1,The LLM can assist in developing procedures for the normal operation of manufacturing systems.
+21334,E1,The LLM can assist in implementing operational and emergency procedures.
+21335,E1,"The LLM can assist in maintaining records to demonstrate compliance with laws, regulations, or policies."
+21336,E1,The LLM can monitor permit requirements based on the provided data.
+21337,E1,The LLM can assist in optimizing operational costs and productivity based on the provided data.
+21338,E1,The LLM can assist in preparing reports on operations and system productivity or efficiency.
+21339,E2,"The LLM can assist in evaluating subordinate performance based on provided data, but supervising employees requires human intervention."
+3318,E2,"The LLM can provide guidance on building and safety codes, but physical inspection is required to ensure compliance."
+3327,E1,The LLM can assist in developing quality control programs based on input data and requirements.
+20332,E1,"The LLM can help plan, schedule, and coordinate project activities based on input data."
+3326,E1,"The LLM can assist in preparing and submitting budget estimates, progress reports, or cost tracking reports."
+20340,E0,Direct supervision of construction or related workers requires physical presence and cannot be done by the LLM.
+3317,E1,The LLM can help determine labor requirements based on input data about the construction site and project.
+3314,E1,The LLM can assist in resolving matters by providing suggestions or alternatives based on the input data.
+20334,E1,The LLM can assist in preparing contracts and negotiating revisions based on input data.
+3323,E1,The LLM can analyze job specifications and suggest appropriate construction methods.
+3315,E0,Directing activities concerned with construction or maintenance requires physical presence and cannot be done by the LLM.
+20339,E0,Contracting or overseeing craft work requires physical presence and cannot be done by the LLM.
+20333,E0,"Investigating damage, accidents, or delays at construction sites requires physical presence and cannot be done by the LLM."
+20336,E1,The LLM can assist in interpreting and explaining plans and contract terms based on input data.
+20335,E1,"The LLM can assist in implementing new or modified plans in response to delays, bad weather, or construction site emergencies."
+3325,E1,The LLM can assist in requisitioning supplies or materials based on input data.
+20337,E2,"While the LLM can provide guidance on how to apply for permits or licenses, the actual application process may require human interaction with specific systems or authorities."
+19523,E2,"The LLM can provide guidance on pre-building assessments, but actual assessments may require physical inspections or use of specific software."
+20338,E2,"The LLM can provide guidance on construction methods and cost-effectiveness, but actual evaluation may require use of specific software."
+19522,E2,"The LLM can provide guidance on environmental regulations, but physical inspection is required to ensure compliance."
+19520,E1,The LLM can assist in developing environmental protection programs based on input data and requirements.
+19524,E2,"The LLM can provide guidance on obtaining third-party verification, but the actual process may require human interaction with specific systems or authorities."
+19521,E1,The LLM can assist in developing training programs on environmentally responsible building topics.
+19519,E1,The LLM can assist in developing construction budgets to compare green and non-green construction alternatives.
+19518,E1,The LLM can provide guidance on applying green building strategies to reduce energy costs or minimize carbon output.
+3331,E2,"While the LLM can provide guidance on land acquisition for construction projects, the actual process may require human interaction with specific systems or authorities."
+7263,E2,"The LLM can provide information and guidance on emergency preparedness, but it cannot directly consult with officials. However, an LLM-powered application could facilitate these consultations by providing a platform for communication and information sharing."
+7258,E2,"The LLM can provide guidance on how to develop and maintain liaisons, but it cannot directly interact with municipalities or county departments. An LLM-powered application could facilitate these interactions by providing a platform for communication and collaboration."
+7257,E2,"The LLM can provide guidance on coordinating disaster response activities, but it cannot directly order evacuations or open public shelters. An LLM-powered application could assist in these tasks by providing a platform for communication and coordination."
+7260,E1,"The LLM can assist in preparing emergency situation status reports by providing templates, guidance, and editing services."
+7256,E1,"The LLM can assist in maintaining and updating resource materials associated with emergency preparedness plans by providing templates, guidance, and editing services."
+7254,E1,"The LLM can assist in preparing plans for disasters or emergencies by providing templates, guidance, and editing services."
+7264,E2,"The LLM can provide guidance on how to develop and perform tests and evaluations of emergency management plans, but it cannot directly perform these tests. An LLM-powered application could assist in these tasks by providing a platform for testing and evaluation."
+7266,E2,"The LLM can provide guidance on how to prepare and analyze damage assessments, but it cannot directly perform these assessments. An LLM-powered application could assist in these tasks by providing a platform for assessment and analysis."
+7261,E2,"The LLM can provide guidance on how to design and administer emergency or disaster preparedness training courses, but it cannot directly administer these courses. An LLM-powered application could assist in these tasks by providing a platform for course administration and design."
+7253,E2,"The LLM can provide information on activities or changes that could affect the likelihood of an emergency, but it cannot directly keep informed of these activities or changes. An LLM-powered application could assist in these tasks by providing a platform for information gathering and sharing."
+7262,E0,The LLM cannot inspect facilities and equipment as it lacks physical capabilities.
+7269,E1,The LLM can review emergency plans to ensure their adequacy by providing feedback and suggestions for improvement.
+7259,E1,"The LLM can provide information on federal, state, and local regulations affecting emergency plans, and can assist in ensuring that plans adhere to those regulations."
+7270,E2,"The LLM can provide guidance on how to conduct surveys, but it cannot directly conduct these surveys. An LLM-powered application could assist in these tasks by providing a platform for survey design and administration."
+7265,E0,"The LLM cannot attend meetings, conferences, or workshops as it lacks physical capabilities."
+7255,E1,"The LLM can propose alterations of emergency response procedures based on regulatory changes, technological changes, or knowledge gained from outcomes of previous emergency situations."
+7267,E1,The LLM can develop instructional materials for the public and provide information on emergency plans and their implementation processes.
+7272,E2,"The LLM can provide guidance on how to apply for federal funding, but it cannot directly apply for this funding. An LLM-powered application could assist in these tasks by providing a platform for grant application and administration."
+7268,E1,"The LLM can assist in training local groups in the preparation of long-term plans by providing templates, guidance, and editing services."
+7275,E2,"The LLM can provide guidance on how to apply for federal funding, but it cannot directly assist communities in applying for this funding. An LLM-powered application could assist in these tasks by providing a platform for grant application and administration."
+7271,E1,"The LLM can study emergency plans used elsewhere to gather information for plan development by providing summaries, comparisons, and analyses of these plans."
+7273,E1,"The LLM can assist in developing and implementing training procedures and strategies for radiological protection, detection, and decontamination by providing templates, guidance, and editing services."
+7274,E0,The LLM cannot inventory and distribute equipment as it lacks physical capabilities.
+18861,E1,"The LLM can interpret and explain HR policies, procedures, laws, standards, or regulations given that these are text-based and can be input into the model."
+18859,E2,"While the LLM can assist in the hiring process by providing guidelines and helping with paperwork, the actual hiring process involves human judgement and interaction which the LLM cannot replace."
+18864,E1,The LLM can maintain knowledge of EEO and affirmative action guidelines and laws as these can be input into the model.
+18866,E2,The LLM can assist in maintaining employment records but it would require additional software to interact with HR management system software.
+18852,E2,"The LLM can provide guidance on addressing employee relations issues, but the actual resolution of these issues requires human judgement and interaction."
+18868,E1,The LLM can review employment applications and job orders to match applicants with job requirements as this can be done through text analysis.
+18860,E1,The LLM can inform job applicants of job details as this can be done through text generation.
+18871,E2,"While the LLM can assist in selecting qualified job applicants, the final decision requires human judgement."
+18870,E2,"The LLM can assist in preparing for new employee orientations, but conducting the orientation would require human interaction."
+18863,E1,The LLM can maintain and update HR documents as these are text-based and can be input into the model.
+18856,E2,"The LLM can provide guidance on developing personnel policies or procedures, but the actual implementation requires human interaction."
+18857,E1,The LLM can contact job applicants to inform them of the status of their applications as this can be done through text generation.
+18854,E2,"The LLM can assist in conducting exit interviews and ensuring that necessary employment termination paperwork is completed, but the actual interview requires human interaction."
+18862,E2,"The LLM can assist in interviewing job applicants by providing questions and interpreting responses, but the actual interview requires human interaction."
+18865,E2,"The LLM can assist in searching for qualified job candidates, but it would require additional software to interact with various sources."
+18867,E1,"The LLM can provide management with information or training related to interviewing, performance appraisals, counseling techniques, or documentation of performance issues."
+18853,E2,"The LLM can assist in analyzing employment-related data and preparing required reports, but it would require additional software to interact with data sources."
+18872,E1,"The LLM can advise management on organizing, preparing, or implementing recruiting or retention programs."
+18858,E1,The LLM can assist in developing or implementing recruiting strategies as this can be done through text generation.
+21097,E2,"The LLM can assist in administering employee benefit plans, but it would require additional software to interact with benefit plan systems."
+18869,E2,"The LLM can assist in scheduling or administering tests, but it would require additional software to interact with testing systems."
+18855,E2,"The LLM can assist in conducting reference or background checks, but it would require additional software to interact with various sources."
+18876,E1,The LLM can review and evaluate applicant qualifications or eligibility for specified licensing as this can be done through text analysis.
+18874,E1,"The LLM can evaluate recruitment or selection criteria to ensure conformance to professional, statistical, or testing standards."
+18873,E2,"The LLM can assist in coordinating with outside staffing agencies, but it would require additional software to interact with these agencies."
+18875,E1,The LLM can evaluate selection or testing techniques by conducting research or follow-up activities and conferring with management or supervisory personnel.
+21462,E1,The LLM can assist in assigning duties or responsibilities to project personnel by providing suggestions based on the project's requirements and the personnel's skills and roles.
+21463,E1,The LLM can help in drafting and refining communication with key stakeholders to determine project requirements and objectives.
+21464,E1,The LLM can provide suggestions for problem-solving strategies based on the description of the problems provided by project personnel.
+21465,E1,The LLM can assist in creating project status presentations by generating text for slides based on the project's current status and future plans.
+21466,E1,"The LLM can help in developing or updating project plans by providing suggestions for objectives, technologies, schedules, funding, and staffing based on the project's requirements."
+21467,E1,"The LLM can help identify project needs by analyzing project objectives and schedules and suggesting resources, staff, or finances that may be required."
+21468,E2,"While the LLM can provide general advice on vendor or consultant selection, it would require additional software to access and analyze specific vendor or consultant data to make a selection."
+21469,E2,"The LLM can provide general advice on budget management, but it would require additional software to access and analyze specific cost data to identify budget issues."
+21470,E1,The LLM can help monitor project milestones and deliverables by providing reminders and suggestions based on the project's schedule.
+21471,E2,"While the LLM can provide general advice on performance management, it would require additional software to access and analyze specific performance data to provide feedback."
+21472,E1,The LLM can assist in drafting and refining negotiation strategies and communications with project stakeholders or suppliers.
+21473,E1,"The LLM can assist in planning, scheduling, or coordinating project activities by providing suggestions based on the project's requirements and deadlines."
+21474,E2,"While the LLM can provide general advice on budget management and report writing, it would require additional software to access and analyze specific budget and cost data to prepare these reports."
+21475,E1,The LLM can assist in producing and distributing project documents by generating text for these documents and providing suggestions for distribution methods.
+21476,E1,"The LLM can assist in proposing, reviewing, or approving modifications to project plans by providing suggestions based on the project's requirements and the proposed modifications."
+21477,E2,"While the LLM can provide general advice on recruitment and hiring, it would require additional software to access and analyze specific candidate data to make hiring decisions."
+21478,E2,"While the LLM can provide general advice on report writing, it would require additional software to access and analyze specific project status data to report this status to managers."
+21479,E1,The LLM can assist in requesting and reviewing project updates by providing suggestions for update requests and analyzing the updates to ensure deadlines are met.
+21480,E1,"The LLM can assist in scheduling or facilitating project meetings by providing suggestions for meeting times, agendas, and facilitation strategies."
+21481,E1,The LLM can assist in submitting project deliverables to clients by providing suggestions for submission methods and quality assurance strategies.
+94,E0,"The task involves presenting information using various instructional techniques such as role playing, simulations, team exercises, etc. which require physical interaction and cannot be accomplished by a text-based LLM."
+20475,E1,"The LLM can assist in obtaining, organizing, or developing training procedure manuals, guides, or course materials as it involves text generation and organization."
+19559,E0,Evaluating modes of training delivery such as in-person or virtual to optimize training effectiveness requires human judgement and cannot be fully automated by an LLM.
+97,E1,The LLM can help design specific training programs to help workers maintain or improve job skills by providing relevant content and structure.
+103,E1,"The LLM can assist in assessing training needs through surveys, interviews with employees, etc. by analyzing the text inputs and providing insights."
+98,E0,"Monitoring, evaluating, or recording training activities or program effectiveness requires human judgement and cannot be fully automated by an LLM."
+20474,E1,"The LLM can assist in designing, planning, organizing, or directing orientation and training programs as it involves text generation and organization."
+102,E1,The LLM can help develop alternative training methods if expected improvements are not seen by providing new ideas and strategies.
+101,E1,"The LLM can evaluate training materials prepared by instructors, such as outlines, text, or handouts by providing feedback and suggestions."
+20476,E0,Monitoring training costs and preparing budget reports to justify expenditures involves financial analysis which is beyond the capabilities of a text-based LLM.
+106,E1,The LLM can help devise programs to develop executive potential among employees in lower-level positions by providing relevant content and structure.
+93,E2,"The LLM can assist in keeping up with developments in area of expertise by summarizing information from provided texts, but it cannot retrieve up-to-date information from the internet."
+99,E0,Attending meetings or seminars to obtain information for use in training programs or to inform management of training program status requires human presence and cannot be automated by an LLM.
+100,E0,Coordinating recruitment and placement of training program participants involves human interaction and decision-making which cannot be fully automated by an LLM.
+105,E0,Selecting and assigning instructors to conduct training requires human judgement and cannot be fully automated by an LLM.
+108,E0,"Negotiating contracts with clients for desired training outcomes, fees, or expenses involves human interaction and decision-making which cannot be fully automated by an LLM."
+20477,E0,"Supervising, evaluating, or referring instructors to skill development classes requires human judgement and cannot be fully automated by an LLM."
+95,E0,"Scheduling classes based on availability of classrooms, equipment, or instructors involves logistical considerations which cannot be fully automated by an LLM."
+111,E0,"Referring trainees to employer relations representatives, to locations offering job placement assistance, or to appropriate social services agencies, if warranted, involves human interaction and decision-making which cannot be fully automated by an LLM."
+19558,E1,"The LLM can assist in developing or implementing training programs related to efficiency, recycling, or other issues with environmental impacts by providing relevant content and structure."
+21744,E0,Physical assessment of servers and systems requires direct interaction and cannot be performed by a text-based LLM.
+21745,E1,The LLM can assist in evaluating risk and developing mitigation strategies based on the provided stakeholder data.
+21746,E1,The LLM can help in auditing network and security systems based on established criteria provided in the text input.
+21747,E1,The LLM can provide instructions or code to configure information systems based on the principles of least functionality and least access.
+21748,E1,The LLM can assist in designing security solutions based on known device vulnerabilities provided in the text input.
+21749,E1,The LLM can help develop and execute tests that simulate the techniques of known cyber threat actors.
+21750,E1,The LLM can assist in developing infiltration tests that exploit device vulnerabilities.
+21751,E1,The LLM can help in developing presentations on threat intelligence.
+21752,E1,The LLM can assist in developing security penetration testing processes.
+21753,E1,The LLM can help in discussing security solutions by providing relevant information and suggestions.
+21754,E1,The LLM can assist in documenting penetration test findings.
+21755,E1,"The LLM can help evaluate vulnerability assessments based on the provided information about local computing environments, networks, infrastructures, or enclave boundaries."
+21756,E1,The LLM can assist in gathering cyber intelligence to identify vulnerabilities based on the provided information.
+21757,E1,"The LLM can help identify new threat tactics, techniques, or procedures used by cyber threat actors based on the provided information."
+21758,E1,The LLM can assist in identifying security system weaknesses using the results of penetration tests.
+21759,E1,The LLM can assist in investigating security incidents by providing relevant information and suggestions based on the provided data.
+21760,E1,The LLM can provide information about new penetration testing tools and methods based on its training data.
+21761,E1,The LLM can provide information about hacking trends based on its training data.
+21762,E1,The LLM can assist in preparing and submitting reports describing the results of security fixes.
+21763,E1,The LLM can assist in testing the security of systems by providing relevant information and suggestions.
+21764,E1,The LLM can assist in updating corporate policies to improve cyber security based on the provided information.
+21765,E1,The LLM can assist in writing audit reports to communicate technical and procedural findings and recommend solutions.
+16169,E2,"The LLM can assist in tracking budget, schedule, and scope, but it would require additional software to integrate with project management tools to manage execution effectively."
+16154,E1,The LLM can help identify potential problems based on the information provided and suggest possible solutions.
+16157,E2,"The LLM can help monitor project milestones and deliverables if the information is provided, but it would require additional software to integrate with project management tools for real-time tracking."
+16152,E1,The LLM can help ensure adherence to quality standards by reviewing project deliverables in text form and providing feedback.
+16155,E1,"The LLM can help analyze customer needs and priorities based on the information provided, such as survey results or customer feedback."
+16159,E1,The LLM can help review project plans and suggest modifications based on the information provided.
+16156,E2,"The LLM can help facilitate meetings by providing agenda and minutes in text form, but it would require additional software to integrate with scheduling tools for real-time scheduling."
+16163,E1,The LLM can help coordinate activities by providing instructions or guidelines based on the information provided.
+16164,E1,"The LLM can help develop implementation plans, including cost-benefit or ROI analyses, based on the information provided."
+16162,E1,The LLM can help identify the need for project resources based on the information provided.
+16170,E1,"The LLM can help develop or update project plans, including project objectives, technologies, systems, information specifications, schedules, funding, and staffing, based on the information provided."
+16151,E1,The LLM can help perform risk assessments and develop response strategies based on the information provided.
+16168,E1,The LLM can help prepare project status reports by analyzing and summarizing information and trends provided in text form.
+16160,E1,"The LLM can help identify, review, or select vendors or consultants based on the information provided."
+16166,E1,The LLM can help develop and manage annual budgets for IT projects based on the information provided.
+16161,E1,The LLM can help establish and execute a project communication plan based on the information provided.
+16171,E1,The LLM can help develop and manage the work breakdown structure of IT projects based on the information provided.
+16153,E1,The LLM can help monitor the performance of project team members and provide feedback based on the information provided.
+16165,E1,The LLM can help coordinate recruitment or selection of project personnel based on the information provided.
+16167,E1,"The LLM can help assign duties, responsibilities, and spans of authority to project personnel based on the information provided."
+16158,E1,The LLM can help negotiate with project stakeholders or suppliers by providing negotiation strategies and suggestions based on the information provided.
+16327,E1,"The LLM can provide technical direction or supervision by answering questions, providing guidance, and reviewing work, which can be inputted as text."
+16325,E1,"The LLM can review and critique proposals, plans, or designs related to water or wastewater treatment systems if these are provided in a text format."
+16350,E1,The LLM can assist in designing water or wastewater treatment plants by providing suggestions and guidelines based on the inputted requirements.
+21166,E2,"While the LLM can provide suggestions for improving efficiency, it would require additional software to analyze the operation and maintenance of water or wastewater systems."
+16330,E1,The LLM can assist in designing or selecting equipment for use in wastewater processing by providing suggestions based on the inputted government standards.
+16349,E1,"The LLM can assist in designing pumping systems, pumping stations, pipelines, force mains, or sewers by providing suggestions and guidelines based on the inputted requirements."
+16347,E1,The LLM can assist in designing water distribution systems by providing suggestions and guidelines based on the inputted requirements.
+16331,E2,"While the LLM can provide suggestions for conducting water quality studies, it would require additional software to analyze and characterize water pollutant sources."
+16343,E1,"The LLM can analyze and recommend chemical, biological, or other wastewater treatment methods based on the inputted requirements."
+16328,E1,The LLM can assist in identifying design alternatives for the development of new water resources based on the inputted requirements.
+16345,E1,"The LLM can assist in designing water runoff collection networks, water supply channels, or water supply system networks based on the inputted requirements."
+16346,E1,"The LLM can assist in designing water or wastewater lift stations, including water wells, based on the inputted requirements."
+16339,E2,"While the LLM can provide suggestions for conducting cost-benefit analyses, it would require additional software to analyze the construction of water supply systems, runoff collection networks, water and wastewater treatment plants, or wastewater collection systems."
+16326,E1,The LLM can provide technical support on water resource or treatment issues to government agencies by answering questions and providing suggestions.
+16337,E2,"While the LLM can provide suggestions for conducting feasibility studies, it would require additional software to analyze the construction of facilities."
+16341,E2,"While the LLM can provide suggestions for analyzing storm water or floodplain drainage systems, it would require additional software to control erosion, stabilize river banks, repair channel streams, or design bridges."
+16335,E2,"While the LLM can provide oversight and guidance, it would require additional software to oversee the construction of decentralized or on-site wastewater treatment systems, including reclaimed water facilities."
+16329,E1,The LLM can assist in developing plans for new water resources or water efficiency programs based on the inputted requirements.
+16333,E2,"While the LLM can provide suggestions for performing hydrological analyses, it would require additional software to model the movement of water or forecast the dispersion of chemical pollutants in the water supply."
+16334,E2,"While the LLM can provide suggestions for performing hydraulic analyses, it would require additional software to model flow characteristics, test for pressure losses, or to identify opportunities to mitigate risks and improve operational efficiency."
+16324,E1,The LLM can assist in writing technical reports or publications related to water resources development or water use efficiency.
+16344,E1,The LLM can assist in designing water storage tanks or other water storage facilities based on the inputted requirements.
+16342,E1,The LLM can analyze and recommend sludge treatment or disposal methods based on the inputted requirements.
+16348,E1,The LLM can assist in designing sludge treatment plants based on the inputted requirements.
+16336,E2,"While the LLM can provide suggestions for gathering and analyzing water use data, it would require additional software to forecast water demand."
+16338,E2,"While the LLM can provide suggestions for conducting environmental impact studies, it would require additional software to analyze water and wastewater collection, treatment, or distribution."
+16340,E2,"While the LLM can provide suggestions for analyzing the efficiency of water delivery structures, it would require additional software to analyze dams, tainter gates, canals, pipes, penstocks, or cofferdams."
+16332,E2,"While the LLM can provide suggestions for performing mathematical modeling, it would require additional software to model underground or surface water resources."
+1447,E0,"The task requires the use of CAD equipment, which the LLM cannot operate. The LLM can provide guidance or suggestions, but it cannot directly perform the task."
+20964,E0,"The task involves creating 3D models using CAD software, which is beyond the capabilities of the LLM."
+1455,E0,"The task involves drawing and layout work, which the LLM cannot perform. It can provide guidance or suggestions, but it cannot directly perform the task."
+1452,E1,"The LLM can assist in identifying potential operating deficiencies or production problems in designs based on the input data, and suggest modifications."
+1449,E1,"The LLM can review and analyze specifications, sketches, drawings, ideas, and related data, and provide an assessment."
+1454,E0,"The task involves physical checking of dimensions and assigning numbers to materials, which the LLM cannot perform."
+1453,E0,"The task involves designing blueprints of specialty items, which the LLM cannot perform. It can provide guidance or suggestions, but it cannot directly perform the task."
+1450,E1,The LLM can assist in computing mathematical formulas to develop and design detailed specifications for components or machinery.
+1448,E1,"The LLM can assist in resolving design or other problems based on the input data, and provide suggestions for design, layout, or detailing components and systems."
+1456,E1,The LLM can assist in answering questions pertaining to installation of systems based on the schematics and other input data.
+1451,E0,"The task involves physically positioning instructions and comments onto drawings, which the LLM cannot perform."
+1458,E0,"The task involves supervising and training other drafters, technologists, and technicians, which the LLM cannot perform."
+1459,E1,The LLM can assist in creating text for reference manuals and technical publications to describe operation and maintenance of mechanical systems.
+1457,E0,"The task involves freehand sketching, tracing, and reproducing drawings, which the LLM cannot perform."
+1460,E0,"The task involves shading or coloring drawings, which the LLM cannot perform."
+20516,E0,The task involves physical testing of products which the LLM cannot perform.
+3672,E1,"The LLM can assist in compiling and evaluating statistical data, reducing the time taken for this task."
+3660,E1,"The LLM can analyze text inputs about time, motion, methods, or speed and provide suggestions to improve efficiency."
+3668,E1,The LLM can read and analyze text from logs and sheets to verify adherence to quality assurance specifications.
+20518,E0,"The task involves observing worker performance and equipment operation, which the LLM cannot do."
+3663,E1,"The LLM can assist in planning work assignments based on provided data about worker performance, machine capacity, etc."
+19692,E1,The LLM can evaluate text inputs about industrial operations for compliance with regulations.
+22022,E1,"The LLM can provide information about regulations, policies, and procedures for health, safety, and environmental compliance."
+22023,E1,"The LLM can assist in analyzing, estimating, or reporting production costs based on provided data."
+22024,E1,"The LLM can assist engineers in developing, building, or testing prototypes or new products, processes, or procedures by providing information and suggestions."
+22025,E0,"The task involves physical calibration or adjustment of equipment, which the LLM cannot perform."
+22026,E1,The LLM can assist in conducting statistical studies to analyze or compare production costs.
+22027,E0,"The task involves coordinating equipment purchases, installations, or transfers, which the LLM cannot perform."
+22028,E1,"The LLM can assist in creating or interpreting engineering drawings, schematic diagrams, formulas, or blueprints."
+22029,E1,The LLM can assist in designing plant layouts or production facilities by providing information and suggestions.
+22030,E1,The LLM can assist in developing manufacturing infrastructure by providing information and suggestions.
+22031,E1,"The LLM can assist in developing or implementing programs to address problems related to production, materials, safety, or quality."
+22032,E1,"The LLM can assist in developing production, inventory, or quality assurance programs."
+22033,E1,The LLM can assist in developing sustainable manufacturing technologies by providing information and suggestions.
+22034,E1,"The LLM can assist in identifying opportunities for improvements in quality, cost, or efficiency of automation equipment."
+22035,E0,"The task involves monitoring and adjusting production processes or equipment, which the LLM cannot perform."
+22036,E0,"The task involves overseeing equipment start-up, characterization, qualification, or release, which the LLM cannot perform."
+22037,E0,"The task involves overseeing or inspecting production processes, which the LLM cannot perform."
+22038,E1,"The LLM can assist in preparing layouts, drawings, or sketches of machinery or equipment."
+22039,E1,"The LLM can assist in preparing production documents, such as standard operating procedures, manufacturing batch records, inventory reports, or productivity reports."
+22040,E1,The LLM can assist in providing advice or training to other technicians by providing information and suggestions.
+22041,E1,The LLM can assist in recommending corrective or preventive actions to assure or improve product quality or reliability.
+22042,E0,"The task involves selecting cleaning materials, tools, or equipment, which the LLM cannot perform."
+22043,E1,The LLM can assist in selecting material quantities or processing methods needed to achieve efficient production.
+22044,E0,"The task involves setting up and operating production equipment, which the LLM cannot perform."
+16807,E1,The LLM can assist in maintaining accurate laboratory records and data by organizing and summarizing text inputs.
+16813,E1,The LLM can assist in designing molecular or cellular laboratory experiments and interpreting results based on text inputs.
+23904,E1,The LLM can assist in writing grant applications by providing suggestions and edits to the text.
+16805,E0,Performing laboratory procedures requires physical actions that the LLM cannot perform.
+16815,E1,The LLM can assist in conducting research on cell organization and function by providing information and answering questions based on its training data.
+23905,E1,"The LLM can assist in preparing or reviewing reports, manuscripts, or meeting presentations by providing suggestions and edits to the text."
+16808,E1,The LLM can assist in instructing students by providing information and answering questions based on its training data.
+16810,E0,"Directing, coordinating, organizing, or prioritizing biological laboratory activities requires physical actions and real-time decision making that the LLM cannot perform."
+16814,E1,The LLM can assist in compiling and analyzing molecular or cellular experimental data based on text inputs.
+16809,E1,The LLM can assist in evaluating new technologies by providing information and answering questions based on its training data.
+16804,E1,The LLM can assist in providing scientific direction for project teams by providing information and answering questions based on its training data.
+16802,E0,Supervising technical personnel and postdoctoral research fellows requires real-time decision making and human interaction that the LLM cannot perform.
+16806,E0,Monitoring or operating specialized equipment requires physical actions that the LLM cannot perform.
+16816,E1,The LLM can assist in conducting applied research by providing information and answering questions based on its training data.
+16799,E1,The LLM can assist in developing guidelines for procedures by providing suggestions and edits to the text.
+16811,E1,The LLM can assist in developing assays that monitor cell characteristics by providing information and answering questions based on its training data.
+16800,E1,The LLM can assist in coordinating molecular or cellular research activities with scientists specializing in other fields by providing information and answering questions based on its training data.
+16796,E0,"Verifying all financial, physical, and human resources requires real-time decision making and access to up-to-date information that the LLM cannot perform."
+16798,E1,The LLM can assist in evaluating new supplies and equipment by providing information and answering questions based on its training data.
+16797,E1,The LLM can assist in participating in all levels of bioproduct development by providing information and answering questions based on its training data.
+16801,E1,The LLM can assist in conferring with vendors to evaluate new equipment or reagents by providing information and answering questions based on its training data.
+16812,E1,"The LLM can assist in designing databases, such as mutagenesis libraries, by providing information and answering questions based on its training data."
+18618,E1,"The LLM can assist in preparing written reports by generating text, organizing information, and providing suggestions for illustrations, maps, and appendices."
+9104,E2,"While the LLM can provide guidance on designing investigations, the actual execution of these investigations would require additional software or tools to collect and analyze data."
+9108,E2,"The LLM can help interpret and graph data, but the actual measurement of phenomena would require additional tools or software."
+9116,E1,"The LLM can assist in conducting research and communicating information by generating text, summarizing research, and providing suggestions for conservation and preservation strategies."
+9102,E0,Coordinating and supervising the work of staff requires human interaction and judgement that the LLM cannot provide.
+9105,E2,"The LLM can provide guidance on studying public water supply issues, but the actual study would require additional software or tools to collect and analyze data."
+9107,E1,"The LLM can assist in applying research findings by generating text, summarizing research, and providing suggestions for minimizing environmental impacts."
+9100,E2,"The LLM can provide guidance on studying and documenting water quantities and distribution, but the actual study would require additional software or tools to collect and analyze data."
+9112,E0,"Installing, maintaining, and calibrating instruments requires physical interaction that the LLM cannot provide."
+18617,E1,The LLM can assist in developing computer models by generating code and providing guidance on hydrologic predictions.
+9115,E2,"The LLM can provide guidance on studying and analyzing the physical aspects of the earth, but the actual study would require additional software or tools to collect and analyze data."
+9119,E1,"The LLM can assist in evaluating research data by generating text, summarizing research, and providing suggestions for impact on conservation and planning issues."
+9106,E2,"The LLM can provide guidance on collecting and analyzing water samples, but the actual collection and analysis would require additional software or tools."
+9103,E2,"The LLM can provide guidance on preparing hydrogeologic evaluations, but the actual preparation would require additional software or tools to collect and analyze data."
+9113,E1,"The LLM can assist in evaluating data and providing recommendations for municipal projects by generating text, summarizing research, and providing suggestions."
+9111,E1,The LLM can assist in developing or modifying methods for conducting hydrologic studies by generating text and providing guidance.
+9118,E1,The LLM can assist in reviewing applications and recommending actions by generating text and providing guidance.
+9120,E0,Monitoring work and enforcing rules requires human interaction and judgement that the LLM cannot provide.
+9110,E1,The LLM can assist in answering questions and providing technical assistance by generating text and providing guidance.
+9123,E2,"The LLM can provide guidance on investigating properties and activities of glaciers, but the actual investigation would require additional software or tools to collect and analyze data."
+9114,E2,"The LLM can provide guidance on conducting climate assessments and studying storm occurrences, but the actual study would require additional software or tools to collect and analyze data."
+9121,E0,Administering programs requires human interaction and judgement that the LLM cannot provide.
+9109,E1,"The LLM can assist in investigating complaints and conflicts by generating text, gathering information, recommending alternatives, and preparing draft orders."
+9117,E2,"While the LLM can provide guidance on designing civil works, the actual design and supervision of construction would require additional software or tools."
+9122,E2,"The LLM can assist in compiling and evaluating hydrologic information, but the creation of navigational charts and maps and prediction of atmospheric conditions would require additional software or tools."
+18270,E2,"The LLM can assist in analyzing and managing data, but it would require additional software to interact with the remote sensing systems and data."
+18256,E2,"The LLM can help analyze data and provide insights, but it would require additional software to interact with the statistical analysis software, image analysis software, or GIS."
+18258,E2,"The LLM can help integrate geospatial data sources into projects, but it would require additional software to interact with the geospatial data."
+18260,E2,"The LLM can help organize and maintain geospatial data and associated documentation, but it would require additional software to interact with the geospatial data and documentation."
+18265,E3,"The LLM can help compile and format image data to increase its usefulness, but it would require a system that could view, caption, and create images."
+18259,E1,The LLM can help prepare or deliver reports or presentations of geospatial project information.
+18267,E1,"The LLM can help discuss project goals, equipment requirements, or methodologies with colleagues or team members."
+18261,E3,"The LLM can help process aerial or satellite imagery to create products such as land cover maps, but it would require a system that could view, caption, and create images."
+18262,E1,"The LLM can help design or implement strategies for collection, analysis, or display of geographic data."
+18257,E2,"The LLM can help develop or build databases for remote sensing or related geospatial project information, but it would require additional software to interact with the databases."
+18264,E2,"The LLM can help collect supporting data, such as climatic or field survey data, but it would require additional software to interact with the data."
+18271,E0,The LLM cannot monitor the quality of remote sensing data collection operations as it requires real-time interaction with hardware and software systems.
+18277,E1,The LLM can help train technicians in the use of remote sensing technology by providing detailed instructions and explanations.
+18276,E0,The LLM cannot set up or maintain remote sensing data collection systems as it requires physical interaction with hardware.
+18263,E0,"The LLM cannot direct all activity associated with implementation, operation, or enhancement of remote sensing hardware or software as it requires real-time interaction with hardware and software systems."
+18273,E1,The LLM can help attend meetings or seminars or read current literature to maintain knowledge of developments in the field of remote sensing by providing summaries and insights.
+18266,E1,The LLM can help conduct research into the application or enhancement of remote sensing technology by providing insights and suggestions.
+18275,E1,The LLM can help recommend new remote sensing hardware or software acquisitions by providing insights and comparisons.
+19774,E2,"The LLM can help use remote sensing data for forest or carbon tracking activities, but it would require additional software to interact with the remote sensing data."
+18268,E3,"The LLM can help develop automated routines to correct for the presence of image distorting artifacts, but it would require a system that could view, caption, and create images."
+18269,E1,The LLM can help develop new analytical techniques or sensor systems by providing insights and suggestions.
+18274,E0,The LLM cannot participate in fieldwork as it requires physical presence and interaction.
+19773,E2,"The LLM can help apply remote sensing data or techniques to address environmental issues, but it would require additional software to interact with the remote sensing data."
+18272,E0,The LLM cannot direct installation or testing of new remote sensing hardware or software as it requires real-time interaction with hardware and software systems.
+5606,E2,"The LLM can help in organizing and maintaining records, but it would require additional software to interact with the databases where student records are stored."
+18627,E1,The LLM can provide guidance on educational issues based on the information provided to it.
+5608,E2,"While the LLM can provide general advice for crisis intervention, it would require additional software to interact with real-time situations and provide immediate responses."
+23990,E1,The LLM can provide counseling advice based on the information provided to it.
+5631,E1,The LLM can review transcripts and write letters of recommendation based on the information provided to it.
+5611,E1,The LLM can provide guidance and encouragement for students to explore learning opportunities.
+23991,E1,The LLM can provide information on outside counseling services based on the information provided to it.
+5632,E1,The LLM can provide guidance on degree programs based on the information provided to it.
+18625,E2,"While the LLM can provide general advice based on the information provided to it, it would require additional software to interact with tests, records, interviews, or professional sources."
+5616,E1,"The LLM can provide information on topics such as college degree programs and admission requirements, financial aid opportunities, trade and technical schools, and apprenticeship programs."
+5621,E2,"While the LLM can provide general advice based on the information provided to it, it would require additional software to interact with counselees and determine if their needs have been met."
+5626,E1,"The LLM can provide guidance on career development techniques such as job search and application strategies, resume writing, and interview skills."
+5625,E1,The LLM can assess needs for assistance and refer clients to the appropriate services based on the information provided to it.
+18631,E1,The LLM can help plan and promote career and employment-related programs and events.
+18630,E0,"Attending meetings, educational conferences, and training workshops, and serving on committees requires human interaction and cannot be done by the LLM."
+5619,E1,The LLM can help teach classes and present self-help or information sessions on subjects related to education and career planning.
+5624,E1,The LLM can help plan and conduct orientation programs and group conferences.
+5627,E1,The LLM can provide information to explain available counseling services.
+5623,E1,The LLM can help prepare reports on students and activities.
+5630,E1,The LLM can provide information for teachers and staff members involved in helping students or graduates identify and pursue employment opportunities.
+18628,E1,"The LLM can help collaborate with teachers and administrators in the development, evaluation, and revision of school programs."
+18634,E1,"The LLM can help plan, direct, and participate in recruitment and enrollment activities."
+18626,E1,The LLM can help identify cases of domestic abuse or other family problems and encourage students or parents to seek additional assistance from mental health professionals.
+18624,E1,"The LLM can help confer with parents or guardians, teachers, administrators, and other professionals to discuss children's progress, resolve behavioral, academic, and other problems."
+5633,E1,The LLM can provide information on special services such as alcohol and drug prevention programs and classes.
+5634,E0,"Providing students with disabilities with assistive devices, supportive technology, and assistance accessing facilities requires physical interaction and cannot be done by the LLM."
+18632,E1,The LLM can help establish and enforce administration policies and rules governing student behavior.
+18635,E0,"Supervising, training, and directing professional staff and interns requires human interaction and cannot be done by the LLM."
+5636,E1,"The LLM can interview clients to obtain information about employment history, educational background, and career goals, and to identify barriers to employment."
+5629,E1,"The LLM can compile and study occupational, educational, and economic information to assist counselees in determining and carrying out vocational and educational objectives."
+18633,E1,The LLM can help establish contacts with employers to create internship and employment opportunities for students.
+5637,E1,The LLM can help establish and supervise peer-counseling and peer-tutoring programs.
+18629,E0,"Observing students during classroom and play activities to evaluate students' performance, behavior, social development, and physical health requires human interaction and cannot be done by the LLM."
+5639,E1,The LLM can refer qualified counselees to employers or employment services for job placement.
+5640,E0,"Sponsoring extracurricular activities, such as clubs, student organizations, and academic contests requires human interaction and cannot be done by the LLM."
+18491,E1,"The LLM can assist in preparing affidavits and other legal documents, and provide instructions on how to organize and maintain documents. However, the actual filing system management would still need to be done by a human."
+23994,E1,"The LLM can help in preparing, editing, and reviewing legal documents by providing templates, suggesting edits, and explaining legal terms."
+21062,E2,"While the LLM can provide guidance on how to investigate facts and laws of cases, it cannot directly search the internet or public records. Software built on top of the LLM could potentially assist with this."
+18492,E0,Organizing exhibits for a trial is a physical task that the LLM cannot perform.
+18493,E0,"Meeting with clients and other professionals to discuss case details involves human interaction and judgement, which the LLM cannot replace."
+1636,E1,"The LLM can assist in gathering and analyzing research data by providing summaries, explanations, and insights on legal texts."
+18494,E0,Filing pleadings with court clerks is a physical task that the LLM cannot perform.
+1639,E0,"Directing and coordinating law office activity, including delivery of subpoenas, involves physical tasks and human interaction that the LLM cannot replace."
+1638,E0,"Calling upon witnesses to testify at hearings involves human interaction and judgement, which the LLM cannot replace."
+18496,E1,"The LLM can assist in arbitrating disputes by providing legal advice and guidance, and it can also assist in reviewing title searches by explaining legal terms and procedures."
+1642,E0,Appraising and inventorying real and personal property for estate planning involves physical tasks and judgement that the LLM cannot replace.
+1641,E1,"The LLM can provide information on updates to legal volumes and suggest which ones should be added to the library to keep it up-to-date. However, the actual task of acquiring and adding the volumes would still need to be done by a human."
+6378,E2,"The LLM can assist in grading written assignments by checking for grammar, coherence, and relevance to the assignment's topic. However, it would require additional software to handle the grading process, including inputting grades into a system."
+6379,E0,"Facilitating and moderating classroom discussions requires real-time interaction and understanding of non-verbal cues, which the LLM cannot do."
+20104,E1,The LLM can assist in preparing and delivering lectures by providing information on the topics and helping to structure the lecture.
+6382,E2,"The LLM can assist in creating and grading examinations, but would require additional software to handle the process of administering the exams and inputting grades into a system."
+6381,E1,The LLM can assist in preparing course materials by providing information and helping to structure the materials.
+6383,E2,"The LLM can summarize and provide insights from literature in the field, but would require additional software to retrieve up-to-date literature."
+6384,E2,"The LLM can assist in maintaining records, but would require additional software to handle the process of inputting and retrieving records."
+20105,E1,"The LLM can assist in writing articles and books by providing information, helping to structure the content, and editing the text."
+6390,E0,Administrative duties require decision-making and interpersonal skills that the LLM does not have.
+6389,E1,The LLM can assist in conducting research by providing information and helping to structure the research findings.
+6385,E1,"The LLM can assist in planning, evaluating, and revising curricula and course materials by providing information and suggestions."
+6386,E0,"Advising and assisting students requires real-time interaction and understanding of non-verbal cues, which the LLM cannot do."
+6388,E1,The LLM can provide information and suggestions for advising students on academic and vocational curricula and career issues.
+6396,E0,"Supervising teaching, internship, and research work requires decision-making and interpersonal skills that the LLM does not have."
+6387,E0,Selecting and obtaining materials and supplies requires decision-making and physical actions that the LLM cannot do.
+6392,E0,"Collaborating with colleagues to address teaching and research issues requires real-time interaction and understanding of non-verbal cues, which the LLM cannot do."
+6391,E0,Serving on committees requires decision-making and interpersonal skills that the LLM does not have.
+6395,E0,"Participating in student recruitment, registration, and placement activities requires real-time interaction and understanding of non-verbal cues, which the LLM cannot do."
+6394,E1,The LLM can assist in compiling bibliographies by providing information and helping to structure the bibliography.
+6393,E0,"Participating in campus and community events requires real-time interaction and understanding of non-verbal cues, which the LLM cannot do."
+6397,E0,Acting as advisers to student organizations requires decision-making and interpersonal skills that the LLM does not have.
+6398,E1,"The LLM can assist in writing grant proposals by providing information, helping to structure the proposal, and editing the text."
+6673,E1,"The LLM can assist in preparing lectures, discussions, and demonstrations, but the actual instruction still requires human interaction."
+6674,E0,Establishing and enforcing rules for behavior and maintaining order among students requires human interaction and cannot be significantly expedited by the LLM.
+6671,E0,Preparing materials and classroom for class activities is a physical task that cannot be expedited by the LLM.
+6675,E1,"The LLM can assist in evaluating students' performance based on provided data, but observing behavior, social development, and physical health still requires human interaction."
+6681,E1,"The LLM can assist in preparing lectures, discussions, audio-visual presentations, and laboratory, shop, and field studies, but the actual instruction still requires human interaction."
+6676,E0,Instructing and monitoring students in the use and care of equipment and materials to prevent injury and damage requires human interaction and cannot be significantly expedited by the LLM.
+6682,E1,"The LLM can assist in establishing clear objectives for all lessons, units, and projects, and in drafting communications to students."
+6683,E1,"The LLM can assist in preparing content to supplement presentations, but using computers, audio-visual aids, and other equipment still requires human interaction."
+6688,E1,"The LLM can assist in providing guidance and counseling to students based on provided data, but it still requires human interaction for effective communication."
+6672,E1,The LLM can assist in maintaining accurate and complete student records based on provided data.
+6677,E1,"The LLM can assist in planning and conducting activities for a balanced program of instruction, demonstration, and work time."
+6678,E1,"The LLM can assist in preparing, administering, and grading tests and assignments to evaluate students' progress."
+6680,E1,The LLM can assist in assigning and grading class work and homework.
+6679,E0,Enforcing all administration policies and rules governing students requires human interaction and cannot be significantly expedited by the LLM.
+6703,E0,"Providing students with disabilities with assistive devices, supportive technology, and assistance accessing facilities is a physical task that cannot be expedited by the LLM."
+6685,E1,The LLM can assist in preparing students for later grades by encouraging them to explore learning opportunities and to persevere with challenging tasks.
+6695,E1,"The LLM can assist in planning and supervising class projects, field trips, visits by guest speakers or other experiential activities."
+6686,E1,"The LLM can assist in conferencing with parents or guardians, other teachers, counselors, and administrators to resolve students' behavioral and academic problems."
+6690,E1,The LLM can assist in keeping informed about trends in education and subject matter specialties.
+6684,E1,"The LLM can assist in planning and supervising work-experience programs in businesses, industrial shops, and school laboratories."
+6691,E1,The LLM can assist in meeting with other professionals to discuss individual students' needs and progress.
+6692,E1,The LLM can assist in preparing and implementing remedial programs for students requiring extra help.
+6687,E1,"The LLM can assist in preparing objectives and outlines for courses of study, following curriculum guidelines or requirements of states and schools."
+6694,E1,The LLM can assist in meeting with parents and guardians to discuss their children's progress and to determine priorities for their children and their resource needs.
+6699,E2,"The LLM can assist in placing students in jobs, or making referrals to job placement services, but it would require additional software to access up-to-date job market data."
+6689,E0,"Selecting, ordering, storing, issuing, and inventorying classroom equipment, materials, and supplies is a physical task that cannot be expedited by the LLM."
+6697,E0,"Sponsoring extracurricular activities, such as clubs, student organizations, and academic contests requires human interaction and cannot be significantly expedited by the LLM."
+6698,E1,"The LLM can assist in collaborating with other teachers and administrators in the development, evaluation, and revision of secondary school programs."
+6696,E1,"The LLM can assist in attending professional meetings, educational conferences, and teacher training workshops to maintain and improve professional competence."
+6700,E1,"The LLM can assist in conferencing with other staff members to plan and schedule lessons promoting learning, following approved curricula."
+6693,E1,The LLM can assist in preparing reports on students and activities as required by administration.
+6701,E0,Attending staff meetings and serving on committees requires human interaction and cannot be significantly expedited by the LLM.
+6702,E0,"Performing administrative duties, such as school library assistance, hall and cafeteria monitoring, and bus loading and unloading is a physical task that cannot be expedited by the LLM."
+7631,E2,"The LLM can help in organizing and developing classification systems for archival records, but it would require additional software to interact with the physical or digital archives."
+7633,E1,"The LLM can provide reference services and assistance for users needing archival materials, as long as the information about the archival materials is within the model's training data or provided in the input."
+7635,E1,"The LLM can prepare archival records, such as document descriptions, to allow easy access to information, as this task involves generating descriptive text."
+7630,E2,"While the LLM can help in creating and maintaining accessible, retrievable computer archives and databases, it would require additional software to interact with the databases and storage technology."
+7637,E1,"The LLM can help establish and administer policy guidelines concerning public access and use of materials, as this task involves generating text."
+7634,E0,"The LLM cannot direct activities of workers who assist in arranging, cataloguing, exhibiting, and maintaining collections of valuable materials, as this requires real-time interaction and physical tasks."
+7636,E2,"The LLM can help in preserving records, documents, and objects by generating instructions for copying records to different formats, but it would require additional software to interact with the physical or digital archives and perform the copying."
+7639,E1,"The LLM can research and record the origins and historical significance of archival materials, as long as the information about the archival materials is within the model's training data or provided in the input."
+7638,E0,"The LLM cannot locate new materials and direct their acquisition and display, as this requires real-time interaction and physical tasks."
+7632,E0,"The LLM cannot authenticate and appraise historical documents and archival materials, as this requires physical examination and expert knowledge."
+7641,E1,"The LLM can help coordinate educational and public outreach programs, such as tours, workshops, lectures, and classes, by generating schedules, outlines, and content for these programs."
+7640,E1,"The LLM can specialize in an area of history or technology, researching topics or items relevant to collections to determine what should be retained or acquired, as long as the information about the topics or items is within the model's training data or provided in the input."
+7642,E1,"The LLM can select and edit documents for publication and display, applying knowledge of subject, literary expression, and presentation techniques, as this task involves generating and editing text."
+1764,E2,"The LLM can generate responses to media requests, but it would need to be integrated with a system that can receive and send these requests."
+20555,E1,"The LLM can help plan and direct the development of communication programs, as this task involves generating and editing text."
+23951,E2,"While the LLM can generate content for websites and social media, it would need to be integrated with a system that can post and update this content online."
+20554,E1,"The LLM can write press releases and other media communications, as this task involves generating and editing text."
+1765,E0,Establishing and maintaining cooperative relationships involves a high degree of human interaction and cannot be significantly expedited by the LLM.
+1770,E1,"The LLM can help identify trends or key group interests based on text input, and can provide advice on business decisions."
+1772,E1,"The LLM can generate advice and coaching on effective communication, as this task involves generating and editing text."
+1769,E1,"The LLM can help develop public relations strategies based on the objectives, promotional policies, or needs of organizations provided in the text input."
+20557,E1,"The LLM can prepare and edit organizational publications, as this task involves generating and editing text."
+1768,E0,"Arranging public appearances, lectures, contests, or exhibits involves a high degree of human interaction and cannot be significantly expedited by the LLM."
+1775,E2,"While the LLM can help plan market or public opinion research and communicate results, it would need to be integrated with a system that can conduct this research and collect the results."
+19811,E1,"The LLM can help develop plans or materials to communicate organizational activities, as this task involves generating and editing text."
+1767,E0,Confering with production or support personnel to produce or coordinate production of advertisements or promotions involves a high degree of human interaction and cannot be significantly expedited by the LLM.
+1771,E0,Consulting with advertising agencies or staff to arrange promotional campaigns involves a high degree of human interaction and cannot be significantly expedited by the LLM.
+1773,E1,"The LLM can help prepare speeches to further public relations objectives, as this task involves generating and editing text."
+19809,E2,"While the LLM can help coordinate public responses to environmental management incidents or conflicts, it would need to be integrated with a system that can receive and send these responses."
+19810,E1,"The LLM can help develop marketing campaigns for environmental technologies or services, as this task involves generating and editing text."
+1774,E0,Purchasing advertising space or time involves a high degree of human interaction and cannot be significantly expedited by the LLM.
+7720,E0,"The task requires direct interaction with producers, performers, and others to determine the desired sound. The LLM cannot facilitate this interaction."
+7722,E0,"Regulating volume level and sound quality during recording sessions requires direct interaction with control consoles, which the LLM cannot do."
+7727,E0,"The task involves physically recording speech, music, and other sounds using recording equipment, which the LLM cannot do."
+7729,E0,"Separating and combining sounds during the mixing or postproduction stage requires direct interaction with audio files, which the LLM cannot do."
+18662,E0,"Setting up, testing, and adjusting recording equipment for recording sessions and live performances requires physical interaction with the equipment, which the LLM cannot do."
+7724,E1,The LLM can assist in reporting equipment problems by helping to articulate the issues and suggesting possible solutions based on the description of the problem.
+7723,E0,"Preparing for recording sessions by selecting and setting up microphones requires physical interaction with the equipment, which the LLM cannot do."
+7725,E0,"Mixing and editing voices, music, and taped sound effects for live performances and for prerecorded events requires direct interaction with audio files, which the LLM cannot do."
+7730,E1,The LLM can assist in keeping logs of recordings by helping to articulate the details of each recording.
+18660,E0,"Tearing down equipment after event completion requires physical interaction with the equipment, which the LLM cannot do."
+7726,E0,"Synchronizing and equalizing prerecorded dialogue, music, and sound effects with visual action of motion pictures or television productions requires direct interaction with audio and video files, which the LLM cannot do."
+7728,E0,"Reproducing and duplicating sound recordings from original recording media requires direct interaction with audio files and sound editing and duplication equipment, which the LLM cannot do."
+18661,E0,"Converting video and audio recordings into digital formats for editing or archiving requires direct interaction with audio and video files and conversion software, which the LLM cannot do."
+7731,E1,"The LLM can assist in creating musical instrument digital interface programs for music projects, commercials, or film postproduction by providing guidance and suggestions based on the user's input."
+18327,E0,"The task requires real-time monitoring of patients' vital signs or laboratory data, which the LLM cannot do."
+18334,E0,"The task requires real-time monitoring of patients for changes in status, which the LLM cannot do."
+18330,E0,"The task involves administering medications through physical means, which the LLM cannot do."
+18333,E0,"The task requires real-time monitoring of patients' fluid intake and output, which the LLM cannot do."
+18344,E1,The LLM can assist in prioritizing nursing care based on assessment data or identified needs by analyzing the data and suggesting priorities.
+18339,E1,The LLM can assist in compiling and analyzing data obtained from monitoring or diagnostic tests.
+18340,E0,"The task involves conducting pulmonary assessments, which requires physical examination, something the LLM cannot do."
+18335,E0,"The task involves assessing patients' pain levels or sedation requirements, which requires physical examination and real-time interaction, something the LLM cannot do."
+18337,E1,The LLM can assist in collaborating with other health care professionals to develop and revise treatment plans by providing suggestions based on identified needs and assessment data.
+18341,E1,The LLM can assist in documenting patients' medical histories and assessment findings.
+18338,E0,"The task involves collecting specimens for laboratory tests, which requires physical action, something the LLM cannot do."
+18332,E0,"The task involves setting up and monitoring medical equipment and devices, which requires physical action, something the LLM cannot do."
+18329,E0,"The task involves administering blood and blood products and monitoring patients for signs and symptoms related to transfusion reactions, which requires physical action and real-time monitoring, something the LLM cannot do."
+18331,E1,"The LLM can assist in advocating for patients' and families' needs, or providing emotional support for patients and their families by providing suggestions on how to communicate effectively."
+18348,E1,The LLM can assist in assessing family adaptation levels and coping skills by analyzing provided information.
+18328,E0,"The task involves performing approved therapeutic or diagnostic procedures, which requires physical action, something the LLM cannot do."
+18345,E0,"The task involves assisting physicians with procedures, which requires physical action, something the LLM cannot do."
+18353,E1,The LLM can assist in supervising and monitoring unit nursing staff by providing suggestions based on provided information.
+18347,E0,"The task involves identifying malfunctioning equipment or devices, which requires physical examination, something the LLM cannot do."
+18342,E1,"The LLM can assist in documenting patients' treatment plans, interventions, outcomes, or plan revisions."
+18343,E1,The LLM can assist in identifying patients at risk of complications due to nutritional status by analyzing provided information.
+18336,E1,The LLM can assist in assessing patients' psychosocial status and needs by analyzing provided information.
+18325,E1,The LLM can assist in identifying patients' age-specific needs and altering care plans as necessary by analyzing provided information.
+18350,E1,The LLM can assist in participating in professional organizations and continuing education by providing information and suggestions.
+18351,E1,"The LLM can assist in participating in the development, review, or evaluation of nursing practice protocols by providing information and suggestions."
+18349,E1,The LLM can assist in coordinating patient care conferences by providing suggestions on how to communicate effectively and organize information.
+18326,E0,"The task involves providing post-mortem care, which requires physical action, something the LLM cannot do."
+18352,E1,"The LLM can assist in planning, providing, or evaluating educational programs for nursing staff, interdisciplinary health care team members, or community members by providing information and suggestions."
+18346,E0,"The task involves ensuring that equipment or devices are properly stored after use, which requires physical action, something the LLM cannot do."
+18418,E1,The LLM can assist in documenting patients' histories by transcribing the information provided by the patient or healthcare provider.
+18412,E1,The LLM can provide information and educate patients about health care management based on the information it was trained on.
+18413,E1,The LLM can provide advice on therapeutic exercise and nutritional medicine regimens based on the information it was trained on.
+18410,E0,"Conducting physical examinations and physiological function tests requires physical interaction, which the LLM cannot do."
+18409,E2,"While the LLM can provide information about natural medicines, it cannot administer, dispense, or prescribe them without a human in the loop for judgement and decision-making."
+18411,E1,The LLM can assist in interviewing patients to document symptoms and health histories by transcribing the information provided by the patient or healthcare provider.
+18414,E2,"While the LLM can provide information based on symptoms and health histories, it cannot make a final diagnosis without a human in the loop for judgement and decision-making."
+18408,E0,"Administering treatments or therapies requires physical interaction, which the LLM cannot do."
+18420,E1,The LLM can assist in consulting with other health professionals by providing information and suggestions based on the information it was trained on.
+18407,E0,"Ordering diagnostic imaging procedures or referring patients requires access to medical systems and databases, which the LLM does not have."
+18406,E1,"The LLM can assist in maintaining professional development by providing information on postgraduate education, continuing education, preceptorships, and residency programs."
+18424,E0,"Obtaining medical records from previous physicians or other health care providers requires access to medical systems and databases, which the LLM does not have."
+18423,E0,"Conducting public health maintenance activities such as immunizations and screenings requires physical interaction, which the LLM cannot do."
+18415,E0,"Performing venipuncture or skin pricking to collect blood samples requires physical interaction, which the LLM cannot do."
+18422,E2,"The LLM can provide information on health trends based on the information it was trained on, but it cannot monitor updates from public health agencies as it cannot access real-time data."
+18405,E0,"Performing mobilizations and high-velocity adjustments to joints or soft tissues requires physical interaction, which the LLM cannot do."
+18417,E2,"While the LLM can provide information about synthetic drugs, it cannot prescribe them without a human in the loop for judgement and decision-making."
+18421,E0,"Reporting patterns of patients' health conditions to public health agencies requires access to medical systems and databases, which the LLM does not have."
+18416,E0,"Treating minor cuts, abrasions, or contusions requires physical interaction, which the LLM cannot do."
+18419,E0,"Performing minor surgical procedures requires physical interaction, which the LLM cannot do."
+17395,E0,"The task requires physical examination of cell samples, which the LLM cannot perform."
+17401,E1,"The LLM can assist in verifying and documenting information, as long as the data is provided in text format."
+17405,E0,The LLM cannot physically submit slides for examination.
+17397,E0,The LLM cannot prepare or analyze physical samples.
+17396,E0,The LLM cannot physically examine specimens using a microscope.
+17402,E1,The LLM can provide guidelines and procedures to maintain effective laboratory operations.
+17398,E1,The LLM can assist in providing clinical data or microscopic findings in a text format.
+17399,E0,The LLM cannot assist in physical procedures such as collecting cell samples.
+17404,E0,The LLM cannot prepare cell samples or apply staining techniques.
+17406,E0,"The LLM cannot physically adjust, maintain, or repair laboratory equipment."
+17407,E1,The LLM can assist in task assignment and coordination if the tasks and personnel details are provided in text format.
+17408,E1,"The LLM can provide information on continuing education programs related to laboratory issues, as long as the information is within its training data."
+17400,E0,The LLM cannot physically examine specimens to detect abnormal hormone conditions.
+9384,E0,"The task involves physical interaction with patients and devices, which the LLM cannot perform."
+9385,E1,"The LLM can provide instructions on the use and care of orthoses and prostheses, reducing the time it takes to explain these to patients."
+9387,E1,"The LLM can help in maintaining and organizing patient records, making the task faster and more efficient."
+9383,E0,"This task involves physical examination and measurement of patients, which the LLM cannot perform."
+9389,E1,"The LLM can provide information on materials and components based on device design, reducing the time it takes to select these."
+9386,E1,"The LLM can assist in designing orthopedic and prosthetic devices based on physicians' prescriptions and patient measurements, making the task faster."
+9391,E0,"This task involves physical repair and modification of appliances, which the LLM cannot perform."
+9392,E0,"This task involves physical construction of appliances, which the LLM cannot perform."
+9388,E0,"This task involves making and modifying plaster casts, which the LLM cannot perform."
+9390,E1,"The LLM can assist in formulating specifications and prescriptions for devices, reducing the time it takes to confer with physicians."
+9395,E1,"The LLM can provide explanations of orthopedic and prosthetic appliances, reducing the time it takes to show and explain these to healthcare workers."
+9393,E1,"The LLM can assist in training and supervising support staff by providing information and instructions, making the task faster."
+9394,E2,"The LLM can provide information from conferences and seminars up to its last training date, but it cannot provide up-to-date information unless it is captured in the input."
+9396,E1,"The LLM can assist in researching new ways to construct and use devices by providing information and ideas, making the task faster."
+9397,E1,"The LLM can assist in writing research findings for publication or presentation, reducing the time it takes to do this."
+4293,E0,"The task involves operating and maintaining physical equipment, which the LLM cannot do. The LLM can provide guidance on how to do it, but it cannot perform the task itself."
+4292,E0,Cleaning instruments is a physical task that the LLM cannot perform.
+4294,E1,The LLM can assist in recording sterilizer test results if the results are provided to it in text form.
+4291,E0,Organizing and assembling surgical instrument trays is a physical task that the LLM cannot perform.
+4297,E0,Examining equipment for leaks or signs of disrepair is a physical task that the LLM cannot perform.
+4298,E1,The LLM can assist in reporting defective equipment if the details of the defect are provided to it in text form.
+18703,E1,The LLM can assist in maintaining records of inventory or equipment usage and ordering medical instruments or supplies if the relevant data is provided to it in text form.
+18702,E0,Stocking crash carts or other medical supplies is a physical task that the LLM cannot perform.
+4296,E0,Starting equipment and observing gauges is a physical task that the LLM cannot perform.
+4299,E0,Checking sterile supplies to ensure they are not outdated is a physical task that the LLM cannot perform.
+4301,E1,The LLM can assist in attending hospital in-service programs related to areas of work specialization if the content of the programs is provided to it in text form.
+4295,E0,Disinfecting and sterilizing equipment is a physical task that the LLM cannot perform.
+4302,E0,Purging wastes from equipment by connecting equipment to water sources and flushing water through systems is a physical task that the LLM cannot perform.
+4303,E0,Delivering equipment to specified hospital locations or to patients' residences is a physical task that the LLM cannot perform.
+4304,E0,Assisting hospital staff with patient care duties is a physical task that the LLM cannot perform.
+566,E2,"The LLM can provide guidance and expertise to investigators based on the information provided, but it cannot supervise or coordinate the investigation of criminal cases directly. However, software could be developed on top of the LLM to assist in this task."
+574,E1,The LLM can help prepare work schedules and assign duties to subordinates based on the information provided.
+571,E0,The LLM cannot directly handle physical evidence or personal property of prisoners. This task requires physical interaction.
+567,E2,"The LLM can help investigate personnel problems and charges of misconduct against staff based on the information provided, but it cannot resolve these issues directly. However, software could be developed on top of the LLM to assist in this task."
+564,E1,The LLM can help explain police operations to subordinates to assist them in performing their job duties.
+569,E1,"The LLM can help maintain logs, prepare reports, and direct the preparation, handling, and maintenance of departmental records."
+565,E1,"The LLM can help inform personnel of changes in regulations and policies, implications of new or amended laws, and new techniques of police work."
+568,E1,The LLM can help train staff in proper police work procedures.
+575,E0,The LLM cannot discipline staff for violation of department rules and regulations. This task requires human judgement and interaction.
+570,E0,"The LLM cannot monitor and evaluate the job performance of subordinates, and authorize promotions and transfers. This task requires human judgement and interaction."
+577,E1,The LLM can review contents of written orders to ensure adherence to legal requirements.
+573,E0,The LLM cannot conduct raids and order detention of witnesses and suspects for questioning. This task requires physical interaction.
+576,E0,The LLM cannot cooperate with court personnel and officials from other law enforcement agencies and testify in court. This task requires human judgement and interaction.
+581,E1,"The LLM can help meet with civic, educational, and community groups to develop community programs and events, and to discuss law enforcement subjects."
+578,E0,"The LLM cannot inspect facilities, supplies, vehicles, and equipment to ensure conformance to standards. This task requires physical interaction."
+582,E0,The LLM cannot direct release or transfer of prisoners. This task requires human judgement and interaction.
+580,E0,The LLM cannot requisition and issue equipment and supplies. This task requires physical interaction.
+572,E1,"The LLM can help develop, implement, and revise departmental policies and procedures."
+579,E1,The LLM can help prepare news releases and respond to police correspondence.
+583,E1,The LLM can help prepare budgets and manage expenditures of department funds.
+2276,E0,"Collecting payments from customers requires physical interaction, which the LLM cannot perform."
+2275,E0,"Checking patrons' identification also requires physical interaction and visual inspection, which the LLM cannot perform."
+2277,E1,Writing patrons' food orders on order slips or entering orders into computers can be done by the LLM if the orders are given in text form.
+2279,E0,"Checking with customers to ensure that they are enjoying their meals requires direct interaction, which the LLM cannot perform."
+2278,E1,Taking orders from patrons for food or beverages can be done by the LLM if the orders are given in text form.
+2281,E1,Preparing checks that itemize and total meal costs and sales taxes can be done by the LLM if the prices and items are given in text form.
+18745,E0,"Removing dishes and glasses from tables or counters requires physical interaction, which the LLM cannot perform."
+2285,E0,"Cleaning tables or counters after patrons have finished dining requires physical interaction, which the LLM cannot perform."
+2280,E0,"Serving food or beverages to patrons requires physical interaction, which the LLM cannot perform."
+18747,E0,"Performing cleaning duties requires physical interaction, which the LLM cannot perform."
+2283,E1,Presenting menus to patrons and answering questions about menu items can be done by the LLM if the menu and questions are given in text form.
+2288,E0,"Preparing tables for meals requires physical interaction, which the LLM cannot perform."
+2290,E0,"Stocking service areas with supplies requires physical interaction, which the LLM cannot perform."
+18744,E0,"Rolling silverware, setting up food stations, or setting up dining areas requires physical interaction, which the LLM cannot perform."
+2284,E1,Informing customers of daily specials can be done by the LLM if the specials are given in text form.
+2287,E1,Explaining how various menu items are prepared can be done by the LLM if the preparation methods and ingredients are given in text form.
+18746,E2,Assisting host or hostess by answering phones to take reservations or to-go orders can be done by the LLM if integrated with a phone system.
+2292,E0,"Filling salt, pepper, sugar, cream, condiment, and napkin containers requires physical interaction, which the LLM cannot perform."
+2289,E0,"Performing food preparation duties requires physical interaction, which the LLM cannot perform."
+2286,E0,"Preparing hot, cold, and mixed drinks for patrons requires physical interaction, which the LLM cannot perform."
+2293,E0,"Escorting customers to their tables requires physical interaction, which the LLM cannot perform."
+18748,E1,"Providing guests with information about local areas, including directions can be done by the LLM if the information is given in text form."
+2291,E0,"Garnishing and decorating dishes in preparation for serving requires physical interaction, which the LLM cannot perform."
+2295,E0,"Bringing wine selections to tables with appropriate glasses, and pouring the wines for customers requires physical interaction, which the LLM cannot perform."
+2294,E1,Describing and recommending wines to customers can be done by the LLM if the wine descriptions and recommendations are given in text form.
+9564,E0,The task involves physical activities that cannot be performed by the LLM.
+9560,E0,The task involves physical activities that cannot be performed by the LLM.
+9561,E0,The task involves physical activities that cannot be performed by the LLM.
+9562,E0,The task involves physical activities that cannot be performed by the LLM.
+9566,E0,The task involves physical activities that cannot be performed by the LLM.
+9563,E0,The task involves physical activities that cannot be performed by the LLM.
+9567,E0,The task involves physical activities that cannot be performed by the LLM.
+9568,E0,The task involves physical activities that cannot be performed by the LLM.
+9565,E0,The task involves physical activities that cannot be performed by the LLM.
+9570,E0,The task involves physical activities that cannot be performed by the LLM.
+9571,E0,The task involves physical activities and observation that cannot be performed by the LLM.
+9577,E0,The task involves physical activities that cannot be performed by the LLM.
+9575,E0,The task involves physical activities that cannot be performed by the LLM.
+9587,E0,The task involves physical activities that cannot be performed by the LLM.
+9582,E0,The task involves physical activities that cannot be performed by the LLM.
+9586,E0,The task involves physical activities that cannot be performed by the LLM.
+9569,E0,The task involves physical activities that cannot be performed by the LLM.
+9581,E1,"The LLM can assist in formulating the request for repair services, potentially speeding up the process."
+9579,E1,"The LLM can assist in planning and arranging the rooms for meetings, potentially speeding up the process."
+9578,E0,The task involves physical activities that cannot be performed by the LLM.
+8007,E0,"The task involves physical interaction with cash or chips, which the LLM cannot perform."
+8008,E0,"The task involves physical collection of cards or tickets, which the LLM cannot perform."
+20596,E1,"The LLM can compute and verify amounts won or lost based on input data, but it cannot physically pay out winnings or refer patrons to workers."
+8009,E1,The LLM can answer questions about game rules or casino policies based on its training data.
+8012,E0,"The task involves conducting physical gambling tables or games, which the LLM cannot perform."
+8020,E0,"The task involves operating physical gaming equipment, which the LLM cannot perform."
+8016,E0,"The task involves exchanging physical currency for chips or coins, which the LLM cannot perform."
+8010,E1,The LLM can compare the house hand with players' hands to determine the winner based on input data.
+8017,E0,"The task involves opening or closing physical cash floats or game tables, which the LLM cannot perform."
+8014,E0,"The task involves physically paying off or moving bets, which the LLM cannot perform."
+8018,E0,"The task involves starting physical gaming equipment, which the LLM cannot perform."
+8011,E0,"The task involves physically checking that all players have placed their bets, which the LLM cannot perform."
+8015,E0,"The task involves physically inspecting cards or equipment, which the LLM cannot perform."
+8019,E1,The LLM can record the number of tickets cashed and the amount paid out based on input data.
+8013,E1,The LLM can prepare collection reports based on input data.
+8023,E0,"The task involves physically delivering tickets, cards, and money, which the LLM cannot perform."
+8026,E0,"The task involves physically selling food, beverages, or tobacco, which the LLM cannot perform."
+8021,E2,"The LLM can assist in supervising staff and games and mediating disputes by providing suggestions or advice based on input data, but it cannot physically supervise or mediate."
+8748,E0,Cleaning and sanitizing tools and work environment requires physical actions that the LLM cannot perform.
+8753,E0,Applying polish onto nails is a physical task that the LLM cannot perform.
+8758,E1,The LLM can assist in maintaining supply inventories and records of client services by organizing and updating text-based records.
+8752,E0,Shaping and smoothing ends of nails is a physical task that the LLM cannot perform.
+20769,E0,Preparing nail cuticles with water and oil is a physical task that the LLM cannot perform.
+20770,E0,Preparing customers' nails in soapy water is a physical task that the LLM cannot perform.
+8750,E0,Removing previously applied nail polish is a physical task that the LLM cannot perform.
+20771,E0,Using rotary abrasive wheels to shape and smooth nails is a physical task that the LLM cannot perform.
+8749,E2,Scheduling client appointments and accepting payments could be automated with an LLM-powered application.
+20772,E0,"Assessing the condition of clients' hands, removing dead skin, and massaging hands are physical tasks that the LLM cannot perform."
+8760,E0,Roughening surfaces of fingernails with an abrasive wheel is a physical task that the LLM cannot perform.
+8754,E1,The LLM can provide advice on nail care and use of products and colors based on text input.
+20773,E0,Treating nails to repair or improve strength and resilience by wrapping is a physical task that the LLM cannot perform.
+20774,E0,"Extending nails using powder, solvent, and paper forms is a physical task that the LLM cannot perform."
+8763,E0,Polishing nails with powdered polish and a buffer is a physical task that the LLM cannot perform.
+8764,E0,Whitening the underside of nails with white paste or pencils is a physical task that the LLM cannot perform.
+8761,E1,The LLM can assist in promoting and selling nail care products by generating persuasive text and providing information about the products.
+8765,E0,Decorating clients' nails by piercing or attaching ornaments or designs is a physical task that the LLM cannot perform.
+737,E2,"While the LLM can help in generating invoices or payment reminders, the actual collection of payment would require integration with a payment processing system, which is beyond the LLM's capabilities."
+741,E1,"The LLM can assist in planning, describing, arranging, and selling itinerary tour packages based on the input provided. It can generate promotional text and help in creating attractive travel packages."
+738,E1,The LLM can converse with customers to determine their travel requirements. It can ask relevant questions and provide suggestions based on the responses.
+739,E2,"While the LLM can perform calculations, it would need up-to-date tariff and hotel rate information to compute the cost of travel and accommodations accurately. This would require integration with external databases or systems."
+20900,E2,"The LLM can help in recording and maintaining information in a structured format, but it would require integration with a database or a similar system to store and retrieve this information."
+740,E2,"The LLM can assist in the process of booking transportation and hotel reservations by generating the necessary requests, but the actual booking would require integration with booking systems or platforms."
+743,E2,"The LLM can generate requests for transportation carrier tickets, but printing or requesting the tickets would require integration with a printer system or a system link to the travel carrier."
+742,E1,"The LLM can generate brochures and publications containing travel information based on the input provided. It can provide information on local customs, points of interest, or foreign country regulations if this information was part of its training data."
+4630,E0,Operating physical communication systems requires direct human interaction and cannot be performed by a text-based LLM.
+4631,E1,"The LLM can answer incoming calls, provide information, and take messages, significantly reducing the time it takes to complete this task."
+20431,E0,"Greeting visitors, logging them in and out, and assigning security badges requires physical interaction and cannot be performed by a text-based LLM."
+20430,E0,Monitoring emergency and code alarms and routing emergency calls requires real-time interaction and cannot be performed by a text-based LLM.
+4640,E1,"The LLM can record and reword messages for clarity and conciseness, reducing the time it takes to complete this task."
+4633,E0,Paging individuals requires real-time interaction and cannot be performed by a text-based LLM.
+4634,E1,"The LLM can relay or route written messages, reducing the time it takes to complete this task."
+20432,E0,Performing cash handling tasks requires physical interaction and cannot be performed by a text-based LLM.
+4635,E2,"While the LLM can't place calls directly, it can be integrated into a software that can place or arrange calls."
+20428,E0,Processing incoming or outgoing mail requires physical interaction and cannot be performed by a text-based LLM.
+20427,E1,"The LLM can perform data entry or word processing tasks, reducing the time it takes to complete this task."
+20429,E1,"The LLM can perform administrative tasks such as scheduling appointments or sending and receiving faxes, reducing the time it takes to complete this task."
+4637,E0,Monitoring alarm systems requires real-time interaction and cannot be performed by a text-based LLM.
+4638,E0,Contacting security staff members requires real-time interaction and cannot be performed by a text-based LLM.
+4643,E1,"The LLM can complete forms for sales orders, reducing the time it takes to complete this task."
+4642,E1,"The LLM can answer simple questions about clients' businesses using reference files, reducing the time it takes to complete this task."
+4641,E0,Stamping messages with time and date and filing them requires physical interaction and cannot be performed by a text-based LLM.
+4639,E1,"The LLM can keep records of calls placed and charges incurred, reducing the time it takes to complete this task."
+20433,E2,"While the LLM can't place orders directly, it can be integrated into a software that can place orders."
+2627,E1,"The LLM can generate questions according to given instructions, which can be used to obtain specified information."
+2634,E1,The LLM can help identify potential problems in data by analyzing the input data and reporting inconsistencies or issues.
+2633,E2,"While the LLM can provide information about insurance benefits or financing options, it would require additional software to verify these benefits with an insurance provider."
+20435,E2,"The LLM can assist with tasks like customer service inquiries and maintaining records, but tasks like billing patients or receiving payments would require additional software."
+2630,E1,The LLM can review data for completeness and accuracy by comparing it to a given set of criteria.
+2629,E1,"The LLM can compile, record, and code results or data from an interview or survey."
+2636,E1,"The LLM can answer common financial or medical questions, and can be programmed to respond to phone calls."
+2632,E1,The LLM can assist individuals in filling out applications or questionnaires by providing instructions or answering questions.
+2628,E1,The LLM can identify inconsistencies in responses and generate appropriate questions or explanations to resolve them.
+20434,E0,"Supervising or training other staff members requires human interaction and judgement, which the LLM cannot provide."
+2637,E1,The LLM can prepare reports to provide answers to specific problems based on the input data.
+2640,E0,"Meeting with a supervisor to submit assignments and discuss progress requires human interaction, which the LLM cannot provide."
+2638,E0,"Locating and listing addresses and households requires access to up-to-date geographical data, which the LLM does not have."
+2631,E0,"Contacting individuals to be interviewed requires human interaction and access to contact information, which the LLM does not have."
+2641,E2,"While the LLM can analyze data, tasks like studying old records or tallying the number of outpatients would require additional software to access and process the data."
+2635,E1,"The LLM can explain survey objectives and procedures, and interpret survey questions to help interviewees' comprehension."
+2816,E0,The task involves operating physical equipment which the LLM cannot do.
+2820,E1,The LLM can assist in positioning text and art elements in a visually appealing way by providing suggestions and guidelines.
+2815,E1,The LLM can help check proofs for errors and suggest necessary corrections.
+2817,E0,"The task involves viewing monitors for visual representation of work in progress, which the LLM cannot do."
+2818,E1,"The LLM can assist in selecting the size and style of type, column width, and appropriate spacing for printed materials."
+2824,E1,"The LLM can assist in preparing sample layouts for approval, providing suggestions and guidelines."
+2823,E3,"With image capabilities, the LLM can assist in importing text and art elements using computer software."
+2825,E1,The LLM can assist in studying layout or other design instructions to determine work to be done and sequence of operations.
+2829,E1,The LLM can assist in selecting number of colors and determining color separations.
+2827,E1,"The LLM can assist in converting various types of files for printing or for the Internet, providing instructions and guidelines."
+2821,E0,"The task involves entering digitized data into electronic prepress system computer memory, which the LLM cannot do."
+2822,E3,"With image capabilities, the LLM can assist in editing graphics and photos."
+2828,E0,"The task involves entering data into system to retouch and make color corrections, which the LLM cannot do."
+2830,E0,"The task involves transmitting, delivering, or mailing publication master to printer for production into film and plates, which the LLM cannot do."
+2831,E1,"The LLM can assist in collaborating with graphic artists, editors and writers to produce master copies according to design specifications."
+2819,E0,"The task involves storing copies of publications on paper, magnetic tape, film, or diskette, which the LLM cannot do."
+2832,E3,"With image capabilities, the LLM can assist in creating special effects such as vignettes, mosaics, and image combining, and add elements such as sound and animation to electronic publications."
+2826,E0,"The task involves loading floppy disks or tapes containing information into system, which the LLM cannot do."
+23403,E0,"The task requires physical interaction with the vessel and navigational instruments, which the LLM cannot perform."
+23410,E0,"The task involves physical measurement of catches, which the LLM cannot perform."
+23428,E1,"The LLM can provide guidance and instructions for fishing or hunting operations, which can be communicated to crew members."
+23419,E1,The LLM can interpret weather and vessel conditions provided in text form and suggest appropriate responses.
+23402,E0,"The task involves physical travel, which the LLM cannot perform."
+23415,E1,"The LLM can provide guidance on selecting, baiting, and setting traps based on text input about species, size, habits, and environs."
+23408,E0,"The task involves physical maintenance and repair of equipment, which the LLM cannot perform."
+23424,E0,"The task involves physical connection of accessories to nets, lines, or traps, which the LLM cannot perform."
+23423,E0,"The task involves physical cleaning of equipment, which the LLM cannot perform."
+23427,E0,"The task involves physical harvesting of marine life, which the LLM cannot perform."
+23429,E1,"The LLM can assist in making decisions about the purchase of supplies, gear, and equipment based on text input."
+23426,E0,"The task involves physical loading and unloading of equipment and supplies, which the LLM cannot perform."
+23406,E0,"The task involves physical scraping of pelts, which the LLM cannot perform."
+23400,E0,"The task involves physical patrolling of trap lines or nets, which the LLM cannot perform."
+23411,E0,"The task involves using fish-finding equipment, which the LLM cannot interact with."
+23421,E0,"The task involves physically killing or stunning trapped quarry, which the LLM cannot perform."
+23405,E0,"The task involves physical maintenance and repair of trapping equipment, which the LLM cannot perform."
+23401,E1,The LLM can assist in drafting a request for permission to hunt or trap on land based on text input.
+23407,E0,"The task involves physical handling of fishing equipment, which the LLM cannot perform."
+23414,E1,The LLM can assist in computing positions and plotting courses on charts based on text input.
+23409,E0,"The task involves physical sorting, packing, and storing of catch, which the LLM cannot perform."
+23412,E1,The LLM can assist in drafting requests for approvals and notifications based on text input.
+23413,E0,"The task involves physical tracking of animals, which the LLM cannot perform."
+23404,E0,"The task involves physical skinning of quarry and stretching of pelts, which the LLM cannot perform."
+23418,E0,"The task involves physical transport of fish, which the LLM cannot perform."
+23416,E0,"The task involves physical attachment of nets, slings, hooks, blades, or lifting devices to cables, booms, hoists, or dredges, which the LLM cannot perform."
+23425,E1,The LLM can provide information and guidance on specific hunting methods or types of prey based on text input.
+23420,E0,"The task involves physical release of quarry from traps or nets and transfer to cages, which the LLM cannot perform."
+23417,E1,"The LLM can provide information and guidance on animal damage control, wildlife management, disease control, and research activities based on text input."
+14906,E0,"The task requires physical manipulation of materials, which the LLM cannot perform."
+14907,E0,"This task involves physical trimming of materials, which is beyond the capabilities of the LLM."
+14908,E0,"The task requires physical manipulation of materials, which the LLM cannot perform."
+14909,E0,"This task requires visual inspection and physical adjustment, which the LLM cannot perform."
+14910,E0,"The task requires physical marking and alignment, which the LLM cannot perform."
+14911,E0,"This task involves physical application of wallpaper or fabric, which is beyond the capabilities of the LLM."
+14912,E0,"The task requires physical application of adhesives, which the LLM cannot perform."
+14913,E0,"This task involves physical measurement and cutting, which is beyond the capabilities of the LLM."
+14914,E0,"The task requires physical placement and alignment of paper, which the LLM cannot perform."
+14915,E0,"This task involves physical filling of holes and cracks, which is beyond the capabilities of the LLM."
+14916,E1,The LLM can assist in calculating the quantities of materials needed based on the measurements provided.
+14917,E0,"The task requires physical application of sizing, which the LLM cannot perform."
+14918,E0,"This task involves physical smoothing of walls and ceilings, which is beyond the capabilities of the LLM."
+14919,E0,"The task requires physical setup of equipment, which the LLM cannot perform."
+14920,E0,"This task involves physical removal of old paper, which is beyond the capabilities of the LLM."
+14921,E0,"The task requires physical application of glue, which the LLM cannot perform."
+14922,E0,"The task requires physical mixing and application of paste, which the LLM cannot perform."
+14923,E0,"This task involves physical stapling or tacking of posters, which is beyond the capabilities of the LLM."
+14924,E0,"This task involves physical removal of paint, varnish, dirt, and grease, which is beyond the capabilities of the LLM."
+14925,E0,"The task requires physical application of acetic acid, which the LLM cannot perform."
+13574,E0,The task requires physical inspection of roofs which the LLM cannot perform.
+13586,E0,"The task involves physical labor (removing snow, water, or debris) which the LLM cannot perform."
+13575,E0,The task involves physical labor (setting up scaffolding) which the LLM cannot perform.
+20793,E1,The LLM can assist in estimating materials and labor required by providing calculations and suggestions based on the input data.
+13578,E0,The task involves physical labor (cementing or nailing flashing strips) which the LLM cannot perform.
+13584,E0,The task involves physical labor (installing layers of material) which the LLM cannot perform.
+13580,E0,"The task involves physical labor (cutting felt, shingles, or strips of flashing) which the LLM cannot perform."
+13592,E0,"The task involves physical labor (applying plastic coatings, membranes, fiberglass, or felt) which the LLM cannot perform."
+13579,E0,"The task involves physical labor (installing, repairing, or replacing single-ply roofing systems) which the LLM cannot perform."
+20794,E0,The task involves physical labor (attaching roofing paper to roofs) which the LLM cannot perform.
+13585,E0,The task involves physical labor (covering roofs or exterior walls of structures with various materials) which the LLM cannot perform.
+13590,E0,"The task involves physical labor (waterproofing or damp-proofing walls, floors, roofs, foundations, or basements) which the LLM cannot perform."
+19851,E0,The task involves physical labor (applying reflective roof coatings) which the LLM cannot perform.
+13587,E0,The task involves physical labor (applying alternate layers of hot asphalt or tar and roofing paper to roofs) which the LLM cannot perform.
+13581,E0,The task involves physical labor (installing vapor barriers or layers of insulation on flat roofs) which the LLM cannot perform.
+13583,E0,The task involves physical labor (covering exposed nailheads with roofing cement or caulking) which the LLM cannot perform.
+13593,E0,The task involves physical labor (smoothing rough spots) which the LLM cannot perform.
+13594,E0,The task involves physical labor (glazing top layers or embedding gravel in the bitumen) which the LLM cannot perform.
+13591,E0,The task involves physical labor (mopping or pouring hot asphalt or tar onto roof bases) which the LLM cannot perform.
+19853,E0,The task involves physical labor (installing attic ventilation systems) which the LLM cannot perform.
+19855,E0,The task involves physical labor (installing skylights on roofs) which the LLM cannot perform.
+13595,E0,The task involves physical labor (applying gravel or pebbles over top layers of roofs) which the LLM cannot perform.
+13589,E0,"The task involves physical labor (spraying roofs, sidings, or walls) which the LLM cannot perform."
+19852,E0,The task involves physical labor (attaching solar panels to existing roofs) which the LLM cannot perform.
+13596,E0,"The task involves physical labor (punching holes in slate, tile, terra cotta, or wooden shingles) which the LLM cannot perform."
+19850,E0,The task involves physical labor (applying modular soil- and plant-containing grids over existing roof membranes) which the LLM cannot perform.
+19854,E0,The task involves physical labor (installing layers of vegetation-based green roofs) which the LLM cannot perform.
+21204,E0,"The task requires physical interaction with appliances, which the LLM cannot perform."
+21205,E0,"The task requires the use of specific equipment and physical interaction with buildings, which the LLM cannot perform."
+17789,E0,"The task requires the use of specific equipment and physical interaction with air flow systems, which the LLM cannot perform."
+17792,E0,"The task requires physical installation and sealing of air ducts, which the LLM cannot perform."
+17787,E0,"The task requires physical inspection of buildings, which the LLM cannot perform."
+17788,E1,The LLM can provide recommendations based on the input data about the client's needs and applicable energy regulations.
+17790,E0,"The task requires physical application of insulation materials, which the LLM cannot perform."
+17794,E0,"The task requires physical repairs using tools and materials, which the LLM cannot perform."
+17796,E1,The LLM can assist in preparing cost estimates based on the input data about the required services.
+17801,E2,"While the LLM can't directly schedule appointments, it could be integrated into a scheduling software to automate this process."
+17797,E0,"The task requires physical wrapping of air ducts and water lines, which the LLM cannot perform."
+17795,E0,"The task requires physical application of weather-stripping, glazing, caulking, or door sweeps, which the LLM cannot perform."
+17800,E0,"The task requires physical cleaning and maintenance of tools and equipment, which the LLM cannot perform."
+17799,E0,"The task requires physical application of materials to repair holes in walls, which the LLM cannot perform."
+17802,E1,"The LLM can explain recommendations, policies, procedures, requirements, or other related information based on the input data."
+17803,E1,The LLM can assist in maintaining logs or records based on the input data.
+17791,E1,The LLM can explain energy conservation measures based on the input data.
+17804,E1,"The LLM can assist in the preparation of bids, contracts, or written reports based on the input data."
+17793,E0,"The task requires physical installation of storm windows or doors, which the LLM cannot perform."
+17798,E0,"The task requires physical wrapping of water heaters, which the LLM cannot perform."
+9986,E1,"The LLM can assist in recording conditions of cars, and repair and maintenance work performed or to be performed by providing a structured format or template for recording this information."
+9988,E0,The LLM cannot physically inspect components to determine if repairs are needed.
+9984,E0,The LLM cannot physically repair or replace defective or worn parts.
+9989,E0,The LLM cannot physically inspect the interior and exterior of rail cars to identify defects and determine the extent of wear and damage.
+9987,E0,"The LLM cannot physically remove locomotives, car mechanical units, or other components."
+9985,E0,The LLM cannot physically test units for operability before and after repairs.
+9990,E0,The LLM cannot physically adjust repaired or replaced units to ensure proper operation.
+9992,E1,"The LLM can assist in interpreting blueprints, shop sketches, and instruction manuals for repair, fabrication, and installation of steel or wood fittings."
+9991,E0,"The LLM cannot physically perform scheduled maintenance, and clean units and components."
+10000,E0,"The LLM cannot physically examine car roofs for wear and damage, and repair defective sections."
+10001,E0,"The LLM cannot physically paint car exteriors, interiors, and fixtures."
+9993,E1,The LLM can assist in providing instructions or guidelines for repair and maintenance of electrical and electronic controls for propulsion and braking systems.
+9994,E0,The LLM cannot physically disassemble units for repairs.
+9995,E0,The LLM cannot physically measure diameters of axle wheel seats.
+9998,E0,The LLM cannot physically test electrical systems of cars.
+9997,E0,"The LLM cannot physically replace defective wiring and insulation, and tighten electrical connections."
+9999,E0,"The LLM cannot physically install and repair interior flooring, fixtures, walls, plumbing, steps, and platforms."
+10003,E0,"The LLM cannot physically repair window sash frames, attach weather stripping and channels to frames, and replace window glass."
+9996,E0,The LLM cannot physically align car sides for installation of car ends and crossties.
+10002,E0,The LLM cannot physically repair car upholstery.
+11833,E0,"The task requires physical interaction with machines and tools, which the LLM cannot perform."
+11828,E0,"Reassembling machines requires physical manipulation of machine parts, which the LLM cannot do."
+11834,E1,"The LLM can assist in recording information about production, repair, and maintenance, reducing the time it takes to complete this task."
+11831,E0,"The task involves physical application of materials to machines, which the LLM cannot perform."
+11832,E0,"The task requires physical installation or replacement of machine parts, which the LLM cannot do."
+11836,E0,"Setting up and operating machines requires physical interaction, which the LLM cannot perform."
+11837,E0,"The task involves physical collaboration with other workers to repair or move machines, which the LLM cannot do."
+11835,E1,"The LLM can assist in reading and interpreting work orders and specifications, reducing the time it takes to complete this task."
+11830,E0,"The task involves physical inspection and testing of machine parts, which the LLM cannot perform."
+11829,E0,"Starting machines and observing their operation requires physical interaction, which the LLM cannot do."
+11839,E0,"The task involves physical transportation of machine parts and tools, which the LLM cannot perform."
+11840,E0,"The task involves physical collection and disposal of machine parts, which the LLM cannot perform."
+11838,E1,"The LLM can assist in inventorying and requisitioning machine parts and supplies, reducing the time it takes to complete this task."
+11843,E0,"The task involves physical removal of hardened material from machines, which the LLM cannot perform."
+11845,E0,"The task involves physically replacing, emptying, or replenishing machine and equipment containers, which the LLM cannot do."
+11841,E0,"The task involves physically cleaning machines and machine parts, which the LLM cannot perform."
+11842,E0,"The task involves physical replacement or repair of lining in machines, which the LLM cannot perform."
+11844,E1,"The LLM can assist in measuring, mixing, preparing, and testing chemical solutions, reducing the time it takes to complete this task."
+14977,E0,The task involves physical cleaning of timepiece parts which cannot be performed by the LLM.
+14984,E0,"Adjusting timing regulators requires physical manipulation of the timepiece, which the LLM cannot do."
+14979,E0,Reassembling timepieces involves physical actions that the LLM cannot perform.
+14978,E0,"Disassembling and inspecting timepieces requires physical actions and visual inspection, which the LLM cannot do."
+14975,E0,Oiling moving parts of timepieces is a physical task that the LLM cannot perform.
+14982,E1,The LLM can assist in estimating repair costs and timepiece values based on provided data and criteria.
+14976,E0,Repairing or replacing parts on timepieces involves physical actions that the LLM cannot perform.
+14980,E0,"Testing timepiece accuracy and performance involves using specific instruments and interpreting their readings, which the LLM cannot do."
+14983,E0,Performing regular adjustment and maintenance on timepieces involves physical actions that the LLM cannot perform.
+21084,E1,The LLM can assist in ordering supplies by generating the necessary text for the order based on provided information.
+14986,E1,The LLM can assist in gathering information from customers by generating questions and interpreting the responses.
+14987,E0,Testing and replacing batteries and other electronic components involves physical actions that the LLM cannot perform.
+14985,E1,"The LLM can assist in recording quantities and types of timepieces repaired, work performed, and charges for repairs."
+14988,E0,"Demagnetizing mechanisms involves using a specific machine, which the LLM cannot do."
+14981,E0,"Fabricating parts for watches and clocks involves using specific machines, which the LLM cannot do."
+15003,E0,"The task involves physical assembly and installation of components, which the LLM cannot perform."
+15004,E0,"Observing operation of timepiece parts requires physical interaction and visual observation, which the LLM cannot do."
+15005,E0,"Testing operation and fit of timepiece parts requires physical interaction and use of specific tools, which the LLM cannot do."
+15006,E0,"Replacing parts to repair timepieces requires physical interaction and use of specific tools, which the LLM cannot do."
+15007,E0,"Disassembling timepieces for repairs requires physical interaction, which the LLM cannot do."
+15008,E0,"Cleaning and lubricating timepiece parts requires physical interaction, which the LLM cannot do."
+15009,E0,"Examining components for defects requires visual observation, which the LLM cannot do."
+15010,E0,"Bending parts to correct deficiencies requires physical interaction, which the LLM cannot do."
+15011,E0,"Changing timing weights on balance wheels requires physical interaction, which the LLM cannot do."
+15012,E0,"Adjusting sizes or positioning of timepiece parts requires physical interaction and use of specific tools, which the LLM cannot do."
+15013,E0,"Mounting hairsprings and balance wheel assemblies requires physical interaction, which the LLM cannot do."
+15014,E0,"Estimating spaces between collets and first inner coils requires visual observation, which the LLM cannot do."
+15015,E0,"Bending inner coils of springs requires physical interaction, which the LLM cannot do."
+15016,E0,"Turning wheels of calipers and examining springs requires physical interaction and visual observation, which the LLM cannot do."
+15017,E0,"Examining and adjusting hairspring assemblies requires physical interaction and use of specific tools, which the LLM cannot do."
+15018,E1,"Reviewing blueprints, sketches, or work orders to gather information about tasks to be completed can be done by the LLM as it involves understanding and interpreting text-based information."
+15019,E0,"Tightening or replacing loose jewels requires physical interaction and use of specific tools, which the LLM cannot do."
+14038,E0,The task involves physical actions that cannot be performed by the LLM.
+14035,E0,"The task involves operating physical machinery, which the LLM cannot do."
+14043,E0,"The task involves physical manipulation of materials, which the LLM cannot do."
+14037,E0,The task involves physical actions that cannot be performed by the LLM.
+14042,E0,The task involves physical actions that cannot be performed by the LLM.
+14036,E0,The task involves physical actions that cannot be performed by the LLM.
+21026,E0,The task involves physical actions that cannot be performed by the LLM.
+14051,E0,The task involves physical actions that cannot be performed by the LLM.
+14049,E0,The task involves physical actions that cannot be performed by the LLM.
+14041,E0,The task involves physical actions that cannot be performed by the LLM.
+14044,E0,The task involves physical actions that cannot be performed by the LLM.
+14039,E0,The task involves physical actions that cannot be performed by the LLM.
+14040,E0,The task involves physical actions that cannot be performed by the LLM.
+14046,E0,The task involves physical actions that cannot be performed by the LLM.
+14045,E0,The task involves physical actions that cannot be performed by the LLM.
+14047,E0,The task involves physical actions that cannot be performed by the LLM.
+14052,E0,The task involves physical actions that cannot be performed by the LLM.
+14057,E0,The task involves physical actions that cannot be performed by the LLM.
+14053,E0,The task involves physical actions that cannot be performed by the LLM.
+14050,E0,The task involves physical actions that cannot be performed by the LLM.
+14056,E0,The task involves physical actions that cannot be performed by the LLM.
+14059,E0,The task involves physical actions that cannot be performed by the LLM.
+14048,E0,The task involves physical actions that cannot be performed by the LLM.
+14061,E0,The task involves physical actions that cannot be performed by the LLM.
+14054,E0,The task involves physical actions that cannot be performed by the LLM.
+14055,E0,The task involves physical actions that cannot be performed by the LLM.
+14060,E0,The task involves physical actions that cannot be performed by the LLM.
+14058,E0,The task involves physical actions that cannot be performed by the LLM.
+17861,E0,"Operating physical equipment requires hands-on interaction, which the LLM cannot provide."
+21208,E0,Performing physical tests on water chemistry cannot be done by the LLM.
+17864,E0,"Operating high-pressure steam boiler or water chiller equipment requires physical interaction, which the LLM cannot provide."
+17862,E0,"Operating equipment to heat biomass requires physical interaction, which the LLM cannot provide."
+17863,E0,"Operating biomass-fueled generators or auxiliary systems requires physical interaction, which the LLM cannot provide."
+17860,E0,"Inspecting physical equipment and reporting damage requires physical interaction and visual inspection, which the LLM cannot provide."
+17866,E1,The LLM can assist in recording or reporting operational data if the data is provided to it.
+17855,E0,"Operating valves, pumps, engines, or generators requires physical interaction, which the LLM cannot provide."
+17858,E0,"Calculating, measuring, loading, or mixing biomass feedstock requires physical interaction, which the LLM cannot provide."
+17867,E0,"Cleaning work areas requires physical interaction, which the LLM cannot provide."
+17856,E0,"Performing routine maintenance or making minor repairs to equipment requires physical interaction, which the LLM cannot provide."
+17854,E0,"Measuring and monitoring raw biomass feedstock requires physical interaction, which the LLM cannot provide."
+17859,E0,"Calibrating liquid flow devices or meters requires physical interaction, which the LLM cannot provide."
+17857,E0,"Assessing the quality of biomass feedstock requires physical interaction and possibly sensory input, which the LLM cannot provide."
+17869,E1,The LLM can assist in reading and interpreting instruction manuals or technical drawings if the text is provided to it.
+21209,E0,"Operating heavy equipment like bulldozers and front-end loaders requires physical interaction, which the LLM cannot provide."
+17865,E0,"Preprocessing feedstock for production processes requires physical interaction, which the LLM cannot provide."
+17868,E1,The LLM can assist in managing parts and supply inventories if the data is provided to it.
+12573,E0,"The task involves physical manipulation of equipment, which the LLM cannot perform."
+12574,E1,"The LLM can assist in maintaining and organizing information and reports, potentially automating some of the process."
+12575,E0,"The task involves physical inspection and measurement of materials, which the LLM cannot perform."
+12576,E0,"The task involves physical cleaning of semiconductor wafers, which the LLM cannot perform."
+12577,E1,"The LLM can assist in studying work orders, instructions, formulas, and processing charts, potentially automating some of the process."
+12578,E0,"The task involves physical loading and unloading of equipment, which the LLM cannot perform."
+12579,E0,"The task involves physical cleaning and maintenance of equipment, which the LLM cannot perform."
+12580,E0,"The task involves physical handling of semiconductor wafers, which the LLM cannot perform."
+12581,E0,"The task involves physical adjustment of equipment controls, which the LLM cannot perform."
+12582,E0,"The task involves physical etching, lapping, polishing, or grinding of wafers or ingots, which the LLM cannot perform."
+12583,E0,"The task involves physical loading of semiconductor material into a furnace, which the LLM cannot perform."
+12584,E1,"The LLM can assist in monitoring operation and adjusting controls of processing machines and equipment, potentially automating some of the process."
+12585,E0,"The task involves physical counting, sorting, and weighing of processed items, which the LLM cannot perform."
+12586,E1,The LLM can assist in calculating etching time based on thickness of material to be removed from wafers or crystals.
+12587,E0,"The task involves physical inspection of equipment and diagnosing malfunctions, which the LLM cannot perform."
+12588,E0,"The task involves physical alignment of photo mask pattern on photoresist layer, which the LLM cannot perform."
+12589,E0,"The task involves physical stamping, etching, or scribing of identifying information on finished component, which the LLM cannot perform."
+12591,E0,"The task involves physical scribing or separating of wafers into dice, which the LLM cannot perform."
+12592,E0,"The task involves physical connection of reactor to computer, which the LLM cannot perform."
+12595,E0,"The task involves physical measurement and weighing of crystal growing materials, which the LLM cannot perform."
+12632,E0,"The task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+12630,E0,"This task requires physical inspection and measurement of products, which the LLM cannot perform."
+12631,E1,The LLM can assist in recording manufacturing information if the data is provided to it.
+12646,E0,"This task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+12644,E0,"This task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+12633,E0,"This task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+12638,E1,The LLM can assist in determining types and quantities of glass required if the necessary data and criteria are provided.
+12634,E0,"This task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+12635,E0,"This task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+12647,E1,The LLM can assist in the design process by providing suggestions or generating designs in text form based on given criteria.
+12649,E0,"This task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+12648,E0,"This task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+12637,E1,The LLM can assist in developing sketches into blueprint specifications if the necessary data and criteria are provided.
+12640,E0,"This task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+12645,E0,"This task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+12639,E0,"This task involves physical manipulation of objects and use of equipment, which the LLM cannot perform."
+17888,E0,Overseeing recycling pick-up or drop-off programs requires physical presence and cannot be done through a text-based model.
+17907,E1,The LLM can assist in maintaining logs of recycling materials received or shipped by automating the process of writing and organizing these logs.
+17889,E0,Supervising recycling technicians or other employees requires human interaction and cannot be done through a text-based model.
+17910,E1,The LLM can assist in reviewing customer requests and determining service needs by analyzing and summarizing the requests.
+17909,E1,"The LLM can assist in providing training by generating training materials or answering questions about safety, solid waste processing, or general recycling operations."
+17905,E2,"The LLM can assist in identifying new opportunities for materials to be collected and recycled, but it would require additional software to search and retrieve up-to-date information from the internet."
+17890,E1,The LLM can assist in assigning truck drivers or recycling technicians to routes by optimizing the assignment based on the input data.
+17893,E1,The LLM can assist in creating or managing recycling operations budgets by performing calculations and generating budget reports.
+17908,E1,"The LLM can assist in preparing bills of lading, statements of shipping records, or customer receipts by automating the process of writing these documents."
+17906,E0,Inspecting the physical condition of a recycling or hazardous waste facility requires physical presence and cannot be done through a text-based model.
+17899,E2,"The LLM can assist in negotiating contracts by providing suggestions or drafts, but it would require additional software to retrieve up-to-date information from the internet."
+17892,E1,The LLM can assist in coordinating shipments of recycling materials by optimizing the coordination based on the input data.
+17901,E0,Operating recycling processing equipment requires physical interaction and cannot be done through a text-based model.
+17900,E0,"Operating fork lifts, skid loaders, or trucks requires physical interaction and cannot be done through a text-based model."
+17904,E1,The LLM can assist in scheduling movement of recycling materials by optimizing the schedule based on the input data.
+17902,E1,The LLM can assist in overseeing campaigns to promote recycling or waste reduction programs by generating campaign materials or strategies.
+17891,E1,The LLM can assist in coordinating recycling collection schedules by optimizing the schedule based on the input data.
+17895,E1,The LLM can assist in developing community or corporate recycling plans and goals by generating plan drafts or strategies.
+17903,E1,The LLM can assist in preparing grant applications by generating application drafts or strategies.
+17897,E2,"The LLM can assist in investigating violations of solid waste or recycling ordinances, but it would require additional software to retrieve up-to-date information from the internet."
+17896,E1,The LLM can assist in implementing grant-funded projects by generating project plans or strategies and monitoring and reporting progress.
+17898,E1,The LLM can assist in making presentations to educate the public by generating presentation materials or strategies.
+17894,E1,The LLM can assist in designing community solid and hazardous waste management programs by generating program designs or strategies.
+8607,E0,The task involves physical actions that cannot be performed by the LLM.
+8606,E0,Driving or assisting in driving an ambulance involves physical actions that cannot be performed by the LLM.
+8612,E1,"The LLM can assist in formulating reports about accidents or emergencies, potentially speeding up the process."
+8608,E0,Placing patients on stretchers and loading them into ambulances involves physical actions that cannot be performed by the LLM.
+8609,E0,Assisting emergency medical technicians on calls involves physical actions and real-time decision-making that cannot be performed by the LLM.
+8611,E0,Replacing supplies on ambulances involves physical actions that cannot be performed by the LLM.
+21028,E0,Performing minor maintenance on vehicles involves physical actions that cannot be performed by the LLM.
+21029,E0,"Cleaning and washing rigs, ambulances, or equipment involves physical actions that cannot be performed by the LLM."
+8610,E1,"The LLM can assist in studying for certifications by providing information, explanations, and practice questions."
+8613,E0,Administering first aid involves physical actions that cannot be performed by the LLM.
+8614,E0,Restraining or shackling violent patients involves physical actions that cannot be performed by the LLM.
+3202,E0,The task involves physical operation of machinery which the LLM cannot perform.
+3201,E0,"This task requires physical control of vehicles, which is beyond the capabilities of the LLM."
+15266,E0,"This task involves physical loading and unloading of materials, which the LLM cannot perform."
+3203,E0,"The task involves positioning of physical objects, which the LLM cannot perform."
+15265,E0,"This task involves physical inspection and movement of products, which the LLM cannot perform."
+3206,E1,"The LLM can assist in recording weight or other production data on tags or labels, as this involves text input and output."
+3205,E0,"This task involves physical maintenance of vehicles or equipment, which the LLM cannot perform."
+3207,E0,"This task involves operating physical machinery, which the LLM cannot perform."
+3210,E0,"This task involves physical manipulation of valves and chutes, which the LLM cannot perform."

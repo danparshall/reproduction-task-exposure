@@ -1,0 +1,1015 @@
+task_id,label,explanation
+39,E1,"Drafting standards, interpreting test data, and suggesting corrective actions are predominantly text-based; the manager can feed data to the LLM and receive analyses and wording for standards in minutes, cutting desk work by well over half."
+32,E2,"Day-to-day “directing or coordinating” involves live scheduling decisions, phone calls, and physical oversight; an LLM chat window alone cannot halve the time, but a production-control application powered by an LLM could."
+34,E1,"If schedules and orders are pasted into the chat, the LLM can quickly highlight inventory gaps, staffing needs, and budget clashes and draft assignments, halving the analyst’s paperwork effort."
+35,E1,"Feeding operation logs or email threads into the LLM lets it propose root-cause hypotheses and talking points before meetings with staff, substantially reducing the manager’s preparation time."
+36,E2,"Hiring, training, and grievance resolution hinge on live interviews and interpersonal judgment; the LLM can draft job ads or evaluation forms but cannot remove enough human time without additional HR-workflow software."
+40,E1,"The LLM can parse production or QC reports supplied as text or CSV and flag anomalies, then outline tracking-system requirements, cutting analysis and documentation time by over half."
+38,E1,"Producing narrative or tabular production reports is a writing task the LLM can automate once it is given the raw numbers, saving the majority of report-writing hours."
+41,E1,"When plans or research notes are pasted in, the LLM can summarize, compare alternatives, and brainstorm improvements, streamlining the preparation for staff discussions."
+33,E1,"Given cost data, the LLM can draft budgets, scenario analyses, and justification memos quickly, halving the clerical portion of budgeting and approval."
+44,E1,Asking the LLM for summaries of recent (pre-2024) QC literature and key takeaways drastically shortens literature-review time.
+43,E1,"The LLM can outline maintenance SOPs, replacement justifications, and project plans once provided equipment specs, reducing drafting time by more than half."
+37,E2,"Designing and coordinating inventory or cost-control programs needs integration with live ERP data; an LLM alone cannot access that data, but an LLM-enabled inventory system could."
+45,E2,Actual price negotiations are interpersonal; the LLM can draft emails or talking points but cannot halve meeting and bargaining time without a specialized supplier-interaction platform.
+21332,E0,Physical site walks and on-the-ground observations dominate safety/environmental audits; a chat-only LLM offers minimal time savings.
+21333,E1,Writing or revising operating procedures is a text task that the LLM can complete or redline rapidly once given existing documents.
+21334,E2,Implementing emergency procedures requires drills and physical setup; LLM can prepare manuals but cannot cut total implementation time by half on its own.
+21335,E1,"Compiling compliance records is largely paperwork; the LLM can draft, format, and check narratives quickly when data are supplied."
+21336,E2,"Tracking permit updates needs automatic monitoring of regulatory websites; the LLM alone lacks live web access, but an LLM-powered compliance-tracking tool could halve the effort."
+21337,E2,"Cost/productivity optimization depends on large operational datasets; an LLM-only interface cannot ingest or crunch them efficiently, but an analytics layer plus LLM recommendations could."
+21338,E1,Preparing textual efficiency reports from provided metrics is squarely within the LLM’s summarization and writing strengths.
+21339,E0,"Day-to-day supervision of people—observing work, giving feedback in person, enforcing discipline—remains primarily physical and interpersonal, with little speed-up from a chat-only LLM."
+3318,E0,Requires physical site visits and first-hand inspections; an LLM cannot replace this field work or cut the time in half.
+3327,E1,"Drafting quality-control manuals, checklists, and procedures is text-heavy; an LLM can generate most of the documentation quickly."
+20332,E2,Scheduling/coordination would need tight integration with project-management and resource-tracking software; chat access alone is not enough.
+3326,E1,"Budgets, progress narratives, and cost-tracking reports are largely written summaries that an LLM can prepare or polish in minutes."
+20340,E0,Day-to-day supervision of crews happens on site and hinges on direct human interaction that an LLM cannot provide.
+3317,E2,Calculating crew sizes could be sped up if the LLM were embedded in workforce-planning software that has real-time labor and schedule data.
+3314,E0,Resolving problems typically happens in live meetings and negotiations; an LLM cannot meaningfully replace that interpersonal work.
+20334,E1,"Drafting, red-lining, and revising construction contracts are text tasks well suited to direct LLM assistance."
+3323,E2,Parsing lengthy specifications and mapping them to construction methods would benefit from a document-analysis tool built on top of the LLM.
+3315,E2,"High-level planning and organization could be accelerated only with a fully integrated, LLM-powered project-control platform."
+20339,E2,"Contracting or overseeing craft work still needs in-person oversight, but contracting paperwork could be sped up with LLM-based tools."
+20333,E0,Investigating on-site incidents requires physical inspection and interviews; an LLM offers minimal time savings.
+20336,E1,The LLM can rapidly generate plain-language explanations of plans and contract clauses for different audiences.
+20335,E2,Reacting to delays or emergencies would require real-time data feeds; with such software an LLM could suggest revised plans.
+3325,E2,Generating purchase lists and matching them to inventory systems needs integration with procurement software to reach 50% savings.
+20337,E1,Filling out permit applications and drafting supporting narratives are text-centric tasks that an LLM can handle quickly.
+19523,E2,Producing early-stage cost or sustainability assessments needs data from estimators or third-party tools; an LLM could help once integrated.
+20338,E2,Evaluating methods via computer models would require the LLM to interface with modeling software; chat alone is insufficient.
+19522,E0,Environmental compliance inspections demand on-site observation and sampling that an LLM cannot perform.
+19520,E1,"Writing environmental-protection plans, policies, and SOPs can be largely automated through the LLM."
+19524,E2,"Securing LEED or other third-party verification involves forms, evidence gathering, and coordination best aided by an integrated LLM workflow tool."
+19521,E1,"Creating slide decks, handouts, and quizzes for environmental training is primarily text generation the LLM can do quickly."
+19519,E1,Drafting comparative green vs. conventional budgets and narrative justifications is document work amenable to direct LLM help.
+19518,E2,Selecting and applying specific green strategies requires project data and design models; an LLM could help once tied into those resources.
+3331,E2,"Land acquisition involves negotiations, legal review, and market data; an LLM could speed document prep if embedded in a deal-management system."
+7263,E0,"Requires live, two-way discussions with many stakeholders; an LLM can draft agendas or notes, but cannot replace the in-person consultation that is the bulk of the work."
+7258,E0,Building and nurturing ongoing inter-agency relationships is an interpersonal activity that an LLM cannot meaningfully shorten by 50 %.
+7257,E0,"Real-time field coordination (ordering evacuations, opening shelters) is action-oriented and decisional; text assistance offers little time savings."
+7260,E1,"Drafting narrative status reports is largely a writing task; with basic notes as input, an LLM can generate the report in under half the usual time."
+7256,E1,Updating resource documents is essentially editing and organizing text; an LLM can automate most of this documentation work.
+7254,E1,"Creating written emergency-response plans is a text-generation task well suited to LLM assistance, cutting drafting time well over 50 %."
+7264,E0,"Designing and running physical drills/evaluations involves logistical planning, scheduling, and on-site observation that an LLM cannot substantially compress."
+7266,E0,Post-disaster damage assessment depends on direct data collection and multi-party collaboration; an LLM adds limited value to the core effort.
+7261,E1,"The largest time sink is developing course content and materials—tasks an LLM can accelerate, even though delivery still needs a human."
+7253,E2,"Staying current requires continuous monitoring of many data sources; with a purpose-built retrieval/alert system on top of the LLM, the task time could be halved."
+7262,E0,Physically inspecting facilities and equipment is hands-on; text assistance cannot reduce the inspection time.
+7269,E1,Reviewing written plans for adequacy is document analysis; an LLM can highlight gaps and produce summary comments quickly.
+7259,E2,"Tracking ever-changing regulations needs automated legal/regs feeds; an LLM-powered compliance tool could cut the effort, but chat alone cannot."
+7270,E1,Designing survey instruments and summarizing responses are text tasks readily accelerated by an LLM.
+7265,E0,Attending events to network and learn is intrinsically in-person; an LLM cannot reduce attendance time.
+7255,E2,Re-writing procedures based on new tech/regs would benefit from an LLM tool that auto-ingests updates; chat alone lacks current data access.
+7267,E1,"Creating brochures, slide decks, and scripts for public presentations is text generation/editing that the LLM can do quickly."
+7272,E1,Grant applications and progress reports are writing-heavy; an LLM can draft and format them in less than half the normal time.
+7268,E1,"Preparing long-term planning templates and guidance documents is document creation where LLM help halves prep time, even though facilitation stays human."
+7275,E1,Assisting communities with funding paperwork is primarily drafting and editing forms/narratives—easily sped up by an LLM.
+7271,E1,Synthesizing external emergency plans is literature review; an LLM can summarize key points rapidly.
+7273,E1,Writing training procedures/strategies is a text task; the LLM can generate curricula and manuals quickly.
+7274,E0,Physically inventorying/distributing equipment is manual labor; LLM-generated instructions do not meaningfully shorten the main task.
+18861,E1,"A chat LLM can instantly summarize statutes and policy language and draft plain-English explanations, halving the time normally spent reading and writing them."
+18859,E0,Hiring decisions and completing onboarding forms require actions in HRIS/e-signature systems and in-person coordination that a text-only LLM cannot perform or shorten by 50 %.
+18864,E1,"The specialist can query the LLM for concise updates or summaries of EEO/ADA rules rather than reading the source material end-to-end, saving well over half the research time."
+18866,E0,Maintaining structured records in HRMS is largely manual data entry/navigation inside proprietary software; a chat LLM offers negligible direct time savings.
+18852,E0,"Investigating complaints and counseling employees are sensitive, face-to-face activities; LLM help is minimal compared with the interpersonal work required."
+18868,E1,"Resumes and job descriptions fit within the 2 000-word window; the LLM can quickly score or summarize fit, cutting review time by more than half."
+18860,E1,"The LLM can draft personalized emails or call scripts detailing duties, pay, benefits, etc., drastically reducing composition time."
+18871,E1,"Feeding applicant materials to the LLM lets it rank candidates and draft recommendation notes, substantially shortening manual evaluation."
+18870,E0,"Calendar coordination and live presentation of orientation sessions are outside an LLM’s direct reach, so time savings are marginal."
+18863,E1,"The LLM can generate or revise handbook text, directory blurbs, or evaluation form wording on demand, halving document-editing effort."
+18856,E1,"Before meetings, the LLM can draft policy proposals, talking points, or comparative analyses, speeding up preparation by at least 50 %."
+18857,E1,"Template-style status updates can be produced in seconds by the LLM, easily more than halving the time spent notifying applicants."
+18854,E0,Conducting exit interviews and completing termination forms are live interactions and system tasks the LLM cannot carry out.
+18862,E0,Interviewing applicants is real-time conversation; question suggestions help but do not halve the interview duration or effort.
+18865,E2,"With an LLM-powered resume search tool integrated into databases/job boards, candidate sourcing would be at least twice as fast, but the bare chat interface alone cannot access those sources."
+18867,E1,"The LLM can quickly draft slide decks, handouts, or talking points on interviewing and appraisal techniques, saving well over half the preparation time."
+18853,E1,"Given data snippets, the LLM can write Python/SQL queries and narrative summaries, dramatically shortening report creation."
+18872,E1,"The LLM can brainstorm and outline retention or recruiting programs from a prompt, cutting the research and drafting phase in half."
+18858,E1,"Strategy documents and outreach plans can be generated rapidly by the LLM, slashing traditional drafting time."
+21097,E0,Day-to-day benefits administration requires system transactions and vendor coordination beyond what a text LLM can automate.
+18869,E0,Scheduling or proctoring tests is logistical and procedural; the LLM offers little direct efficiency gain.
+18855,E0,Reference/background checks involve external calls or service portals; an LLM cannot execute these actions.
+18876,E1,"Licensing guidelines and applicant documents can be pasted into the LLM, which can then flag eligibility issues quickly, halving review time."
+18874,E1,"The LLM can compare criteria text to statistical/testing standards and suggest revisions in minutes, versus hours manually."
+18873,E0,"Securing temps entails negotiation, scheduling, and system entries with staffing firms—activities not materially accelerated by a chat LLM."
+18875,E1,"The LLM can synthesize research on testing techniques and draft evaluation memos rapidly, reducing analysis and write-up time by more than half."
+21462,E1,"With a roster of team members, their skills, and the task list pasted into the chat, an LLM can draft well-reasoned duty assignments that the manager can lightly edit, cutting the assignment effort well beyond half."
+21463,E2,"Determining requirements still hinges on live conversations and relationship-building, but an LLM-powered meeting assistant (agenda drafting, live transcription, requirement extraction) could readily halve the time."
+21464,E2,"Problem-solving discussions are interactive, yet software that records the conversation, summarizes root causes, and suggests remedies via an LLM would materially speed the process."
+21465,E1,"Supplying the latest status data lets the LLM draft slide outlines, talking points, and visuals text in minutes, easily halving preparation time."
+21466,E1,"Feeding the LLM past plans and new parameters enables it to generate or update scopes, schedules, staffing tables, and risk logs quickly, reducing plan-writing time by more than half."
+21467,E1,"The manager can paste objectives and timelines into the LLM and receive a resource and staffing needs list plus cost rough-orders, sharply cutting manual analysis time."
+21468,E2,"Selecting vendors demands up-to-date market data the LLM alone lacks, but a tool that crawls vendor information and pipes it to the model for comparison could halve the effort."
+21469,E2,Cost monitoring depends on live financial data; an LLM-enhanced dashboard that ingests the numbers and highlights overruns would deliver the needed time savings.
+21470,E2,"Similar to cost tracking, milestone monitoring needs integration with tracking software; an LLM layer that flags slippage and drafts notifications would halve oversight time."
+21471,E2,Performance feedback relies on metrics and observations; pairing an LLM with HR/performance data to draft feedback summaries would materially speed—but requires extra software.
+21472,E2,"Actual negotiation is human, but an LLM-based assistant that drafts strategies, BATNAs, and counter-offers could cut prep time substantially."
+21473,E1,"Providing task lists and constraints lets the LLM output Gantt-style schedules and dependency charts, halving manual planning effort."
+21474,E1,Give the LLM raw numbers or progress notes and it will draft budgets and status reports in the required formats far faster than manual writing.
+21475,E1,"The LLM can generate document templates, fill in content from prompts, and draft transmittal emails, markedly reducing document production time."
+21476,E1,"When plan changes arise, the LLM can compare old vs. new scope, highlight impacts, and draft modification memos, speeding review and proposal work."
+21477,E2,"Hiring involves résumé parsing, interview scheduling, and assessment; an LLM-driven applicant-tracking add-on could automate screening and question generation, halving the burden."
+21478,E1,Supplying raw status data enables the LLM to craft concise written or slide-based reports to leadership in minutes.
+21479,E1,"The LLM can auto-generate reminder emails, ingest written updates, and summarize risk areas, reducing the cycle-time of requesting and reviewing updates by more than half."
+21480,E2,"Calendar integration is needed to auto-schedule; an LLM-powered scheduling assistant that finds slots, drafts agendas, and follows up would halve the effort."
+21481,E1,"For document-type deliverables, the LLM can run last-pass quality checks (format, clarity, requirement traceability) and draft the transmittal package, cutting submission prep time well beyond half."
+94,E1,"An LLM can draft slides, lecture notes, role-play scripts, and discussion prompts in minutes, cutting the (usually dominant) preparation portion of this task by well over 50 %, even though the human still delivers the session."
+20475,E1,"Developing manuals, guides, handouts, and other written course materials is almost entirely text generation and formatting, which an LLM can automate or accelerate enough to halve the effort."
+19559,E1,"Evaluating delivery modes is a research-and-memo–writing exercise; an LLM can structure criteria, draft comparisons, and explain trade-offs quickly, reducing the time needed by at least half."
+97,E1,"Choosing and outlining specific up-skilling programs is largely content creation; the LLM can list options, objectives, and schedules immediately, more than halving preparation time."
+103,E0,"Most of this task is conducting surveys, interviews, focus groups, and consultations—activities requiring live human interaction; an LLM can help with analysis but cannot cut total effort by 50 %."
+98,E1,"Once activity data are provided, an LLM can summarise, analyse, and draft effectiveness reports rapidly, more than halving the monitoring/evaluation write-up workload."
+20474,E1,"Designing, planning, and organising programmes is document-heavy; the LLM can generate agendas, curricula, timelines, and communication drafts quickly, reducing time by over 50 %."
+102,E1,"Brain-storming and detailing alternative instructional methods is a creative text task that the LLM can perform in minutes, cutting development time by at least half."
+101,E1,"Reviewing outlines and handouts is text critique; an LLM can highlight gaps, suggest improvements, and supply edits almost instantly, halving manual review time."
+20476,E1,"With cost figures pasted in, the LLM can draft budget narratives, summaries, and justifications immediately, reducing preparation time for cost reports by more than 50 %."
+106,E1,"Designing programs to develop executive potential is mostly ideation and curriculum writing; an LLM can propose structures, activities, and evaluation metrics quickly, halving the effort."
+93,E1,"Feeding articles or excerpts into the chat lets the LLM provide concise summaries, enabling the specialist to grasp key points in a fraction of the reading time—well beyond a 50 % saving."
+99,E0,The specialist must personally attend meetings or seminars; the LLM cannot substitute for physical presence and thus cannot reduce task time by half.
+100,E2,"Coordinating recruitment/placement hinges on scheduling, email chains, and database updates; a purpose-built LLM tool integrated with calendars and applicant systems could halve the work, but the bare chat interface cannot."
+105,E1,"Given instructor bios/resumés, an LLM can match qualifications to course needs and suggest assignments instantly, more than halving decision-making time."
+108,E0,"Actual contract negotiation involves real-time human judgment and interaction; while the LLM can draft proposals, it cannot shrink the live negotiation phase by 50 %."
+20477,E0,"Supervising and referring instructors requires observation, feedback discussions, and managerial judgment—activities not meaningfully shortened by an LLM chat interface."
+95,E1,"If availability information is supplied, the LLM can generate feasible class schedules quickly, greatly reducing manual scheduling time."
+111,E0,Making referrals involves personal assessment of trainee needs and direct coordination with external agencies; the LLM offers minimal time savings.
+19558,E1,"Creating training programmes on efficiency or environmental issues is fundamentally a writing/ideation task; an LLM can draft complete curricula rapidly, cutting required effort by more than half."
+21744,E0,Requires a physical walk-through and inspection of server rooms and facilities; an LLM can help write a checklist but cannot halve the hands-on assessment time.
+21745,E2,"Interviews and data gathering still take place with people, but software that automates stakeholder surveys and feeds answers to an LLM for risk analysis could cut the effort in half."
+21746,E1,"Much of a network/security audit is running standard tools and writing up results; an LLM can generate checklists, commands, and draft the audit narrative, halving total effort."
+21747,E1,The task is largely writing or modifying configuration files and access rules; an LLM can propose least-privilege settings and scripts quickly.
+21748,E1,Designing mitigations is a text-based architecture / configuration exercise that an LLM can accelerate by suggesting solution patterns and sample configs.
+21749,E1,"Creating test plans and sample exploit code is text/code generation; an LLM can supply or adapt scripts and documentation, halving preparation time."
+21750,E1,"Similar to 21749: drafting infiltration scenarios, payloads, and documentation is text/code work well suited to direct LLM assistance."
+21751,E1,"Crafting slide outlines, speaker notes, and explanatory text on threat intelligence is straightforward for an LLM."
+21752,E1,Developing standardized penetration-testing procedures is primarily writing SOPs; an LLM can draft them rapidly from prompts.
+21753,E0,The core of the task is live human discussion/negotiation; an LLM can supply talking points but cannot replace or halve the interactive meeting time.
+21754,E1,Report writing and formatting findings are classic LLM strengths and can be cut well beyond half.
+21755,E1,Reviewing and interpreting vulnerability-assessment output is largely text analysis; supplying the summaries to an LLM speeds the evaluation and write-up.
+21756,E2,"Gathering current cyber-threat intel requires up-to-date web/data retrieval; an LLM-powered research tool with live feeds could halve the work, but the bare LLM cannot."
+21757,E2,Identifying emerging TTPs similarly needs fresh intelligence feeds; would benefit from an LLM+retrieval layer.
+21758,E1,"Once raw penetration-test results exist, pinpointing weaknesses and explaining them is text analysis/reporting that an LLM can accelerate greatly."
+21759,E2,"Real incident forensics involves huge log/data volumes; with specialized tooling that pipelines data into the LLM for summarization the effort could be halved, but the chat interface alone is insufficient."
+21760,E1,Reading publications and summarizing new tools/methods is fundamentally text digestion—direct LLM summaries cut the time in half.
+21761,E2,"Staying current on hacking trends needs continuous, up-to-date external information; an LLM with automated news/data ingestion would help, but plain chat alone cannot."
+21762,E1,Drafting and formatting remedial action reports is text generation/editing well handled by an LLM.
+21763,E1,"Crafting exploit scripts and step-by-step testing procedures is largely coding/documentation that an LLM can generate, markedly reducing prep and analysis time."
+21764,E1,Updating written security policies is document drafting/revision—an LLM can output policy language quickly.
+21765,E1,"Writing audit reports with findings and recommendations is squarely in the LLM’s text-generation wheelhouse, halving the authoring effort."
+16169,E2,"Requires continuous monitoring of budgets and schedules inside specialized project-tracking tools; an LLM chat alone can’t connect to those data sources, but a future LLM-powered dashboard that plugs into the tools could easily halve the effort."
+16154,E2,Problem-solving is done through live conversations; the LLM can draft talking points but does not remove half the interaction time without an added meeting-assistant layer.
+16157,E2,"Tracking milestones needs automated integration with ticketing/Gantt software; the LLM alone can’t ingest live data, though an app built on top of it could."
+16152,E1,"When deliverables are documents, the LLM can review text against quality checklists and draft submission memos, cutting preparation time by more than half."
+16155,E2,"Determining customer needs still hinges on collecting external input; the LLM can help design surveys, but halving total effort would require a tool that also gathers and aggregates responses."
+16159,E1,"The work is largely writing and revising project-plan text; the LLM can draft and compare plan versions quickly, saving >50 % of the time."
+16156,E2,Actual scheduling needs calendar access; the LLM can suggest agendas but cannot book times without additional software.
+16163,E2,"Day-to-day coordination involves real-time direction of people; the LLM can craft notices, but halving the time would need integrated task-assignment software."
+16164,E1,"Cost–benefit or ROI write-ups are text-heavy analyses; given the numbers, the LLM can generate full implementation plans much faster than manual drafting."
+16162,E2,"Deciding on extra resources depends on live workload metrics; an LLM-only chat cannot access them, though an integrated capacity-planning tool could."
+16170,E1,"Creating or updating textual project plans (objectives, scope, schedule narrative) is largely writing; the LLM can draft comprehensive plans quickly."
+16151,E1,"Risk registers, probabilities, and mitigation strategies are text tables the LLM can propose or expand in minutes, more than halving manual effort."
+16168,E1,"With bullet inputs or raw metrics pasted in, the LLM can draft polished status reports and highlight trends in a fraction of the normal time."
+16160,E2,"Selecting vendors needs up-to-date market information; the LLM lacks live data, but a tool that couples web search with the LLM could halve the work."
+16166,E1,"Budget narratives, line-item explanations, and spreadsheet formulas can be generated or revised quickly by the LLM, sharply reducing drafting time."
+16161,E1,"The communication plan is a structured document of audiences, channels, and cadence—ideal for rapid generation and iteration with the LLM."
+16171,E1,"Producing a Work Breakdown Structure involves decomposing tasks into text outlines; the LLM excels at hierarchical breakdowns, saving significant time."
+16153,E2,Actual performance monitoring needs observation and HR systems; the LLM can phrase feedback but can’t capture ratings without extra tooling.
+16165,E2,"Recruiting requires sourcing, interviews, and HR platforms; an LLM helps craft postings but does not cut total effort in half by itself."
+16167,E2,Final authority assignments involve managerial judgment and coordination; the LLM can draft RACI charts but not execute the assignments without integrated systems.
+16158,E2,"Negotiations are live interpersonal activities; the LLM can supply negotiation scripts, but time savings of ≥50 % need a co-pilot system embedded in the negotiation workflow."
+16327,E0,"Effective supervision requires ongoing human judgment, real-time interaction, and sign-off on others’ work; an LLM can draft guidance but cannot replace more than half of the supervisory effort."
+16325,E1,"Reviewing textual proposals or narratives can be sped up by an LLM that highlights issues, checks standards references, and drafts critique comments, cutting text-review time by ≥50 %."
+16350,E2,"The core work relies on hydraulic/hydrologic models, process simulators, and CAD packages; an LLM alone helps only marginally, but an LLM-enabled design assistant integrated with those tools could halve effort."
+21166,E2,"Efficiency evaluations depend on large O&M data sets and plant SCADA logs; with an LLM-powered analytics layer that ingests these data, time to insight could be cut in half."
+16330,E2,Selecting compliant equipment requires searching databases of specs and regulations—work that could be markedly faster if an LLM were embedded in a parts/standards retrieval tool.
+16349,E2,"Sizing pumps, force mains, and sewers hinges on hydraulic software and GIS; pairing these with an LLM that reasons over outputs would halve design time."
+16347,E2,"Distribution-system layout similarly needs network modeling tools; LLM integration (auto-parameter entry, narrative design notes) could provide ≥50 % savings."
+16331,E2,"Water-quality studies involve lab/field data and GIS; an LLM-driven data-analysis/report generator would materially accelerate, but chat alone cannot."
+16343,E2,Choosing optimal treatment trains requires process simulations and cost databases; an LLM-enhanced decision platform could halve effort.
+16328,E2,"Generating and screening alternatives draws on geospatial, hydrologic, and economic data; integrated LLM software could streamline, whereas plain chat cannot."
+16345,E2,Runoff-network design entails hydrologic modeling and CAD; LLM-enabled automation of those tools would be needed for 50 %+ time reduction.
+16346,E2,Lift-station design likewise depends on pump curves and hydraulic calculations that require specialized software; LLM integration would help.
+16339,E1,"Cost-benefit spreadsheets and narrative justifications are largely text/number work; an LLM can draft calculations code, tables, and the write-up, cutting effort by over half."
+16326,E1,"Supplying technical memos, responses to inquiries, and summary briefs is text-heavy; an LLM can draft and polish these quickly, meeting the ≥50 % threshold."
+16337,E2,"Feasibility studies rely on multi-disciplinary data and models; an LLM alone is insufficient, but an LLM-backed platform pulling those inputs could halve workload."
+16341,E2,Floodplain and erosion analyses require hydraulic/hydrologic models plus GIS; an LLM-assisted modeling environment would be needed for major time savings.
+16335,E0,"Overseeing physical construction is field-based, involving site visits, inspections, and real-time decisions—areas where a chat-only LLM offers little time reduction."
+16329,E2,Drafting resource-development plans involves modeling demand/supply options and stakeholder inputs; LLM-powered planning software could cut effort by half.
+16333,E2,"3-D hydrologic simulations are performed in specialized software; coupling an LLM to set up, run, and interpret these models would markedly reduce analysis time."
+16334,E2,Hydraulic network analyses again depend on engineering software; an LLM-integrated workflow could automate much of the setup and reporting.
+16324,E1,"Writing technical reports or journal papers is squarely a text-generation task; an LLM can draft, edit, and format the document, easily halving time."
+16344,E2,Tank design needs structural/hydraulic calculations and CAD drawings; significant savings require an LLM front-end to those tools.
+16342,E2,Selecting sludge treatment/disposal methods depends on process data and regulations; an LLM-enhanced decision aid would be necessary.
+16348,E2,"Full sludge-plant design requires process modeling and layout software; LLM integration, not chat alone, would bring ≥50 % reduction."
+16336,E2,"Forecasting demand involves large datasets and statistical models; an LLM-enabled analytics stack could automate data cleaning, modeling, and reporting."
+16338,E2,"Environmental impact studies combine modeling, GIS, and regulatory review; an LLM-powered document/model management tool would deliver the needed efficiencies."
+16340,E2,"Analyzing dams, canals, etc., is simulation-heavy; integrating LLM with structural/hydraulic software could cut the analysis time by half."
+16332,E2,"Mathematical modeling of water bodies relies on specialized codes; an LLM acting as an intelligent model setup/interpretation assistant could provide major time savings, whereas chat alone cannot."
+1447,E2,"Creating detailed CAD drawings still requires operating CAD software, but an app that lets the LLM drive the CAD tool or generate parametric scripts would cut drafting time by more than half."
+20964,E2,"The LLM could generate modeling scripts or feature trees inside a CAD add-on; with such software, 3-D model creation time would drop sharply, but chat alone is not enough."
+1455,E2,LLM-powered CAD assistants that auto-lay out orthographic and schematic views could halve the effort; pure text chat cannot.
+1452,E2,"Revising designs requires CAD edits; an LLM integrated into the CAD environment could auto-suggest fixes and regenerate features, saving >50 % time."
+1449,E3,"Assessing sketches/drawings needs the system to “look” at images; with image-reading capability the LLM can summarize and highlight design factors quickly, halving review time."
+1454,E2,Dimension checks and material numbering could be automated by an LLM plug-in that extracts BOM data from the CAD model; chat alone is insufficient.
+1453,E2,"Generating full-scale blueprints requires CAD output; an LLM-driven CAD plug-in could automate layout and annotation, reducing effort >50 %."
+1450,E1,"Computing formulas and producing detailed numeric specifications can be done directly in a chat session, cutting calculation time at least in half."
+1448,E1,"Drafting clear e-mails, meeting notes, and design rationale with chat support halves coordination time."
+1456,E1,"The LLM can draft explanations, FAQs, and responses to customer questions from the schematic text, speeding these interactions by >50 %."
+1451,E2,"Auto-positioning notes and call-outs on drawings needs a CAD plug-in; with it, annotation time would drop dramatically."
+1458,E2,"Supervising/training involves human judgment, but generating lesson plans, tutorials, and review comments could be automated with LLM tools, noticeably reducing effort though not possible via chat alone."
+1459,E3,"Producing illustrations for manuals can be automated with an image-capable LLM that generates or edits technical artwork, halving production time."
+1457,E3,"Image-generation and vector-tracing capabilities let the LLM recreate and clean up sketches automatically, replacing much manual drawing."
+1460,E3,"An image-capable LLM can auto-shade, color, and remove backgrounds from drawings, greatly reducing manual airbrush/overlay work."
+20516,E0,Requires hands-on physical testing of parts on the line; an LLM can supply instructions but cannot perform or meaningfully speed up the actual tests.
+3672,E1,"The work is primarily numerical analysis and report writing; supplying the data to the LLM lets it run code, summarize results, and draft the quality report in far less time."
+3660,E1,"Once raw time-study data are typed in, the LLM can analyze distributions, calculate standard times, and draft improvement suggestions, more than halving the deskwork."
+3668,E2,Checking hundreds of log sheets against specifications would be faster with a purpose-built parser that feeds the LLM; simple chat alone is impractical for high volume.
+20518,E0,The core activity is on-site visual observation of workers and machines; LLM advice does not shorten that by 50 %.
+3663,E1,"Scheduling and load-balancing decisions are information-processing tasks the LLM can automate (e.g., generate Gantt charts, what-if tables) from the input data."
+19692,E1,"The LLM can digest regulations, compare them with written procedures, generate checklists, and draft compliance reports once field notes are provided."
+22022,E0,“Adhering” to safety and environmental rules is behavioral/physical; an LLM cannot materially shorten the act of following procedures.
+22023,E1,"Cost models, break-even analyses, and narrative reports can be produced quickly from the underlying figures supplied to the LLM."
+22024,E0,Building and testing prototypes is dominantly physical; LLM input provides limited time savings.
+22025,E0,"Calibrating with gauges is manual, tool-based work that the LLM cannot do or significantly accelerate."
+22026,E1,Statistical comparison of cost alternatives is a data-crunching/report-writing task well suited to direct LLM assistance.
+22027,E1,"Drafting RFQs, comparing vendor specs, and creating schedules are text-heavy tasks the LLM can automate."
+22028,E3,"With an image-capable LLM that can read and generate CAD‐ready drawings, creating or interpreting schematics becomes far faster; text-only chat is insufficient."
+22029,E3,"Plant layout design is largely a spatial drawing problem; an image-enabled LLM could auto-generate and edit layouts, halving the effort."
+22030,E1,"Developing infrastructure plans is mainly writing charters, timelines, and specifications—work the LLM can draft quickly from inputs."
+22031,E1,"Crafting production or safety programs involves writing procedures, checklists, and training docs—straightforward for the LLM."
+22032,E1,Similar to 22031: developing production/QA programs is document-centric and readily accelerated by the LLM.
+22033,E1,"Generating concept notes, literature reviews, and comparative analyses for green technologies is text work the LLM excels at."
+22034,E1,The LLM can analyze maintenance logs or performance data supplied in text and list prioritized improvement ideas quickly.
+22035,E0,Real-time monitoring and mechanical adjustments are physical shop-floor actions beyond the LLM’s reach.
+22036,E0,Supervising equipment start-ups and qualifications requires in-person oversight; LLM cannot cut that time in half.
+22037,E0,Physical inspection of production processes cannot be off-loaded to a text model.
+22038,E3,Drafting detailed machinery sketches becomes much faster with an image-enabled LLM that can generate and edit CAD drawings; text alone is inadequate.
+22039,E1,"SOPs, batch records, and summary reports are purely textual; the LLM can draft and format them rapidly from key parameters."
+22040,E1,"The LLM can generate lesson plans, slide decks, FAQs, and step-by-step guides, greatly reducing prep time for training."
+22041,E1,Analyzing defect data and drafting corrective-action plans are information tasks that the LLM can automate.
+22042,E1,"Selecting proper cleaning agents/tools is a decision based on text criteria (materials, compatibility); the LLM can provide shortlists instantly."
+22043,E1,Determining material quantities or optimal processing methods is calculation and reasoning work suitable for LLM assistance.
+22044,E0,Physically setting up and operating production equipment is manual labor the LLM cannot perform or speed up by 50 %.
+16807,E1,"Laboratory record-keeping is largely writing, editing, and formatting text and tables; an LLM can draft entries, standardize formats, and summarize results, cutting documentation time by well over half."
+16813,E1,"Designing experiments, planning protocols, and interpreting textual or numerical results are all activities for which an LLM can suggest designs, critique plans, and draft interpretations, halving the planning/analysis effort."
+23904,E1,"Grant writing is a text-generation task (project narrative, aims, budgets, biosketches); an LLM can produce strong first drafts and polish revisions, easily reducing writing time by more than half."
+16805,E0,"Performing wet-lab procedures (sequencing, cloning, gel electrophoresis, etc.) is physical bench work; an LLM cannot perform or materially accelerate the hands-on time."
+16815,E0,"“Conduct research” here includes carrying out laboratory experiments as well as analysis; the physical bench component dominates effort, so LLM access cannot halve total task time."
+23905,E1,"Writing or reviewing manuscripts, reports, and slide decks is text creation/editing; an LLM can draft, edit, summarize, and format, more than halving the effort."
+16808,E0,"Actual instruction of students (lecturing, mentoring in person, answering live questions) is highly interactive and face-to-face; an LLM can help prep materials but cannot halve the real teaching time."
+16810,E2,"Coordinating and prioritizing lab activities could be sped up with custom LLM-based scheduling/communication tools, though the raw chat interface alone is unlikely to save 50 % of the coordination effort."
+16814,E1,"Compiling/analyzing experimental data (summaries, statistical scripts) and redesigning experiments are text- and code-centric; the LLM can write analysis code and propose revisions, cutting this portion of work by half."
+16809,E1,"Evaluating new technologies mainly involves literature review and comparative analysis of written specs; an LLM can rapidly summarize papers and highlight pros/cons, halving the review time."
+16804,E2,"Providing high-level scientific direction involves meetings, judgments, and strategy. An LLM can supply background memos and draft guidance, but cannot alone cut the hands-on leadership time by 50 %; dedicated tooling could."
+16802,E0,"Supervising personnel/postdocs requires continuous human interaction, feedback, and conflict resolution; an LLM may draft feedback but cannot meaningfully reduce supervision time."
+16806,E0,"Monitoring or operating chromatography units, flow sorters, thermocyclers, etc. is entirely physical; the LLM cannot shorten hands-on equipment operation."
+16816,E0,"Applied research aimed at disease tests, crops, or biopharma still necessitates substantial laboratory experimentation; LLM help with writing/analysis is insufficient to halve total task time."
+16799,E1,"Drafting procedural guidelines is a writing task; an LLM can generate first drafts, standardize language, and incorporate regulations, clearly cutting writing time by more than half."
+16811,E1,"Designing cell-based assays centers on protocol design, reagent lists, and analytical plans—all text/code. An LLM can propose assay formats and write protocols, greatly shortening design time."
+16800,E2,"Coordinating cross-disciplinary research involves meetings and ongoing discussions; LLM-powered collaboration platforms could help, but plain chat access alone is unlikely to halve the coordination workload."
+16796,E2,"Verifying use of financial, physical, and human resources is a project-management/audit task; with specialized LLM software tied to budgets and inventories this could be halved, but a bare chat interface cannot."
+16798,E1,"Evaluating new supplies/equipment mostly requires reading brochures, protocols, and specs; an LLM can summarize and compare options, halving the literature-review component."
+16797,E2,"Full bioproduct development spans market analysis, lab experiments, and cross-team collaboration; LLM aids some sub-tasks but cannot alone halve the end-to-end workload—dedicated integrated tools would be needed."
+16801,E2,Discussing customization with vendors is interactive and often synchronous; an LLM can draft emails or talking points but does not halve negotiation/communication time without deeper integration into procurement systems.
+16812,E1,"Designing databases (e.g., schema for mutagenesis libraries) is a code/architecture exercise; an LLM can propose schema, write SQL, and generate documentation, easily cutting design time by more than half."
+18618,E1,"Report drafting, structuring, and polishing are text-heavy tasks the LLM can speed up well beyond 50 %."
+9104,E0,"“Conduct” involves planning plus substantial fieldwork/ instrumentation that the LLM cannot perform, so overall time is not halved."
+9108,E0,"Physical measurement dominates; the LLM can only help graph afterward, not enough to cut total effort by half."
+9116,E1,"Literature review, synthesis, and outreach writing are primarily textual and can be greatly accelerated by the LLM."
+9102,E0,"Supervising people and daily coordination are interpersonal, real-time activities the LLM cannot execute directly."
+9105,E1,Analyzing datasets and writing issue studies are desk tasks the LLM can expedite substantially.
+9107,E1,Turning findings into written mitigation plans/recommendations is text work that the LLM can draft quickly.
+9100,E1,Studying/discussing water distributions relies heavily on data analysis and documentation that the LLM can streamline.
+9112,E0,Installing and calibrating instruments requires hands-on field activity beyond the LLM’s scope.
+18617,E1,Coding and refining hydrologic prediction models are classic text-and-code tasks the LLM can speed up.
+9115,E1,Desk-based analysis and write-ups of hydrologic components are amenable to LLM-assisted summarization and drafting.
+9119,E1,Evaluating data sets and writing impact assessments are text-centric and can be cut well over 50 % with the LLM.
+9106,E0,Collecting/processing physical water samples is lab/field work the LLM can’t materially accelerate.
+9103,E1,Preparing written hydrogeologic evaluations is largely document production suited to LLM assistance.
+9113,E1,Reviewing data and writing feasibility recommendations are analytical writing tasks the LLM can expedite.
+9111,E1,Developing or revising study methodologies is conceptual/textual; LLM can generate drafts and comparisons quickly.
+9118,E1,Screening permit documents and drafting recommendation letters are document-review tasks the LLM can handle.
+9120,E0,Monitoring contractors and enforcing rules require on-site observation and authority the LLM lacks.
+9110,E1,Drafting technical answers and guidance for contractors/public is a pure text activity well suited to the LLM.
+9123,E0,Investigating glacial/cryospheric properties commonly demands field or image analysis outside plain text scope.
+9114,E1,Climate assessments involve data interpretation and report writing that the LLM can accelerate materially.
+9121,E0,"Administering sealing programs includes inspections, compliance actions, and stakeholder management beyond text help."
+9109,E0,Resolving complaints entails field investigation and stakeholder negotiation; LLM aids only small document portion.
+9117,E0,Designing civil works and supervising construction require engineering drawings and on-site oversight beyond LLM.
+9122,E1,"Compiling data, scripting map/chart generation, and writing forecasts are data/text tasks the LLM can speed up >50 %."
+18270,E1,"LLM can draft analysis plans, write code/scripts (e.g., Python-GIS workflows), and explain statistical methods, halving data-analysis time."
+18256,E1,"Same: model can generate imagery-processing code and step-by-step GIS instructions, sharply cutting analysis effort."
+18258,E1,Integrating multiple geospatial layers is mostly scripting/query work that the LLM can automate or template.
+18260,E1,"Naming conventions, metadata templates, and database-maintenance scripts can be produced by the LLM, speeding organization."
+18265,E1,"Model can write batch-conversion or re-projection code and suggest compression/tiling settings, halving formatting time."
+18259,E1,"Drafting text, figures’ captions, executive summaries, and slide outlines is squarely within LLM strengths."
+18267,E0,"Actual discussion and negotiation with colleagues is interpersonal and real-time; the LLM can only help with preparation, not cut the live task in half."
+18261,E1,"Writing land-cover classification pipelines (e.g., using rasterio, scikit-learn) can be largely automated via chat prompts."
+18262,E1,Designing collection/analysis/display strategies is largely conceptual and documentation-heavy; the model can draft plans and options quickly.
+18257,E1,"Schema design, SQL creation, and documentation for geospatial databases can be generated by the LLM."
+18264,E0,Physically gathering climatic or field-survey data requires on-site work the model cannot perform or halve.
+18271,E2,Quality monitoring would benefit from a bespoke dashboard that streams sensor logs through an LLM for anomaly alerts; chat alone is insufficient.
+18277,E1,"Creating lesson plans, slide decks, and step-by-step tutorials can be automated with the model, reducing preparation time >50 %."
+18276,E0,Physically setting up or maintaining sensors/hardware cannot be accelerated substantially by a text interface.
+18263,E0,Directing implementation/operations is primarily managerial and people-oriented; LLM help with memos doesn’t halve the effort.
+18273,E1,"The model can summarize papers and draft notes, cutting literature-review time even though meeting attendance itself remains."
+18266,E1,"For conceptual research, the LLM can suggest hypotheses, draft methods sections, and survey prior work, greatly speeding early stages."
+18275,E2,"Recommending new hardware/software needs up-to-date specs; with an app that feeds current product data to the LLM this could be halved, but chat alone lacks fresh facts."
+19774,E1,Writing scripts to derive biomass or carbon metrics and drafting impact reports can be mostly automated via the model.
+18268,E1,"LLM can generate image-artifact-correction algorithms and code samples, accelerating routine creation."
+18269,E1,"Prototyping new analytical techniques or sensor concepts begins with literature reviews and algorithm drafts, both well supported by the model."
+18274,E0,Fieldwork requires physical presence and instrument handling; LLM cannot meaningfully shorten this.
+19773,E1,"The model can create end-to-end scripts for surface-water modelling, dust detection, etc., and write interpretive text, halving task time."
+18272,E0,Directing installation/testing of hardware is hands-on and coordination-heavy; text assistance does not reduce the task by 50 %.
+5606,E2,"Record-keeping is largely data entry inside a student-information system; a stand-alone chat tool helps little, but an LLM-enabled SIS that auto-summarizes sessions and fills forms could easily halve the time."
+18627,E2,"The core activity is live student counseling; a future LLM chatbot or scheduling/decision-support layer could off-load much of the routine guidance, but a plain chat window cannot."
+5608,E0,Crisis intervention is an in-person responsibility that requires real-time human judgment and presence; text assistance cannot materially shorten it.
+23990,E0,Personal or group counseling depends on direct human interaction and rapport; LLM text help cannot cut the counselor’s time by half.
+5631,E1,"Reviewing credits and drafting recommendation letters are text-heavy tasks that the counselor can paste into the model, which can check requirements and generate letters, saving well over 50 % of writing time."
+5611,E0,Motivating and encouraging students happens through live interaction; LLM may supply talking points but does not reduce the interactive time significantly.
+23991,E2,"Creating referral lists and templated emails could be automated by an LLM-powered directory tool, though a raw chat interface alone cannot access local provider databases."
+5632,E2,Matching students to programs could be sped up by an LLM application that ingests interest inventory data and school catalogs; simple chat access lacks those data feeds.
+18625,E2,"Administering and scoring assessments could be automated by an LLM-based testing platform, but the counselor still must conduct interviews; chat alone is insufficient."
+5616,E2,"Up-to-date college, aid, and apprenticeship facts require retrieval; an LLM with search integration would halve prep time, whereas bare chat risks outdated information."
+5621,E0,Follow-up interviews are person-to-person conversations whose duration is fixed by the interaction itself.
+5626,E1,"The model can instantly generate résumé templates, job-search checklists, and mock-interview questions, letting the counselor deliver the same instruction in less than half the prep time."
+5625,E2,Determining aid or training needs could be streamlined by an LLM form-filling triage tool; stand-alone chat cannot access agency databases.
+18631,E1,"Drafting agendas, emails, flyers, and schedules for career events is text production that an LLM can largely automate, halving planning effort."
+18630,E0,Physically attending meetings and conferences cannot be shortened by text assistance.
+5619,E2,"Lesson creation can be accelerated by LLM, but actual teaching time dominates; integrated slide/handout generators could reach the 50 % mark."
+5624,E2,"Planning orientation materials can be automated by LLM software, but conducting the sessions still requires significant human time."
+5627,E0,Publicly addressing groups mainly involves live speaking time that the LLM cannot remove (speech-drafting time is minor in comparison).
+5623,E1,"Writing periodic administrative reports is almost entirely text generation that the LLM can draft from bullet notes, easily saving more than half the time."
+5630,E1,"Producing information packets or emails for faculty is document creation well suited to direct LLM assistance, cutting effort by over 50 %."
+18628,E2,Building master schedules and revising programs could be sped up by an LLM-driven scheduling tool; a simple chat interface lacks data integration.
+18634,E2,Recruitment event planning involves much templated communication and scheduling that an LLM-based CRM could automate; raw chat alone will not integrate with outreach systems.
+18626,E0,Detecting abuse cases and persuading families requires sensitive face-to-face interaction; LLM support cannot replace that time.
+18624,E0,"Conferencing with parents, teachers, and administrators is live discussion the LLM cannot meaningfully shorten."
+5633,E2,"Developing curricula for prevention programs can be automated by an LLM, but delivering classes still takes human time; specialized software could reach the 50 % threshold."
+5634,E0,Physically providing devices and assistance to students with disabilities requires on-site action beyond text capabilities.
+18632,E2,"Drafting behavior policies can be handled by LLM, yet enforcement is human; a policy-generation app could halve drafting effort."
+18635,E0,"Supervising and training staff is an interpersonal, observational activity not reducible by a chat model."
+5636,E0,Conducting intake interviews necessitates real-time conversation; LLM note-taking would not halve the interview duration.
+5629,E1,"Compiling occupational and economic data and summarizing it for students is a research-and-writing task the LLM can do directly, more than halving manual effort."
+18633,E0,Building employer relationships relies on networking and ongoing human interaction that text automation cannot substantially shorten.
+5637,E2,"An LLM could draft program guidelines and training materials for peer tutoring, but supervision still takes human time; a purpose-built app could hit 50 % savings."
+18629,E0,Observing students’ behavior and health is an in-person activity outside LLM scope.
+5639,E2,Matching students to employers could be automated by an LLM-enhanced placement system; plain chat lacks employer databases.
+5640,E0,Sponsoring clubs and contests requires on-site presence and supervision that a text model cannot replace.
+18491,E1,"Drafting affidavits and other correspondence is a text-generation task the LLM can do directly; organizing electronic files can be semi-automated with its instructions, so total effort is cut well over half."
+23994,E1,"Preparing, editing, and reviewing legal documents is almost entirely text work that the LLM can draft, red-line, and analyze, saving more than 50 % of the time."
+21062,E2,"Fact- and law-finding requires searching external databases and the open web; an LLM-powered research tool that fetches sources and lets the model summarize them would cut the work in half, but the bare chat model cannot."
+18492,E2,"Physically/ digitally gathering and labeling exhibits still takes manual effort, but software that feeds the documents to an LLM to auto-create exhibit lists, captions, and indices would halve the preparation time."
+18493,E0,The core of the task is live interaction with clients and professionals; an LLM can supply talking points but cannot eliminate most of the meeting time.
+1636,E2,"Gathering statutes, cases, and articles needs database searching; an LLM-enhanced legal-research platform (like today’s emerging tools) could retrieve and summarize sources, halving the effort, whereas the chat model alone cannot."
+18494,E0,Filing pleadings involves logging into court e-filing systems or visiting the clerk—steps the LLM cannot perform; drafting help does not remove the bulk of the filing time.
+1639,E0,Coordinating office logistics and arranging physical delivery of subpoenas are people- and task-management activities that still require human follow-through; chat assistance offers little time savings.
+1638,E0,"Contacting witnesses and securing their attendance is largely interpersonal outreach (calls, emails, scheduling) that an LLM cannot execute autonomously, so time savings are minimal."
+18496,E0,"Arbitrating disputes and attending closings demand real-time human judgment and presence; while the LLM can draft summaries of title searches, it cannot conduct the arbitration itself, so overall time is not halved."
+1642,E0,Appraising and inventorying property requires on-site inspection and valuation—physical tasks outside the LLM’s scope.
+1641,E2,"Monitoring legal volumes for updates could be streamlined by software that regularly scrapes publishers’ feeds and has the LLM flag needed replacements; with such a tool, the work time could be reduced by more than half."
+6378,E1,"An LLM can read a rubric, ingest each submission, suggest scores, and draft individualized feedback, cutting grading time well beyond half."
+6379,E0,Real-time classroom discussion requires in-person facilitation and social management that a text-only LLM cannot perform.
+20104,E1,"The model can quickly outline topics, draft lecture notes, examples, and slide text, reducing preparation time by more than half, though the teacher still delivers the lecture."
+6382,E1,"The LLM can generate exam questions/answer keys and grade written responses or build grading scripts, greatly accelerating the process."
+6381,E1,"Syllabi, homework sets, and handouts are text artifacts the model can draft or revise directly on request."
+6383,E1,"Feeding recent papers into the chat, the LLM can summarize, highlight debates, and draft notes, making it faster to stay current even though final reading/judgment remains human."
+6384,E1,"The model can write spreadsheet formulas, database queries, or short scripts to automate attendance and grade calculations, halving record-keeping time."
+20105,E1,"Drafting sections, refining prose, suggesting structures, and formatting references are all well within direct LLM assistance."
+6390,E0,"Department-head duties involve meetings, budgeting, and personnel decisions where text help is marginal relative to total time spent."
+6389,E1,"Literature reviews, argument mapping, and manuscript drafting can be sped up substantially with direct LLM help, even though original insight remains human."
+6385,E1,"The LLM can critique existing curricula, suggest readings/activities, and draft revised materials quickly."
+6386,E0,Holding office hours is fundamentally a live interpersonal activity; LLM prompts cannot remove the need to be present for students.
+6388,E0,Academic and career advising depends on personal interaction and institutional knowledge; LLM help won’t halve the adviser’s required time.
+6396,E0,"Supervising student research/teaching involves observation, feedback meetings, and assessment beyond what a text assistant can replace."
+6387,E1,"The model can generate comparison tables of textbooks, summarize reviews, and draft ordering justifications, speeding selection markedly."
+6392,E0,"Effective collaboration entails meetings, negotiations, and shared decisions; drafting documents is a small fraction of the time."
+6391,E0,Committee service is dominated by synchronous discussion and decision-making that text suggestions cannot meaningfully replace.
+6395,E0,"Recruitment and registration require live events, interviews, and institutional processes where LLM drafting of materials offers limited overall savings."
+6394,E1,"The LLM can instantly generate or format specialized bibliographies in required citation styles, cutting the task time drastically."
+6393,E0,Participation in events is intrinsically physical and social; an LLM cannot stand in for attendance.
+6397,E0,"Advising student organizations requires meetings, mentoring, and oversight not reducible by a chat assistant."
+6398,E1,"Grant writing is text-intensive; the LLM can draft aims, budgets narratives, and revise to fit guidelines, easily halving effort."
+6673,E0,"Classroom instruction, discussion, and demonstrations all require the teacher’s real-time physical and social presence; chat access to an LLM cannot cut that in-person time by half."
+6674,E0,Setting and enforcing behavior rules is an on-site classroom-management activity that the LLM cannot perform or halve.
+6671,E1,"The “prepare materials” portion (worksheets, slides, handouts) can be generated or adapted by an LLM in minutes instead of hours, cutting preparation time well over 50 %; only the physical room setup remains manual."
+6675,E0,"Observing students’ behavior, development, and health is a live, in-class activity; the LLM can help write notes afterward, but cannot eliminate even half the observation time."
+6681,E0,Delivering systematic occupation-specific instruction is fundamentally face-to-face teaching; an LLM cannot replace or halve that class time.
+6676,E0,Monitoring students’ use of tools and ensuring safety must be done in person; the LLM offers negligible time savings.
+6682,E1,"Drafting clear lesson objectives and wording them for students can be off-loaded to the LLM, cutting the planning/write-up time by more than half."
+6683,E1,"The LLM can rapidly create slide decks, scripts, and multimedia suggestions, reducing prep time for computer/AV-supported presentations well beyond 50 %."
+6688,E0,Guiding and counseling students depends on live interpersonal interaction; an LLM cannot meaningfully shorten that contact time.
+6672,E2,"Accurate record keeping is tied to school information systems; an LLM-powered layer integrated with those systems could auto-populate narratives and summaries, halving effort, but plain chat access alone cannot."
+6677,E0,"Although planning could be helped, the “conduct” portion (running activities, supervising) dominates the time, so overall time savings stay below 50 %."
+6678,E1,"The LLM can draft tests, answer keys, rubrics, and even grade written work given student responses, easily reducing preparation and grading time by over half."
+6680,E1,"Generating and grading classwork/homework can largely be automated or streamlined with the LLM, cutting required time more than 50 %."
+6679,E0,Enforcing school policies is real-time supervisory work; the LLM cannot perform or significantly shorten it.
+6703,E0,Physically assisting students with disabilities or devices is hands-on labor outside the LLM’s scope.
+6685,E0,"Motivating and encouraging students is an in-person, relational task; LLM suggestions do not halve the face-to-face time."
+6695,E0,Supervising projects and field trips is largely on-site oversight; planning help from an LLM does not cut total task time by 50 %.
+6686,E0,Resolving behavioral/academic problems requires live meetings and conversations; the LLM offers limited time reduction.
+6690,E1,"The LLM can quickly summarize research articles and emerging trends supplied in text, halving the teacher’s reading/synthesis workload."
+6684,E0,Supervising work-experience programs entails on-site coordination and oversight that the LLM cannot replace or halve.
+6691,E0,Meetings with professionals are synchronous human interactions; the LLM can draft minutes but cannot reduce meeting time by half.
+6692,E0,Implementing remedial programs involves direct teaching time that the LLM cannot substantially shorten.
+6687,E1,"Writing course outlines that align with standards can be largely automated with the LLM, cutting drafting time more than 50 %."
+6694,E0,"Parent-teacher conferences are live discussions; LLM-generated notes help, but the meeting time itself remains."
+6699,E2,"Effective job placement relies on real employer contacts; an LLM-enhanced placement platform could match and message employers and halve effort, but raw chat access alone cannot."
+6689,E2,"Selecting, ordering, and inventorying supplies would benefit from an LLM-enabled inventory/procurement system; without such software, chat access gives only minor aid."
+6697,E0,Sponsoring clubs and contests requires physical supervision and event attendance beyond the LLM’s reach.
+6698,E0,Program development is collaborative and meeting-heavy; the LLM can draft documents but cannot halve overall collaboration time.
+6696,E0,Attending conferences and workshops is physical presence/time that the LLM cannot reduce.
+6700,E0,Lesson-scheduling meetings are synchronous; the LLM cannot significantly shorten that required interaction.
+6693,E1,"Writing mandated reports can be off-loaded to the LLM once raw data are provided, easily more than halving report-writing time."
+6701,E0,Staff meetings and committee service require real-time attendance; the LLM offers little time reduction.
+6702,E0,Duties like hall monitoring or bus loading are physical supervision tasks outside the LLM’s capability to shorten.
+7631,E2,"An LLM in a chat window can draft taxonomies, but organizing large collections item-by-item still takes substantial manual work; a purpose-built LLM tool that ingests the whole archive and bulk-generates metadata/classifications would cut the time by >50 %."
+7633,E2,"Answering patron questions quickly would require a chatbot tied to the archive’s full catalog; the LLM alone (without that integration) cannot do so, but an application built on top of it could."
+7635,E1,"Writing or polishing item descriptions is a text-generation task that the archivist can off-load directly to the LLM, cutting drafting time well beyond half."
+7630,E1,"Designing database schemas, writing import/export scripts, and updating documentation are coding/writing tasks that the LLM can assist with directly, reducing development/maintenance time by at least half."
+7637,E1,"Policy statements and access guidelines are long prose documents; the LLM can draft, revise, and format them quickly, halving the writing effort."
+7634,E0,"The core of this task is in-person supervision, scheduling, and quality control of staff—activities the LLM cannot materially shorten."
+7636,E0,"Physical conservation, digitization, and media transfer require hands-on labor and specialized equipment; an LLM offers only minor advisory help."
+7639,E1,"Compiling background histories, drafting provenance notes, and summarizing significance are text-heavy research tasks that the LLM can accelerate substantially."
+7638,E0,"Identifying and negotiating for new acquisitions and planning displays rely on field contacts, market knowledge, and curatorial judgment that the LLM cannot meaningfully speed up on its own."
+7632,E0,Authenticating and appraising artifacts demands direct physical inspection and expert judgment; an LLM can provide reference material but cannot halve the required effort.
+7641,E1,"Creating tour scripts, workshop outlines, promotional copy, and teaching materials are writing-centric tasks the LLM can generate quickly, cutting preparation time by more than half."
+7640,E1,"Evaluating items for retention/acquisition involves extensive literature searches and note-taking, which the LLM can draft or summarize, greatly reducing research time."
+7642,E1,"Selecting text excerpts is judgment-based, but editing, summarizing, and formatting those documents are text tasks the LLM can perform directly, halving the editorial workload."
+1764,E1,"Crafting clear written replies, FAQs, and talking points is the bulk of “responding to media requests”; an LLM can draft those responses or spokesperson blurbs in minutes, cutting writing time well past 50 %."
+20555,E1,"The heart of this task is writing strategic communication plans, messages, and schedules—work an LLM can draft, iterate, and polish quickly, halving preparation time for an average practitioner."
+23951,E1,"Generating social-media copy, re-writing posts for tone/length, and proposing hashtags or images can all be off-loaded to the LLM, so the human mainly copies text into the platform, reducing effort by more than half."
+20554,E1,"Press-release writing is a pure text-generation/editing job; the LLM can draft, re-angle, and proof releases in minutes, easily cutting writing time by over 50 %."
+1765,E0,Building and sustaining real-world relationships with community or employee groups is dominated by in-person/phone interaction and ongoing rapport; LLM-generated emails or scripts do not cut total effort by half.
+1770,E2,"Identifying internal/external trend data and summarizing it for managers could be sped up dramatically if a tool fed company data into the LLM, but chat access alone can’t join meetings or gather proprietary info, so >50 % savings would need extra software."
+1772,E1,"The specialist can role-play Q&A sessions, draft feedback, and create training decks with the LLM, slashing prep/coaching-material creation time by more than half."
+1769,E1,"Formulating PR strategies is largely a writing/research exercise; the LLM can outline strategies, briefs, and key messages rapidly, cutting development time at least in half."
+20557,E1,"Newsletters and reports are text documents; the LLM can draft, rewrite, and proof them quickly, reducing the editing/creation workload well beyond 50 %."
+1768,E2,"Event arranging requires venue outreach, contracting, and logistics; an LLM could auto-generate schedules/emails if integrated with calendars and contact tools, but chat alone won’t halve total coordination time."
+1775,E2,"Designing surveys and interpreting raw results could be sped up drastically if survey data flowed directly into the LLM, yet stand-alone chat can’t collect data, so >50 % savings hinges on added software."
+19811,E1,"Drafting environmental communication plans and collateral is primarily text work; the LLM can create outlines, slogans, and copy swiftly, halving preparation effort."
+1767,E2,"Coordinating with production staff means tracking specs, timelines, and approvals; an LLM-powered workflow tool could cut this time, but plain chat cannot, so additional integration is needed for 50 %+ savings."
+1771,E2,"Arranging multi-channel ad campaigns involves negotiating budgets, schedules, and creatives; an LLM could assist if tied to media-buying platforms, but chat alone can’t finish the transactional pieces fast enough."
+1773,E1,"Speechwriting is text generation; the LLM can draft or refine speeches and talking points quickly, more than halving writing time even though delivery is still done by the human."
+19809,E2,"Crisis-response coordination needs real-time monitoring, approvals, and cross-channel rollout; a dedicated LLM dashboard could help, but chat alone cannot reliably cut overall coordination time by half."
+19810,E1,"Creating campaign concepts, slogans, and copy for environmental tech is squarely a writing/ideation task that an LLM can accelerate enough to save over 50 % of the effort."
+1774,E2,"Purchasing ad space requires platform log-ins, budget approvals, and transactional steps; an LLM could recommend buys but can’t execute them without additional integrated software, so time savings >50 % needs further tooling."
+7720,E0,"Requires face-to-face creative discussion and critical listening with producers and performers; an LLM cannot meaningfully replace or halve that interpersonal, auditory work."
+7722,E2,"With additional DAW-integrated software that lets an LLM issue real-time fader/plug-in commands, volume and quality control could be largely automated, but the chat interface alone cannot."
+7727,E0,"Actually capturing sound demands physical mic placement, operating recorders, and auditory monitoring; an LLM can give tips but cannot cut the hands-on time in half."
+7729,E2,"Source-separation and mixing could be accelerated by an LLM-driven plug-in that chains existing DSP tools and writes automation, yet the bare chat interface is insufficient."
+18662,E0,"Setting up and adjusting microphones, cables, and consoles is manual, equipment-heavy work that an LLM cannot perform or shorten substantially."
+7724,E1,"Writing and formatting equipment-problem reports are text tasks the LLM can draft quickly, reducing reporting time by more than half while the technician still initiates repairs."
+7723,E0,Selecting physical mics and positioning them is hands-on and location-specific; LLM guidance doesn’t eliminate the bulk of the work.
+7725,E2,"An LLM-enhanced live-sound or DAW assistant could auto-mix and suggest edits, halving effort, but this requires purpose-built integration beyond chat."
+7730,E1,Keeping session logs is primarily text generation; dictating notes to an LLM and having it format time-stamped logs can easily more than halve the clerical workload.
+18660,E0,Physically striking and packing gear is entirely manual labor; no textual assistance meaningfully reduces the time required.
+7726,E0,"Syncing audio to picture involves precise audio-video alignment tools, not text; without video-processing capability the LLM offers little speed-up."
+7728,E0,Operating duplication hardware or DAW export processes is largely mechanical; LLM suggestions provide negligible time savings.
+18661,E1,"Converting media is software-driven; the LLM can write batch-conversion scripts and command-line strings, cutting task time well over half."
+7731,E1,"MIDI programming is text-like code; the LLM can generate or transform MIDI data and scripts quickly, greatly reducing programming time."
+18327,E2,"An LLM-powered dashboard that ingests real-time vitals/labs could flag emergencies and cut evaluation time in half, but using a stand-alone chat window would not."
+18334,E2,Continuous status surveillance could be automated with an LLM layer on top of the monitor/EHR; a plain chat interface cannot materially speed bedside monitoring.
+18330,E0,Giving drugs is a hands-on activity; an LLM offers negligible time savings.
+18333,E2,Software that streams I&O data to an LLM and highlights trends could halve the work; direct chat use would not.
+18344,E2,"A task-prioritization tool that synthesizes all patient data with an LLM could save >50 % of planning time, but chat alone cannot."
+18339,E1,"If the nurse copies test results into chat, the LLM can instantly summarize and analyze, halving the manual write-up effort."
+18340,E0,Detecting breath sounds and patterns requires in-person assessment; an LLM cannot replace that.
+18335,E0,Pain or sedation assessment depends on direct patient interaction and observation.
+18337,E2,An LLM-enabled shared workspace could draft multidisciplinary plans quickly; chat alone does not cut collaboration time by half.
+18341,E1,"The nurse can dictate findings and have the LLM structure and polish the chart note, substantially reducing documentation time."
+18338,E0,Specimen collection is purely physical.
+18332,E0,Setting up and adjusting devices is a manual task; LLM help is marginal.
+18329,E0,Blood administration and reaction monitoring are hands-on clinical duties.
+18331,E0,Emotional support and advocacy rely on real-time human presence and empathy.
+18348,E0,Evaluating family coping requires face-to-face communication and observation.
+18328,E0,Therapeutic and diagnostic procedures demand physical performance.
+18345,E0,Assisting in invasive procedures is manual and cannot be halved by text assistance.
+18353,E2,"An LLM-based staffing and oversight tool could generate shift reports and feedback, but stand-alone chat gives limited benefit."
+18347,E0,Detecting faulty equipment involves physical inspection and testing.
+18342,E1,"The LLM can turn rough notes into complete, standardized care‐plan documentation quickly."
+18343,E1,Typing relevant data into chat lets the LLM apply nutrition-risk criteria and produce a risk assessment in seconds.
+18336,E0,Psychosocial assessment hinges on direct conversation and observation.
+18325,E1,"The LLM can rapidly list age-specific considerations and suggest plan adjustments, saving significant planning time."
+18350,E1,"The LLM can summarize research articles, draft abstracts, and prepare CE materials, halving prep time."
+18351,E1,Drafting and revising protocols is largely a writing task that an LLM can accelerate.
+18349,E2,"Scheduling tools that use an LLM to prepare agendas, summaries, and follow-ups could halve conference coordination time."
+18326,E0,Post-mortem care is entirely hands-on.
+18352,E1,"Creating lesson plans, slide decks, or evaluations is text generation the LLM can handle quickly."
+18346,E0,Physically returning equipment to storage cannot be sped up meaningfully by an LLM.
+18418,E1,"The physician can paste shorthand or bullet-point notes from the visit into the chat and have the LLM expand them into a well-structured, complete history much faster than writing it out manually."
+18412,E0,Patient education is delivered face-to-face and tailored in real time to questions and demonstrations; a stand-alone chat LLM does not appreciably shorten that in-person interaction.
+18413,E0,Advising patients about exercise or nutrition likewise happens in a live clinical conversation requiring personal interaction and judgment; a chat LLM cannot cut that time in half.
+18410,E0,Physical examinations and physiological tests require hands-on skills and equipment; text assistance alone offers no meaningful time savings.
+18409,E0,"Physically dispensing or prescribing natural medicines is governed by regulation and patient interaction; the LLM cannot perform or meaningfully speed up this manual, legally controlled act."
+18411,E0,Interviewing patients is an in-person dialogue that the clinician must conduct; a chat interface cannot replace or halve the time of the live interview.
+18414,E1,"The clinician can enter summarized findings into the LLM and receive differential diagnoses or draft assessment notes, reducing charting and reasoning time by well over half."
+18408,E0,Administering the listed physical therapies is a manual activity that a text model cannot help perform or expedite.
+18420,E1,"The LLM can draft referral letters, consultation summaries, and concise information packets, speeding up the documentation side of professional consultations."
+18407,E2,"Ordering imaging generally occurs inside an EHR; with additional LLM-enabled software that auto-fills requisition forms, time could be halved, but the chat model alone cannot."
+18406,E1,"The LLM can quickly summarize new research papers, generate study notes, and quiz the physician, cutting self-study and continuing-education prep time by more than half."
+18424,E0,"Obtaining outside records involves contacting other offices, authorizations, and logistics that a chat LLM cannot meaningfully accelerate by itself."
+18423,E0,Giving immunizations and conducting physical screenings are hands-on clinical tasks; text assistance does not shorten the procedure time materially.
+18415,E0,Venipuncture is a manual skill; the LLM cannot perform or substantially speed up the blood-draw process.
+18422,E1,"The physician can paste health-agency bulletins into the LLM for rapid summarization and extraction of key updates, halving monitoring time."
+18405,E0,Manual mobilizations and high-velocity adjustments require physical execution; text help provides no time savings.
+18417,E1,"The LLM can draft prescriptions and associated notes once the clinician decides on the drug, reducing documentation time by more than half."
+18421,E1,Generating required public-health reports is largely a writing task; the LLM can transform raw clinic data into properly formatted reports quickly.
+18416,E0,Treating minor wounds is a hands-on procedure; a chat LLM cannot shorten the physical care time.
+18419,E0,Minor surgical procedures are entirely manual and procedural; the LLM provides no direct time reduction in performing them.
+17395,E3,Detecting cellular abnormalities is a visual-pattern-recognition activity that could be greatly accelerated if slide images were digitized and fed to an LLM-plus-vision system that highlights suspect cells for the technologist.
+17401,E2,"Verifying patient/specimen identifiers is chiefly clerical; a lab-information system that uses the LLM to read barcodes/labels and cross-check records could cut the time by half, but the LLM chat interface alone would not."
+17405,E3,"Deciding which slides are “abnormal” depends on image review; an LLM with image capabilities could flag those slides and prompt the user to forward them, reducing the cognitive portion of the task by >50%."
+17397,E3,"While physical sample preparation is manual, the subsequent microscopic analysis can be sped up with an LLM-vision tool that screens images for abnormal cells, halving overall prep-plus-analysis time."
+17396,E3,"Evaluating specimen quality is a visual judgment; an image-enabled LLM could instantly score focus, staining, and cellularity, letting the technologist reject/accept slides faster."
+17402,E1,"The LLM chat interface can instantly surface regulatory standards, draft SOPs, and generate safety checklists, cutting the time needed to maintain compliance by more than half."
+17398,E1,"Summarizing microscopic findings and merging them with patient data is largely writing; the LLM can draft concise text for the pathologist, reducing documentation time by at least 50%."
+17399,E0,Collecting FNA samples is a hands-on medical procedure; the LLM offers no meaningful time savings without physical capabilities.
+17404,E0,Applying special stains is a manual bench technique requiring reagents and equipment; the LLM cannot automate or speed up the physical process.
+17406,E0,"Adjusting, maintaining, or repairing microscopes is hands-on mechanical work that an LLM cannot perform or substantially accelerate."
+17407,E1,"Task assignment and scheduling are text-based planning problems; an LLM can draft rotas, balance workloads, and send reminders, easily halving the coordinator’s effort."
+17408,E1,"The LLM can condense continuing-education materials into summaries, generate practice quizzes, and highlight key updates, reducing the study time needed to meet CE requirements by more than half."
+17400,E3,"Detecting abnormal hormone conditions often involves interpreting immunocytochemical stains or hormone assays on slide images; an image-enabled LLM could quickly flag positive/negative patterns, speeding interpretation."
+9384,E0,"Requires hands-on fitting, physical adjustments, and direct observation of patient comfort—all physical activities beyond an LLM’s scope."
+9385,E0,The time-consuming part is face-to-face patient instruction; an LLM can draft handouts but cannot cut instruction time by ≥50 %.
+9387,E1,"Clinical note writing and record updates are text-heavy; an LLM can draft or transcribe notes, halving documentation time."
+9383,E0,"In-person examination, interviewing, and precise physical measurement dominate the task; LLM help is marginal."
+9389,E1,"Choosing materials/components is largely knowledge-based; an LLM can quickly compare options and draft bills of materials, saving substantial time."
+9386,E1,"Conceptual device design decisions and written specifications can be accelerated by an LLM (templates, rationale, calculations), even though final CAD work is still manual."
+9391,E0,Physical repair and modification of appliances cannot be meaningfully accelerated by text assistance alone.
+9392,E0,Fabrication and shop-floor supervision are hands-on activities with minimal benefit from a chat-based LLM.
+9388,E0,"Creating or modifying plaster casts is a manual, tactile process outside LLM capabilities."
+9390,E1,Drafting and refining written specifications/prescriptions after discussions with physicians is text-centric; an LLM can cut prep and revision time by more than half.
+9395,E0,The core activity is live demonstration and explanation of devices; LLM can produce slide decks but cannot halve overall in-person teaching time.
+9393,E1,"Preparing training curricula, manuals, and quick-reference guides for support staff is text creation well suited to an LLM, reducing prep effort substantially."
+9394,E1,"An LLM can summarize recent literature and conference proceedings, streamlining self-education and cutting study time by ≥50 %."
+9396,E1,"Literature review, idea generation, and drafting research protocols are text-heavy tasks where an LLM can markedly speed up work."
+9397,E1,"Writing papers, posters, or slide decks is squarely in the LLM’s wheelhouse, easily halving preparation time for publications and presentations."
+4293,E0,"Operating and maintaining an autoclave is hands-on, and the record keeping is a small portion of the overall effort, so an LLM would not cut total task time in half."
+4292,E0,Physically cleaning instruments cannot be sped up substantially with a text-only LLM.
+4294,E1,"The job is essentially writing test results; an LLM can draft, format, and log these entries from dictated notes, cutting documentation time by well over half."
+4291,E0,Assembling and organizing surgical trays is manual handling work; an LLM offers negligible time savings.
+4297,E0,"Detecting leaks or worn parts requires physical inspection of equipment, outside an LLM’s scope."
+4298,E1,"The core activity is writing a defect report; an LLM can generate clear, standardized reports quickly from brief notes, halving documentation time."
+18703,E1,"Maintaining usage records and drafting supply orders are text-centric; an LLM can summarize logs and auto-generate purchase orders, cutting administrative time by at least half (physical counting still remains separate)."
+18702,E0,Stocking carts is a manual restocking activity with no significant benefit from a text-only LLM.
+4296,E0,"Starting equipment and watching gauges are physical, real-time monitoring tasks; an LLM cannot meaningfully accelerate them."
+4299,E0,Checking expiration dates involves physically inspecting packages; a text-only LLM offers little aid.
+4301,E0,“Attending” in-service programs is a time-fixed requirement; an LLM cannot shorten the attendance itself.
+4295,E0,Disinfecting and sterilizing equipment is hands-on machine operation; an LLM cannot reduce the physical work time appreciably.
+4302,E0,Purging wastes by flushing equipment is manual; an LLM cannot speed the physical procedure.
+4303,E0,Delivering equipment involves physical transport; an LLM provides no substantial time savings.
+4304,E0,Assisting with patient transport or traction setup is physical patient-care work; an LLM cannot halve the time required.
+566,E2,"An LLM can supply checklists, legal summaries, and written guidance, but the core of supervising and coordinating investigations is in-person decision-making and oversight; cutting the overall time by half would require additional integrated case-management software."
+574,E1,"Scheduling is largely a text-and-constraint problem; with staffing data provided, an LLM can draft duty rosters or revise existing ones in minutes, easily halving preparation time."
+571,E0,"Directing the physical collection and chain-of-custody handling of evidence is a hands-on, on-scene activity; an LLM cannot meaningfully reduce the time required."
+567,E0,"Resolving personnel problems entails live interviews, judgment, and negotiations; while an LLM can draft documentation, the time-intensive human interactions dominate."
+564,E1,"Explaining operations is largely a communication task; the LLM can quickly generate clear written briefs, talking points, and FAQs, cutting preparation time by more than half."
+569,E1,Report writing and log maintenance are text-heavy; feeding raw notes to an LLM to draft polished reports and summaries can more than halve the effort.
+565,E1,"The LLM can read new statutes/policies supplied as input and instantly draft succinct notices or slide decks to inform staff, greatly reducing preparation time."
+568,E2,"Classroom/field training itself is physical, but software built on an LLM could auto-generate lesson plans, quizzes, and scenario scripts to reduce the preparation portion by half."
+575,E0,"Disciplining staff centers on hearings, counseling sessions, and authoritative decisions; drafting letters is a small fraction of the total effort."
+570,E2,"Performance monitoring is observation-driven, yet an LLM-powered appraisal tool that ingests incident metrics and narrative notes could draft evaluations quickly, halving paperwork time."
+577,E1,"Reviewing written orders for legal sufficiency is a text-analysis task; the LLM can highlight inconsistencies and propose revisions, cutting review time by more than half."
+573,E0,"Planning and executing raids and detentions are operational, real-time field activities where an LLM offers negligible time savings."
+576,E0,Testifying and coordinating with courts are fundamentally in-person duties; LLM-generated drafts help minimally relative to total time spent.
+581,E0,Community meetings and program development require face-to-face engagement and relationship building; LLM assistance cannot halve this effort.
+578,E0,"Physically inspecting facilities, vehicles, and equipment is hands-on; no text tool can significantly shorten the process."
+582,E0,Authorizing prisoner release or transfer is a decision and administrative sign-off task tied to real-time custody checks; LLM adds little speed advantage.
+580,E1,"Requisitioning equipment involves document creation and justification; an LLM can draft purchase requests and track supply lists quickly, halving paperwork time."
+572,E1,"Policy drafting is a core writing task; with relevant constraints provided, an LLM can generate or revise policy manuals far faster than manual drafting."
+579,E1,"Composing press releases and formal correspondence is pure writing; an LLM can produce polished drafts in minutes, easily cutting time by more than half."
+583,E2,"Budget preparation needs numerical data integration; an LLM alone helps with narrative sections, but an LLM-enabled budgeting tool pulling live figures could cut total preparation time by half."
+2276,E0,"Taking or swiping cards / cash and returning change or receipts is a purely in-person, physical activity; an LLM chat window does not materially shorten the time required."
+2275,E0,Age verification requires physically viewing the customer’s ID and judging its authenticity; an LLM cannot perform that on-site check or halve the time involved.
+2277,E2,"A speech- or tablet-based, LLM-driven ordering interface could capture guests’ orders directly and route them to the kitchen, cutting the waiter’s order-entry effort by more than half."
+2279,E0,"Gauging satisfaction and resolving problems hinges on real-time, face-to-face interaction and physical service; an LLM cannot substantially reduce the time spent."
+2278,E2,"With an LLM-powered ordering kiosk or voice assistant, patrons could place most orders themselves, greatly reducing the waiter’s workload for this task."
+2281,E0,Modern POS terminals already calculate totals and taxes instantly; adding an LLM offers no further meaningful time savings to the waiter.
+18745,E0,Clearing plates and carrying them to the kitchen is a manual activity that software cannot do for the waiter.
+2285,E0,Wiping and resetting tables is physical cleaning work that an LLM cannot assist with.
+2280,E0,Physically delivering food or tableside preparation requires human presence; an LLM cannot shorten this time.
+18747,E0,"Sweeping, mopping, trash removal, and bathroom checks are manual chores outside an LLM’s scope."
+2283,E2,"A digital menu or tabletop chatbot backed by an LLM could answer menu questions and make recommendations directly to guests, removing much of the waiter’s explanatory burden."
+2288,E0,"Laying linens, silverware, and glassware involves manual setup; no LLM help."
+2290,E0,"Restocking physical items (coffee, tableware, linens) is manual labor unchanged by an LLM."
+18744,E0,Rolling silverware and configuring dining areas require hands-on work; an LLM cannot halve that time.
+2284,E0,"Reciting daily specials is a brief, verbal interaction; even if software displayed them, it would not cut the waiter’s overall task time by half."
+2287,E0,"Explaining preparation methods is a minor, conversational duty; direct LLM access would not halve the total time the waiter spends on it."
+18746,E2,"An LLM-powered phone or chat agent could handle most reservations and to-go orders, substantially reducing the waiter’s phone duties and freeing them from much of the greeting script."
+2292,E0,Refilling condiment containers is hands-on restocking work with no LLM leverage.
+2289,E0,"Chopping, portioning, and brewing are physical food-prep tasks that an LLM cannot perform."
+2286,E0,Mixing drinks and chilling bottles is manual bartending work unaffected by an LLM.
+2293,E0,Walking guests to tables is a physical escort task; an LLM cannot do it or significantly shorten it.
+18748,E1,"The waiter can query the LLM on a phone/tablet for directions or local tips and relay them, halving the time otherwise spent searching or recalling information."
+2291,E0,Physically garnishing and decorating dishes is manual work outside an LLM’s capability.
+2295,E0,Carrying and pouring wine is a physical service activity that an LLM cannot accelerate.
+2294,E1,"The waiter can ask the LLM for pairing advice and concise wine descriptions on the spot, saving significant time compared with memorizing or consulting manuals."
+9564,E0,Physically restocking and tidying items is a hands-on activity; an LLM can only give written reminders and cannot cut the manual effort in half.
+9560,E0,Carrying linens and supplies with carts is entirely physical labor that the LLM cannot perform or substantially speed up.
+9561,E0,"Cleaning rooms and common areas involves manual sweeping, wiping, and disinfecting; text advice from an LLM does not meaningfully reduce the time required."
+9562,E0,Emptying and transporting trash is a physical task; an LLM cannot replace or halve the human effort involved.
+9566,E0,"Sweeping, scrubbing, and polishing floors require manual or machine operation on-site; LLM assistance cannot significantly shorten this work."
+9563,E0,Replenishing in-room supplies demands physically placing items; an LLM adds negligible time savings.
+9567,E0,Vacuuming and shampooing rugs or furniture are manual equipment tasks that an LLM cannot automate.
+9568,E0,"Washing windows, walls, and ceilings is physical cleaning; LLM guidance does not halve the effort."
+9565,E0,Dusting and polishing furniture require hands-on action; an LLM offers little to no time reduction.
+9570,E0,Disinfecting with germicides or steam tools is manual sanitation work that an LLM cannot materially accelerate.
+9571,E0,Observing security precautions and reporting issues are in-person observational duties; an LLM cannot perform them directly or halve the time needed.
+9577,E0,"Sorting, counting, and storing linens involve physical handling; LLM involvement does not meaningfully cut task time."
+9575,E0,"Washing, ironing, and folding laundry are manual or machine-loading tasks; an LLM does not reduce the required labor by half."
+9587,E0,Moving furniture and turning mattresses are heavy physical tasks outside the scope of LLM assistance.
+9582,E0,Replacing light bulbs needs on-site manual replacement; an LLM cannot execute or markedly speed this up.
+9586,E0,Delivering items to guest rooms is a physical delivery task; LLM text output cannot halve the time.
+9569,E0,Hanging draperies and dusting blinds require manual setup and cleaning; LLM guidance offers minimal time savings.
+9581,E0,Requesting repairs and waiting for technicians are logistical/wait tasks where LLM input does not cut the elapsed time in half.
+9579,E0,"Physically arranging rooms, decorations, and equipment for events is manual labor; an LLM cannot substantially shorten it."
+9578,E0,Polishing metal fixtures is hands-on cleaning; LLM text instructions do not meaningfully reduce labor time.
+8007,E0,"Requires physically receiving cash/chips, counting, and storing them; an LLM cannot perform or meaningfully speed up the hands-on work."
+8008,E0,Physically collecting tickets/cards from players is a manual activity with no significant time savings from an LLM.
+20596,E0,"Computing payouts is already fast with built-in tables or calculators, and the main work—handling money and interacting with patrons—remains physical."
+8009,E1,"Answering rule or policy questions is a pure information-retrieval task; an LLM can supply correct explanations quickly, cutting lookup time by more than half."
+8012,E0,"Running the game, handling chips, and monitoring play are entirely physical/interactive tasks that an LLM cannot perform."
+8020,E0,Spinning the roulette wheel and releasing the ball are physical actions; the LLM offers no material speed-up.
+8016,E0,Exchanging paper money for chips/coins is manual cash-handling with negligible benefit from an LLM.
+8010,E0,Visually comparing hands at the table is already instantaneous for a trained dealer; an LLM cannot assist in real time without adding delay.
+8017,E0,Opening/closing cash floats involves counting physical money and securing it—no significant assistance from a text model.
+8014,E0,Physically moving bets or paying off chips is manual work beyond the scope of the LLM.
+8018,E0,"Starting mechanical/electronic equipment and announcing numbers is a live, in-person duty; the LLM cannot shorten it."
+8011,E0,"Checking that all wagers are placed is a visual, real-time task; an LLM offers no meaningful speed-up."
+8015,E0,Inspecting physical cards/equipment for wear or tampering must be done by sight and touch.
+8019,E1,"Once raw counts are typed in, an LLM can draft and total summary records quickly, halving the time needed for manual write-ups."
+8013,E1,Preparing collection reports is largely writing/formatting; the LLM can generate the report from provided figures much faster than doing it by hand.
+8023,E0,"Delivering physical items (tickets, money) to bingo callers is manual courier work; an LLM cannot assist."
+8026,E0,"Selling food, beverages, or tobacco involves physical stock handling and monetary transactions; the LLM offers no significant advantage."
+8021,E0,Supervising staff and mediating disputes require on-the-floor judgment and interpersonal interaction that the LLM cannot meaningfully expedite.
+8748,E0,Requires in-person cleaning and disinfection of physical tools and workspace; text assistance cannot replace or halve the manual effort.
+8753,E0,Physically applying polish to nails is a hands-on activity; an LLM cannot perform or meaningfully speed it up.
+8758,E2,"With dedicated LLM-powered inventory/CRM software that autofills, summarizes, and reminds, record-keeping time could be cut by at least half; a bare chat interface would not."
+8752,E0,Shaping and filing nails is entirely manual; no time savings from text output alone.
+20769,E0,"Preparing and trimming cuticles is a tactile, manual procedure; LLM cannot assist enough to halve the time."
+20770,E0,Soaking and prepping nails with tools is hands-on work; LLM adds negligible speed benefit.
+8750,E0,Removing polish with remover and swabs is manual; LLM offers no substantial time reduction.
+20771,E0,Operating a rotary abrasive wheel on a client’s nails is physical; LLM cannot substitute.
+8749,E2,"An LLM-integrated booking/payment system could automate scheduling, reminders, and receipts, halving the administrative time; the chat interface alone would not suffice."
+20772,E0,Assessing skin condition and massaging hands are tactile activities; text assistance won’t cut the time by half.
+8760,E0,Roughening nail surfaces with equipment is manual; LLM cannot accelerate the physical task.
+8754,E0,Advice is given face-to-face during the service; an LLM can supply talking points but cannot shorten the conversational time by half.
+20773,E0,"Wrapping and repairing nails are manual, detailed procedures; LLM cannot materially speed them."
+20774,E0,Extending nails with forms and chemicals is hands-on; LLM cannot reduce execution time significantly.
+8763,E0,Buffing nails is purely physical labor; LLM has no major impact on speed.
+8764,E0,Whitening undersides of nails with paste/pencils is manual; no meaningful time savings from LLM.
+8761,E2,"LLM-driven marketing aids (scripts, personalized product suggestions, promotional messages) embedded in point-of-sale software could halve prep and sales-material creation time."
+8765,E0,Piercing or attaching nail ornaments requires manual artistry; LLM cannot perform or markedly accelerate the work.
+737,E0,"Collecting a customer’s payment is a point-of-sale action that mainly involves operating a payment terminal or website and complying with security rules; chat assistance has little impact on the physical or procedural steps, so time saved is <50%."
+741,E1,"Writing and refining customized itineraries and promotional descriptions is a text-generation task; an LLM can draft, edit, and tailor these materials in minutes, easily cutting the agent’s effort by more than half."
+738,E2,"Determining client preferences usually happens in real-time phone or face-to-face conversation, but an LLM-powered CRM could listen/transcribe and surface follow-up questions or summary notes, halving the effort; the raw chat interface alone is insufficient."
+739,E1,"Given fare tables or price quotes pasted into the prompt, the LLM can quickly calculate totals, compare options, and output a cost breakdown, reducing manual lookup and arithmetic by >50%."
+20900,E2,"Maintaining records is mainly data entry; an LLM-enabled tool that ingests emails/notes and auto-populates the database would cut work time sharply, but the chat interface by itself would not."
+740,E2,"Actual booking requires interacting with airline/hotel systems, yet a purpose-built LLM agent that calls reservation APIs or guides the agent step-by-step could halve the effort; basic chat access alone cannot."
+743,E0,Printing or electronically requesting tickets is a mechanical action within carrier software/printers; an LLM offers negligible time savings on these straightforward clicks and physical steps.
+742,E1,"Supplying travel information is largely the creation and tailoring of written content; an LLM can draft brochures, FAQs, or summaries of local customs almost instantly, more than halving the manual writing workload."
+4630,E2,"An LLM alone can’t push the physical buttons on a switchboard, but software that ties an LLM to a VoIP or PBX system could route or answer calls automatically, cutting the operator’s time well past half."
+4631,E2,"Fielding voice calls requires a phone interface and speech I/O; an LLM-powered voice agent built into the phone system could handle most calls and message-taking, halving the human’s workload."
+20431,E0,"Personally greeting visitors, issuing badges, and escort coordination all demand in-person interaction and handling physical IDs; an LLM offers little time savings without robots or self-serve kiosks."
+20430,E2,"With integration to alarm panels and paging systems, LLM software could draft/issue emergency announcements and route calls, but the chat interface alone can’t do it."
+4640,E1,"The operator can type or paste a caller’s message into the LLM and instantly get a clearer, more concise version, easily halving the time spent rewording."
+4633,E2,"Paging hardware could be automated by an LLM-driven system tied to the intercom; the chat interface alone can’t trigger the page, but such software is straightforward to build."
+4634,E2,"Relaying messages (email, SMS, paging) could be automated through an LLM that routes and drafts them, yet the human still needs supporting software connections."
+20432,E0,Collecting or depositing physical cash is entirely manual; an LLM might keep logs but cannot remove half of the hands-on effort.
+4635,E2,Dialing numbers or setting up conference bridges can be automated if the LLM is linked to the phone/calendar system; without that link the operator must still place the calls.
+20428,E0,Sorting and moving physical mail and packages is manual labor that an LLM cannot meaningfully accelerate.
+20427,E1,"Creating schedules, updating directories, typing and proofreading are text tasks where direct use of the LLM cuts composition and correction time by more than half."
+20429,E1,"Drafting order confirmations, appointment emails, or fax cover sheets is text-centric; the LLM can generate these quickly and guide scheduling, halving the effort."
+4637,E2,"If alarm data streams into software, an LLM could summarize alerts and suggest actions, but this hinges on extra integration not available through chat alone."
+4638,E2,"With radio/telephony integration the LLM could auto-notify security staff; without it, contacting guards is still a manual radio call."
+4643,E1,"Filling out sales-order forms is largely text/data entry; feeding key details to the LLM lets it draft the form in seconds, saving well over half the time."
+4642,E1,"When reference files are short enough to paste (≤2 000 words), the LLM can answer client questions instantly, greatly reducing look-up time."
+4641,E0,Physically stamping time-dates and filing paper messages is manual clerical work with no substantial help from an LLM.
+4639,E1,"The operator can paste raw call logs and have the LLM tabulate charges or produce summaries, halving the effort of record keeping."
+20433,E1,"Drafting purchase or catering orders is a writing task; the LLM can generate order emails/forms quickly and check for completeness, cutting the operator’s drafting time by more than half."
+2627,E0,"Conducting the live interview and asking the questions must still be done by the worker; a chat assistant can only supply a script, so time is not cut in half."
+2634,E1,"The worker can paste responses into the LLM and have it flag missing or suspect data, speeding up validity checks by well over 50 %."
+2633,E0,Verifying benefits and arranging financing requires phone/portal interaction with insurers or patients; a stand-alone chat tool offers minimal direct time savings.
+20435,E0,"Telemarketing calls, updating billing systems, and processing payments are dominated by non-text system actions that an LLM chat interface cannot perform for the worker."
+2630,E1,"The LLM can rapidly scan interview responses for missing fields or obvious errors, halving manual review time."
+2629,E1,"Feeding transcribed answers to the LLM lets it automatically code, summarize, and format results, greatly reducing compilation effort."
+2636,E2,"An LLM-powered phone/chat front-end could automate many standard patient inquiries, but such an application layer (beyond plain chat access) is required to achieve a 50 % time saving."
+2632,E0,"Assisting someone in person while they complete forms is a hands-on, interactive task; a chat assistant cannot take over enough of the work to halve the time."
+2628,E0,Real-time probing to resolve inconsistencies must be done directly with the interviewee; a chat model cannot conduct that back-and-forth on the worker’s behalf.
+20434,E0,Supervising or training staff involves observation and interpersonal management that a simple chat assistant cannot meaningfully shorten by 50 %.
+2637,E1,"Drafting written reports is a text-generation task the LLM can handle quickly once given data, so report preparation time is easily cut in half."
+2640,E0,Daily progress meetings with a supervisor require the human’s presence and fixed discussion time; an LLM cannot eliminate or substantially shorten them.
+2638,E0,Physically locating addresses/households or combing through address lists is field or database work that a chat-only LLM cannot do for the worker.
+2631,E0,"Contacting respondents by phone, mail, or in person is human outreach; the LLM can at most draft templates, which does not halve total effort."
+2641,E2,"Software that feeds old records to the LLM for automatic tallies and summaries could halve analysis time, but such tooling must be built on top of the model."
+2635,E0,"Explaining survey objectives and interpreting questions is direct, real-time communication with respondents that the LLM cannot perform in the worker’s place."
+2816,E3,"Page design and camera-ready layout rely heavily on manipulating visual elements; an LLM with image-creation/editing abilities could auto-generate and place those elements, halving the hands-on work."
+2820,E3,"Choosing type styles, sizes, and positioning art in an appealing layout is a visual task; an image-capable LLM could draft and adjust the full page automatically."
+2815,E1,Pure text proofreading can be performed by the LLM alone; feeding it the draft lets it flag and even rewrite errors in seconds.
+2817,E3,Real-time visual feedback and on-screen tweaks could be automated by an image-aware LLM that detects layout issues and applies fixes.
+2818,E2,"Selecting fonts, column widths, and spacing still needs the publishing program, but an LLM-powered plug-in could set these parameters instantly from a style prompt."
+2824,E3,Preparing sample page layouts is essentially creating mock-ups; an image-enabled LLM can draft those mock-ups directly.
+2823,E2,Importing art/text is mostly file handling; a simple LLM-based script or plug-in could batch-import all assets automatically.
+2825,E1,Studying design instructions and figuring out the work sequence is a reading-and-summarizing task suited to the LLM alone.
+2829,E3,Choosing color schemes and doing color separations is a visual job; an image-capable LLM could generate palettes and output separation files automatically.
+2827,E1,"File-conversion commands (PDF ⇄ HTML, RGB → CMYK, etc.) can be generated directly by the LLM, halving manual conversion time."
+2821,E0,Physically scanning or photographing art and keying it into the system is manual hardware work the LLM cannot meaningfully shorten.
+2822,E3,Pixel-level retouching and masking are image-editing tasks; an image-enabled LLM could apply the requested effects from text prompts.
+2828,E2,Entering coordinates and color specs could be auto-filled by an LLM plug-in that reads the file’s metadata and writes the values to the system.
+2830,E0,Physically sending or digitally uploading the final master is already a one-click or mailing action with little room for LLM time-savings.
+2831,E0,"Human collaboration—meeting, negotiating, approving—dominates; an LLM chatbot can help draft messages but can’t halve the interactive time."
+2819,E0,"Physically archiving copies on paper, tape, or diskette is manual storage work outside the LLM’s reach."
+2832,E3,"Creating visual special effects and adding multimedia is squarely within an image-enabled LLM’s strengths, speeding the task dramatically."
+2826,E0,"Loading physical media (floppy disks, tapes) is a manual hardware action the LLM cannot expedite."
+23403,E0,Steering and physically operating a vessel and its instruments must be done by the worker in real time; an LLM cannot take over or halve that effort.
+23410,E0,Physically removing catches and measuring them is manual labor that an LLM cannot meaningfully speed up.
+23428,E0,Directing day-to-day field operations and supervising crew require in-person management and real-time decisions; chat assistance would not cut the work time by half.
+23419,E1,"Given weather data or vessel telemetry in text form, an LLM can quickly analyze and suggest responses, halving the time needed for interpretation."
+23402,E0,"Actual travel on foot, boat, or vehicle is entirely physical and unaffected by a chat model."
+23415,E0,"Selecting, baiting, and setting traps or poison are hands-on tasks an LLM cannot perform or halve."
+23408,E0,Maintaining engines and gear involves physical repairs; LLM advice won’t reduce hands-on time by 50 %.
+23424,E0,"Physically connecting floats, weights, or markers is manual work with no major time savings via LLM."
+23423,E0,Washing and cleaning equipment are purely manual cleaning tasks.
+23427,E0,"Harvesting marine life with diving or dredging gear is field labor, not text-based."
+23429,E1,"Purchasing supplies involves planning, specifications, and vendor comparison—text tasks the LLM can draft and streamline, cutting prep time at least in half."
+23426,E0,Loading and unloading equipment is physical labor untouched by an LLM.
+23406,E0,Scraping fat or flesh from pelts is hands-on manual work.
+23400,E0,Patrolling trap lines and resetting traps are physical field activities.
+23411,E0,Operating fish-finding hardware and interpreting on-screen sonar data are primarily physical/visual; chat help cannot halve the effort.
+23421,E0,Killing or stunning quarry is a manual action an LLM cannot assist with directly.
+23405,E0,Repairing trapping equipment requires tools and physical skill.
+23401,E1,"Drafting permission letters, forms, or emails is text-centric and can be greatly sped up by an LLM."
+23407,E0,Deploying and anchoring fishing equipment is manual deck work.
+23414,E1,"Position calculations and course plotting can be automated by an LLM given the inputs, cutting computation time by more than half."
+23409,E0,"Sorting, packing, and icing catch are physical handling tasks."
+23412,E1,Preparing approval paperwork and notification text is document work an LLM can draft quickly.
+23413,E0,Tracking animals by spotting physical signs is field observation; an LLM cannot replace that on-site effort.
+23404,E0,"Skinning quarry and stretching pelts are manual, knife-based tasks."
+23418,E0,Transporting fish to buyers/processors is a driving/hauling activity unaffected by a chat model.
+23416,E0,"Attaching nets, hooks, or slings to hoists is hands-on rigging work."
+23425,E0,Teaching or guiding hunters involves live demonstrations and field supervision; chat help can’t halve the in-person component.
+23420,E0,Releasing quarry from traps and transferring to cages is manual handling.
+23417,E0,Field participation in wildlife management or disease control requires physical presence and data collection; LLM aid would not halve total effort.
+14906,E0,Requires hands-on manipulation of wallcovering with physical tools; text-only assistance cannot meaningfully speed the smoothing process.
+14907,E0,Physically trimming edges with knives is a manual skill; an LLM cannot reduce the required cutting time by half.
+14908,E0,"Cutting excess material at ceilings/baseboards is purely manual and tool-based, outside the scope of text assistance."
+14909,E0,Inspecting visual alignment and seam neatness is a visual/physical check; a chat model cannot perform or greatly speed this task.
+14910,E0,Marking guidelines with plumb bobs and chalk lines is hands-on layout work; text advice offers negligible time savings.
+14911,E0,Hanging wallpaper or fabric with hand tools is manual labor; an LLM cannot execute or halve the effort required.
+14912,E0,Physically applying adhesive or dunking strips demands manual action; text help cannot substantially shorten the task.
+14913,E0,Measuring and cutting wallpaper with shears/razors is manual precision work not accelerated by an LLM.
+14914,E0,"Aligning and placing paper on surfaces is tactile, requiring human hands and judgment; text output offers minimal benefit."
+14915,E0,Filling holes and surface imperfections involves physical materials and tools; an LLM cannot meaningfully cut the time.
+14916,E0,"While calculations could be automated, measuring surfaces is still manual and dominates the task; overall time would not be halved."
+14917,E0,Applying sizing to walls is a manual brushing/rolling activity; text guidance does not significantly reduce effort or time.
+14918,E0,Sanding rough spots is purely physical labor; an LLM cannot materially speed it up.
+14919,E0,Setting up pasteboards and scaffolds is a physical setup task; chat assistance offers negligible time savings.
+14920,E0,"Removing old paper with water, steam, or solvents is manual scraping work beyond the aid of text-only tools."
+14921,E0,Brushing or rolling thinned glue is manual; an LLM cannot halve the required physical effort or time.
+14922,E0,Mixing paste and brushing it onto surfaces is a hands-on activity; text instructions change the time only marginally.
+14923,E0,Stapling or tacking posters to physical structures is manual field work; an LLM cannot significantly reduce the time.
+14924,E0,Physically removing paint/grease with chemicals is manual labor; a chat model provides little to no time savings.
+14925,E0,Applying acetic acid to plaster involves manual application; an LLM cannot materially speed up this physical process.
+13574,E0,Requires an on-site physical inspection of the roof; an LLM cannot perform or substantially speed up the hands-on assessment.
+13586,E0,"Removing snow, water, or debris is a purely manual activity; chat assistance offers negligible time savings."
+13575,E0,Erecting scaffolding is a physical construction task that the LLM cannot materially accelerate.
+20793,E1,"Material and labor estimating is largely a text- and number-based planning activity; an LLM can quickly generate take-offs, cost tables, and draft quotes from the roofer’s measurements, cutting the work time by more than half."
+13578,E0,Cementing or nailing flashing strips is manual installation work; no significant benefit from text assistance.
+13584,E0,Laying overlapping roofing materials with tools is a physical procedure not sped up by an LLM.
+13580,E0,"Cutting felt, shingles, or flashing to fit angles is hands-on craftsmanship; LLM guidance does not halve the time."
+13592,E0,Applying coatings or membranes over roofs is physical labor; minimal time reduction from chat advice.
+13579,E0,Installing or repairing single-ply systems involves on-roof manual work; LLM exposure offers little time savings.
+20794,E0,Attaching roofing paper requires physical placement and fastening; an LLM cannot meaningfully shorten the task.
+13585,E0,Covering roofs or walls with materials using hand tools is manual installation; LLM assistance is not transformative.
+13590,E0,Waterproofing or damp-proofing surfaces is hands-on spraying/attachment work; little benefit from text output alone.
+19851,E0,Applying reflective roof coatings is physical coating work; LLM cannot reduce the manual effort by half.
+13587,E0,Alternating layers of hot asphalt or tar and paper is manual roofing labor; chat guidance won’t materially speed it up.
+13581,E0,Installing vapor barriers or insulation on flat roofs is physical placement; LLM exposure gives negligible time savings.
+13583,E0,Covering nailheads with cement or caulk is a small manual sealing task; an LLM cannot halve completion time.
+13593,E0,"Smoothing rough spots with hammers, chisels, or rubbing bricks is manual surface prep; no sizable gain from an LLM."
+13594,E0,Glazing or embedding gravel is hands-on finishing work; text assistance does not significantly speed it up.
+13591,E0,Mopping or pouring hot asphalt/tar is manual application; the LLM offers no major time reduction.
+19853,E0,"Installing attic ventilation systems involves on-site cutting, fitting, and mounting; largely unaffected by LLM advice."
+19855,E0,Installing skylights entails structural cutting and fitting; cannot be materially accelerated through chat.
+13595,E0,Applying gravel or pebbles with rakes/brooms is physical spreading work; LLM exposure gives minimal benefit.
+13589,E0,"Spraying to bind, seal, or insulate structures is manual spraying using equipment; LLM cannot halve the work time."
+19852,E0,Attaching solar panels to roofs is skilled physical installation; text guidance alone will not cut time in half.
+13596,E0,Punching holes in roofing materials with hammer and punch is hands-on labor; LLM offers no significant speed-up.
+19850,E0,Applying modular soil and plant grids for green roofs is labor-intensive on-roof work; little help from an LLM.
+19854,E0,Installing full vegetation-based green roofs is complex manual assembly; chat assistance cannot reduce time by 50 %.
+21204,E0,Requires on-site use of testing equipment and hands-on interaction with gas appliances; an LLM cannot perform or substantially speed up this physical work.
+21205,E0,"Measuring air leakage with a blower-door requires physical set-up, operation, and observation; chat assistance cannot cut the overall task time in half."
+17789,E0,Diagnosing air-flow systems involves connecting instruments to HVAC hardware and interpreting live readings; physical activity dominates the time spent.
+17792,E0,Installing and sealing ducts or ventilation openings is manual labor; no text tool meaningfully shortens the work.
+17787,E0,Building inspections are chiefly in-person visual and physical checks; an LLM may help with the written report but not enough to halve total task time.
+17788,E1,Crafting tailored recommendations and ensuring they align with codes is largely a writing/research task that an LLM can draft or refine quickly.
+17790,E0,"Applying insulation in attics, crawl spaces, etc. is entirely hands-on."
+17794,E0,Performing minor physical repairs with tools cannot be sped up appreciably by text advice alone.
+17796,E1,"Preparing cost estimates and written specifications is document-heavy; an LLM can auto-generate templates, wording, and calculations based on inputs, more than halving writing time."
+17801,E1,"Scheduling involves composing e-mails/texts and confirming times—tasks an LLM can draft instantly, halving effort for an average worker."
+17797,E0,Wrapping ducts and pipes with insulation is manual installation work.
+17795,E0,"Applying weather-stripping, glazing, caulking, etc. is physical application."
+17800,E0,Cleaning and maintaining tools is physical upkeep.
+17799,E0,Patching wall holes with spackle or compound is hands-on craftsmanship.
+17802,E1,Explaining policies and procedures is primarily verbal or written communication; the LLM can draft clear explanations or scripts quickly.
+17803,E1,Keeping logs and financial records is data/text entry and summarization; the LLM can format and populate records rapidly.
+17791,E1,Describing energy-saving measures is a communication task well suited to LLM-generated explanations and handouts.
+17804,E1,"Drafting bids, contracts, and reports is document creation/editing, which an LLM can accelerate significantly."
+17793,E0,Installing storm windows/doors and verifying fit is physical installation.
+17798,E0,Wrapping water heaters with blankets is manual labor that a chat model cannot materially speed up.
+9986,E1,"Writing maintenance reports is a text-generation activity; an LLM can draft, summarize, and format these records from brief technician notes, cutting report-writing time by more than half."
+9988,E0,"Physically inspecting bearings, seals, wheels, etc. requires on-site visual and tactile checks that an LLM cannot perform or meaningfully accelerate."
+9984,E0,"Repairing or replacing mechanical parts with hand tools, power tools, or welding equipment is hands-on labor outside the scope of text-based assistance."
+9989,E0,Walking around rail cars to spot exterior and interior defects is a physical inspection task not sped up by an LLM chat interface.
+9987,E0,"Removing heavy components with hoists, jacks, and cutting torches is manual/mechanical work that an LLM cannot materially shorten."
+9985,E0,Physically operating and observing units before/after repair is required; an LLM cannot perform or halve the time of these tests.
+9990,E0,Making mechanical adjustments for proper operation involves tools and manual skill; text assistance offers negligible time savings.
+9992,E0,"Fabricating and installing steel or wood fittings using blueprints, sketches, and tools is hands-on fabrication work beyond LLM acceleration."
+9991,E0,Scheduled maintenance and cleaning are physical procedures; an LLM cannot cut the execution time by half.
+10000,E0,Examining and patching car roofs with roofing materials is manual labor unaffected by text-only AI assistance.
+10001,E0,"Painting interiors, exteriors, and fixtures is a manual painting task; an LLM does not materially speed it up."
+9993,E0,Repairing electrical/electronic propulsion and braking controls requires hands-on diagnostic and soldering work; an LLM cannot halve this time.
+9994,E0,"Disassembling pumps, valves, and compressors is physical disassembly work; LLM guidance adds negligible speed gain."
+9995,E0,Measuring axle wheel seats with micrometers and marking dimensions is precise manual measurement; text assistance gives little benefit.
+9998,E0,"Operating electrical systems and test equipment (ammeters, etc.) is a physical diagnostic task not accelerated by an LLM."
+9997,E0,"Replacing wiring, insulation, and tightening connections is hands-on electrical work; LLM aid does not reduce labor time by half."
+9999,E0,"Installing/repairing flooring, fixtures, walls, plumbing, steps, and platforms is manual carpentry/plumbing work beyond LLM acceleration."
+10003,E0,"Repairing window sash frames, adding weather stripping, and replacing glass involves physical glazing tasks; LLM text help is minimal."
+9996,E0,"Aligning car sides with gauges, turnbuckles, and wrenches is manual mechanical alignment; AI text guidance does not halve effort."
+10002,E0,Repairing car upholstery entails sewing and material work done by hand; an LLM cannot meaningfully shorten this physical process.
+11833,E0,"Dismantling equipment is a hands-on, physical activity; an LLM cannot take over or halve the manual tool work required."
+11828,E0,Reassembling machinery is entirely physical; chat guidance cannot remove even half of the manual effort.
+11834,E1,"Preparing written maintenance logs can be sped up by dictating details to the LLM, which drafts and formats the record, cutting clerical time by more than half."
+11831,E0,Applying lubricants/adhesives is physical labor; an LLM cannot meaningfully shorten the task.
+11832,E0,Installing or swapping parts requires manual tool use and positioning; an LLM offers negligible time savings.
+11836,E0,Physically setting up machines and manipulating controls dominates time spent; LLM advice cannot halve that effort.
+11837,E0,"Coordinating and jointly moving/repairing heavy equipment is an in-person, physical task beyond LLM acceleration."
+11835,E1,Feeding work orders into the LLM to get concise action lists or summaries can cut the reading/interpretation time by at least half.
+11830,E0,"Inspecting parts, marking defects, and reporting onsite are chiefly physical/visual tasks; LLM aid is marginal."
+11829,E0,Observing machine operation to spot problems is sensory and physical; an LLM cannot replace that observation time.
+11839,E0,Moving parts with cranes/hoists is manual material handling; the LLM cannot reduce that physical workload.
+11840,E0,Collecting and discarding worn parts is purely physical clean-up; LLM access does not halve the effort.
+11838,E2,"With dedicated inventory software connected to an LLM, the worker could auto-generate requisitions and restock lists, halving clerical time, but such integration is not available via chat alone."
+11843,E0,Chiseling or grinding off hardened material is entirely manual tool work; LLM usage yields no major time reduction.
+11845,E0,"Replacing or refilling containers (e.g., gas tanks) is physical handling; LLM assistance is negligible."
+11841,E0,"Cleaning machinery with solvents, hoses, or vacuums is manual labor that an LLM cannot accelerate by half."
+11842,E0,Repairing or replacing linings involves hands-on fabrication/fitting; LLM guidance cannot halve the work time.
+11844,E0,"Measuring, mixing, and testing solutions are laboratory/physical tasks; chat advice does not remove enough manual effort."
+14977,E0,"Cleaning, rinsing, and drying parts are entirely hands-on activities with specialized machines; an LLM cannot perform or meaningfully speed up the physical work."
+14984,E0,Physically adjusting timing regulators with calipers and tweezers requires manual dexterity and tool use; an LLM offers no direct time savings.
+14979,E0,"Reassembling watches, installing crystals, and changing batteries are manual tasks; the model cannot help enough to halve the time."
+14978,E0,"Disassembly and close visual inspection with loupes are physical, precision operations; text assistance cannot replace the skill or shorten the job by 50 %."
+14975,E0,Oiling moving parts is a manual lubrication process that the LLM cannot automate.
+14982,E1,"Estimating repair cost or appraising value is largely a reasoning-and-documentation exercise; the LLM can draft estimates, reference price lists, and standardize quotes, cutting clerical time well over half."
+14976,E0,Repairing or machining parts with lathes and other tools is hands-on mechanical work outside the LLM’s scope.
+14980,E0,"Accuracy testing involves attaching instruments, reading measurements, and making mechanical adjustments—predominantly physical work."
+14983,E0,"Routine adjustments and maintenance on cases, bands, and movements are physical procedures an LLM cannot perform."
+21084,E1,"Ordering parts is paperwork: the LLM can draft purchase orders, track inventory notes, and suggest suppliers, halving administrative effort."
+14986,E1,"Collecting customer problem descriptions can be streamlined with LLM-generated interview scripts and automatic note-taking templates, reducing intake time significantly."
+14987,E0,Testing and replacing batteries or electronic components requires physical handling and measurement; the LLM adds minimal speed-up.
+14985,E1,"Recording repair logs and invoices is text entry; the LLM can auto-format records from brief notes, cutting clerical time by more than half."
+14988,E0,Demagnetizing involves using a specialized machine on the mechanism; this physical step is not accelerated by an LLM.
+14981,E0,Fabricating parts with small lathes and machines is precision machining work requiring hands-on skill; an LLM cannot meaningfully shorten it.
+15003,E0,Requires manual assembly and installation of tiny mechanical parts with specialized hand tools; an LLM cannot perform or meaningfully speed up the hands-on work.
+15004,E0,Diagnosing accuracy defects depends on visually inspecting moving parts under magnification; this physical observation cannot be off-loaded to an LLM.
+15005,E0,Physically testing fit and function with electronic meters and hand tools is manual work outside an LLM’s text capabilities.
+15006,E0,"Replacing malfunctioning parts entails precision hand work with watchmakers’ tools, not text processing."
+15007,E0,Disassembling timepieces is a purely physical activity that an LLM cannot conduct or halve the time for.
+15008,E0,Cleaning and lubricating parts involves solvents and manual handling; no benefit from a text-only LLM.
+15009,E0,"Examining micro-components for defects through a loupe or microscope is a visual, manual process unchanged by an LLM."
+15010,E0,Bending hairsprings and other parts with tweezers requires tactile precision; an LLM cannot assist meaningfully.
+15011,E0,Changing timing weights on balance wheels is hands-on mechanical adjustment outside an LLM’s scope.
+15012,E0,"Adjusting sizes or positions with calipers and fixtures is manual precision work, not text-based."
+15013,E0,Mounting assemblies between caliper jaws is a physical operation; an LLM offers no material time savings.
+15014,E0,Estimating microscopic clearances involves visual measurement; an LLM cannot perform or expedite this task.
+15015,E0,Manually bending spring coils with tweezers is physical craftsmanship unaffected by an LLM.
+15016,E0,Turning caliper wheels and visually checking coil geometry is tactile/visual work beyond LLM assistance.
+15017,E0,"Examining and adjusting hairspring alignment depends on manual dexterity and magnified inspection, not text."
+15018,E0,"Reviewing blueprints or sketches is predominantly visual; without image-processing tools, a text-only LLM provides negligible benefit."
+15019,E0,Tightening or replacing jewels is precision hand work that cannot be accelerated by an LLM chat interface.
+14038,E0,"Hanging, folding, packaging, and tagging are entirely manual, physical steps; chat assistance cannot halve the hands-on time."
+14035,E0,"Operating pressing machines is a physical, on-site activity; advice from an LLM cannot materially shorten the run time or manual handling."
+14043,E0,Straightening or shaping fabric before pressing is manual labor; text guidance offers negligible time savings.
+14037,E0,Removing and staging hot pieces is physical work that must be done by hand; an LLM cannot speed it by 50 %.
+14042,E0,Finishing pleated garments requires hands-on placement and manipulation with irons/presses; LLM tips do not cut physical effort in half.
+14036,E0,Lowering machine heads is a direct physical action; chat input does not change the cycle time.
+21026,E0,Spot-treating garments involves visual inspection and manual chemical application; LLM guidance provides minimal time reduction.
+14051,E0,"Shrinking, stretching, or blocking by hand with forms and steam is manual craftsmanship; LLM cannot automate it."
+14049,E0,Producing high-quality finishes on fancy garments with hand irons is skilled handwork; advice alone cannot halve pressing time.
+14041,E0,Pushing/pulling irons over fabric is purely physical; LLM access offers no substantial speedup.
+14044,E0,Hand-ironing garments is manual labor; an LLM cannot meaningfully shorten the task.
+14039,E0,"Sliding material over heated forms is tactile, manual work; chat support does not reduce duration by 50 %."
+14040,E0,Choosing a pressing machine is a quick judgment tied to on-site knowledge; any LLM input would not cut overall task time in half.
+14046,E0,Spraying water on fabric is a simple manual step; LLM use adds negligible efficiency.
+14045,E0,Positioning materials on machines/boards is physical setup; text assistance provides minimal time savings.
+14047,E0,Moistening materials is manual; LLM cannot automate or drastically speed it.
+14052,E0,"Cleaning and maintaining machines requires hands, tools, and solvents; LLM advice cannot halve labor time."
+14057,E0,Pressing ties on small machines is hands-on; LLM access does not materially shorten processing time.
+14053,E0,Blocking/shaping knitted garments is manual manipulation; chat suggestions cannot cut the time by half.
+14050,E0,Activating/adjusting controls is quick physical interaction; LLM input adds little to no speed benefit.
+14056,E0,Placing covering cloths is a straightforward manual precaution; LLM cannot halve the time required.
+14059,E0,Examining and measuring finished items with tools is tactile/visual; an LLM cannot perform or notably accelerate it.
+14048,E0,Steaming velvet and brushing nap are skilled manual tasks; LLM guidance does not halve execution time.
+14061,E0,"Measuring, cutting, folding, and pressing headings are hands-on actions; LLM offers negligible speed improvement."
+14054,E0,Inserting heated forms and touching up ties is manual finishing work; chat advice cannot significantly reduce task duration.
+14055,E0,Brushing suede/leather/felt requires physical brushing; LLM cannot automate or greatly quicken it.
+14060,E0,Sewing material to leaders is manual machine-sewing; LLM assistance does not halve the stitching time.
+14058,E0,"Selecting, installing, and adjusting machine components with tools/hoists is physical setup; LLM suggestions cannot cut the setup labor in half."
+17861,E0,"Requires hands-on control of boilers/gasifiers; an LLM can only give advice, not actually operate equipment, so time to completion is not cut in half."
+21208,E0,Water-chemistry testing needs physical sampling and lab work; an LLM adds negligible speed-up.
+17864,E0,Running high-pressure steam or chiller equipment is a physical operations job; chat guidance alone cannot replace the work.
+17862,E0,Heating biomass involves manipulating controls and monitoring combustion on site; the LLM cannot carry out these physical actions.
+17863,E0,"Starting, stopping, or regulating generators and auxiliaries is a manual/console activity; an LLM cannot perform it or reduce the time by half."
+17860,E0,"Inspecting machinery is a visual/tactile task done in the plant; the reporting portion is minor, so chat help does not halve total effort."
+17866,E1,"The main work here is turning raw meter and gauge readings into written logs or reports—something an LLM can draft, format, and summarize quickly once the numbers are typed in, saving well over half the reporting time."
+17855,E0,"Physically operating valves, pumps, engines, or generators cannot be outsourced to a text model."
+17858,E0,"Although the math could be aided, most time is spent physically weighing, loading, and mixing feedstock; LLM help doesn’t halve total effort."
+17867,E0,Cleaning work areas is 100 % physical labor; the LLM offers no meaningful speed-up.
+17856,E0,Performing maintenance and minor repairs is hands-on mechanical/electrical work; advice from an LLM does not halve the time needed.
+17854,E0,Measuring and monitoring raw biomass requires on-site physical assessment and instruments; LLM assistance is minimal.
+17859,E0,Calibrating flow meters is a manual technical task; chat guidance does not remove half the work.
+17857,E0,Assessing biomass quality involves physical sampling and testing; the LLM cannot do this directly.
+17869,E1,"Reading long technical manuals or drawings is text/knowledge work; an LLM can quickly summarize, explain, and answer questions, cutting comprehension time by more than half."
+21209,E0,Driving bulldozers or loaders is entirely physical; an LLM cannot operate heavy machinery.
+17865,E0,"Preprocessing feedstock (chipping, drying, etc.) is physical plant work; LLM input does not halve task time."
+17868,E1,"Managing inventories is largely information processing—an LLM can analyze stock lists, flag reorders, and draft purchase requests quickly, halving clerical time even though physical counts still occur."
+12573,E0,"Requires physically actuating valves, switches, and buttons; an LLM can only give written guidance and cannot cut the hands-on time in half."
+12574,E1,"Report-writing and log maintenance are text-heavy; an LLM can draft, format, and summarize these documents, more than halving the time needed."
+12575,E0,Surface-defect inspection and precision measurement rely on microscopes and test instruments; the work is almost entirely physical/visual and not accelerated by text assistance.
+12576,E0,Physically cleaning wafers with baths and wands cannot be sped up meaningfully through a chat interface.
+12577,E1,Reading work orders and turning them into an ordered procedure is a text-processing task well suited to LLM summarization and clarification.
+12578,E0,Loading/unloading chambers and moving product are manual material-handling steps that an LLM cannot perform or materially speed up.
+12579,E0,Physically replacing solutions and cleaning equipment is manual labor with no major time savings from text output.
+12580,E0,Placing wafers with tweezers or a vacuum wand is purely hands-on.
+12581,E0,Setting and readjusting equipment controls is a manual or HMI operation; an LLM can advise but will not eliminate half the effort.
+12582,E0,"Etching, lapping, polishing, and grinding wafers are physical processing steps outside an LLM’s scope."
+12583,E0,Loading raw semiconductor material into a furnace is manual.
+12584,E2,"With purpose-built software that streams tool telemetry to an LLM, the system could flag anomalies and recommend adjustments, halving monitoring time; plain chat access alone would not."
+12585,E0,"Counting, sorting, and weighing items are physical inventory tasks."
+12586,E1,Determining etch time from thickness is a straightforward calculation the LLM can perform instantly from user-supplied numbers.
+12587,E1,"After the technician observes symptoms, an LLM can quickly cross-reference manuals and suggest likely causes/repair steps, cutting troubleshooting documentation time."
+12588,E0,"Aligning masks, exposing patterns, and developing photoresist require precise physical manipulation of lithography equipment."
+12589,E0,Stamping or scribing identifiers on components is hands-on fabrication work.
+12591,E0,Physically scribing or separating wafers into dice cannot be accelerated by text assistance.
+12592,E0,Connecting a reactor to a computer involves hand and power tools; no substantial time savings from an LLM.
+12595,E0,"Measuring, mixing, grinding, loading, and monitoring crystal-growing materials are predominantly manual lab tasks; an LLM offers minimal time reduction without specialized integration."
+12632,E0,Heating and rotating glass is a hands-on shop activity; an LLM cannot perform or meaningfully speed up the physical work.
+12630,E0,"Physically inspecting, weighing, and measuring glass pieces requires manual handling and tool use that an LLM cannot assist with."
+12631,E1,"Recording quantities, sizes, and product types is a text-entry task; an LLM can auto-format log entries or generate standardized reports from brief notes, cutting the clerical time by more than half."
+12646,E0,Placing hot glass into molds and operating presses is entirely physical shop work beyond an LLM’s reach.
+12644,E0,Spraying or swabbing molds with oil is manual labor that the model cannot replace or substantially accelerate.
+12633,E0,"Blowing or rotating hot glass to shape it is a skill executed with breath, tools, and heat—no benefit from an LLM chat interface."
+12638,E1,"Figuring out glass types and quantities is a planning/calculation task; an LLM can quickly generate bills of material or calculate batch sizes from design specs, halving the desk-time needed."
+12634,E0,Physically setting machine strokes and oven temperatures is hands-on equipment setup; an LLM cannot shorten the adjustment time.
+12635,E0,"Shaping, bending, or joining hot glass with hand tools is purely manual craft work."
+12647,E0,"Although an LLM might suggest design ideas, the task explicitly includes creating the glass objects with blowpipes and tools, which is overwhelmingly physical."
+12649,E0,"Operating and maintaining finishing machines (grinding, drilling, polishing) is physical equipment work outside the LLM’s scope."
+12648,E0,Repairing broken scrolls by inserting new tubing sections is manual dexterity work that a text model cannot expedite.
+12637,E2,"Turning sketches into full blueprint specifications could be sped up by LLM-powered CAD plugins that translate textual prompts into draft drawings, but extra software beyond a chat window is needed."
+12640,E0,Physically superimposing glass tubing on patterns to check accuracy is manual inspection without benefit from an LLM.
+12645,E0,Cutting glass tubing with files or wheels is a hands-on shop operation.
+12639,E0,Attaching hoses and charging tubing with gas is physical handling of equipment that an LLM cannot meaningfully accelerate.
+17888,E0,Ensuring day-to-day ordinance compliance requires in-person operational oversight; a chat LLM cannot remove ≥50 % of this work.
+17907,E2,"Log-keeping could be sped up if integrated software auto-extracts shipping data and drafts entries with an LLM, but the chat interface alone will not halve the time."
+17889,E0,"Direct supervision of people in a facility is physical and interactive; an LLM offers only marginal help (e.g., drafting memos)."
+17910,E1,"Requests arrive as text/email; pasting them into an LLM can quickly summarize needs and suggest resources, cutting manual triage by >50 %."
+17909,E1,"The LLM can draft lesson plans, slides, quizzes, and handouts, halving preparation time for training sessions."
+17905,E1,"Researching new recyclable streams is largely idea generation and literature review, both accelerated by an LLM conversation."
+17890,E2,"Efficient route assignment needs optimization over live fleet data; an LLM-powered scheduling tool could do this, but chat alone cannot."
+17893,E1,"Budget narratives, line-item justifications, and variance explanations are text tasks the LLM can draft rapidly."
+17908,E1,"Bills of lading and receipts follow standard formats that an LLM can populate from prompts, cutting drafting time well over half."
+17906,E3,"With photo upload/captioning, an LLM+vision system could pre-flag hazards or compliance issues; without images, time savings are minimal."
+17899,E2,"Contract drafting/analysis could be speed-boosted by an LLM contract-assist app, but actual negotiation still needs people."
+17892,E2,Shipment coordination benefits from an LLM-enabled logistics dashboard; a bare chat tool is insufficient for a 50 % reduction.
+17901,E0,"Physically running balers, crushers, etc., cannot be meaningfully shortened by an LLM."
+17900,E0,Driving forklifts or trucks is wholly physical; no significant time savings from an LLM.
+17904,E2,"Movement scheduling depends on inventory/space data; a purpose-built LLM scheduler could halve effort, but chat alone will not."
+17902,E1,"Creating campaign messages, flyers, social posts, and FAQs is text generation the LLM can do quickly, cutting content-creation time >50 %."
+17891,E2,Optimizing collection schedules requires routing/tonnage data; gains come from integrated software rather than stand-alone chat.
+17895,E1,Developing written plans and setting quantitative goals are document-heavy tasks the LLM can draft rapidly.
+17903,E1,"Grant narratives, budgets, and compliance language can be produced or reworked by the LLM, halving writing time."
+17897,E0,"Field investigations (inspections, interviews, evidence gathering) are physical and interpersonal; LLM help is marginal."
+17896,E2,"Reporting requirements can be auto-drafted by an LLM within a project-tracking tool, but implementing the project is still human labor."
+17898,E1,"The LLM can script talks, design slide decks, and generate handouts, reducing prep time well beyond 50 %."
+17894,E1,"Writing program designs, policies, and implementation plans is predominantly text work that the LLM can accelerate significantly."
+8607,E0,This is a hands-on cleaning/replacement activity that the worker must do physically; an LLM chat interface cannot meaningfully shorten the time required.
+8606,E0,Driving or physically assisting in patient transport is entirely manual and cannot be sped up by an LLM.
+8612,E1,"Preparing written or verbal reports can be greatly accelerated by dictating notes and having the LLM draft concise, well-structured accident or incident reports for hospital or police use."
+8608,E0,Lifting and loading patients is purely physical labor; an LLM cannot reduce the time needed.
+8609,E0,"Accompanying and assisting EMTs on calls is an in-person, physical support role; the LLM offers little time savings."
+8611,E0,Determining what supplies are missing is minor compared with the physical restocking; an LLM alone would not cut total task time by half.
+21028,E0,Performing mechanical maintenance requires physical skills and tools beyond text assistance.
+21029,E0,Cleaning and washing vehicles/equipment is manual labor untouched by an LLM.
+8610,E1,"Studying for and tracking certifications involves reading, note-taking, and practice tests—areas where an LLM can supply explanations, quizzes, and study plans, cutting preparation time substantially."
+8613,E0,"Administering first aid is a real-time, hands-on medical intervention an LLM cannot physically expedite."
+8614,E0,Physically restraining violent patients is manual and situational; an LLM cannot reduce the time required.
+3202,E0,Physically manipulating forklift or hoist levers requires on-site manual control; text-only assistance cannot replace or halve the effort.
+3201,E0,Driving trucks or tractors in a facility is a fully physical activity; an LLM chat tool cannot perform or substantially shorten it.
+15266,E0,Loading or unloading materials from pallets involves manual handling or direct equipment use; no text interface meaningfully reduces time.
+3203,E0,Positioning lifting devices and securing loads is hands-on work with equipment; LLM access offers negligible time savings.
+15265,E0,Inspecting loads and moving them safely demands physical observation and vehicle operation; chat guidance does not cut the task time in half.
+3206,E0,Weighing items and attaching labels entails physical weighing and tagging; text assistance cannot eliminate most of the effort.
+3205,E0,"Cleaning, lubricating, fueling, or replacing tanks are maintenance tasks requiring manual labor; LLM cannot materially shorten them."
+3207,E0,"Tending automatic stacking or loading machines still involves on-site setup, monitoring, and intervention; LLM alone offers minimal speed-up."
+3210,E0,Turning valves and opening chutes to release materials is a hands-on mechanical action; text help cannot halve the required time.

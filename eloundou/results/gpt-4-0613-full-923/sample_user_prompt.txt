@@ -1,0 +1,36 @@
+Occupation: Chief Executives
+
+For each task below, provide your label (E0, E1, E2, or E3) and a brief explanation.
+Use the format: Task ID: <id> | <label> | <explanation>
+
+Task ID: 8823 | Direct or coordinate an organization's financial or budget activities to fund operations, maximize investments, or increase efficiency.
+Task ID: 8824 | Confer with board members, organization officials, or staff members to discuss issues, coordinate activities, or resolve problems.
+Task ID: 8827 | Prepare budgets for approval, including those for funding or implementation of programs.
+Task ID: 8826 | Direct, plan, or implement policies, objectives, or activities of organizations or businesses to ensure continuing operations, to maximize returns on investments, or to increase productivity.
+Task ID: 8834 | Prepare or present reports concerning activities, expenses, budgets, government statutes or rulings, or other items affecting businesses or program services.
+Task ID: 8836 | Implement corrective action plans to solve organizational or departmental problems.
+Task ID: 8825 | Analyze operations to evaluate performance of a company or its staff in meeting objectives or to determine areas of potential cost reduction, program improvement, or policy change.
+Task ID: 8828 | Direct or coordinate activities of businesses or departments concerned with production, pricing, sales, or distribution of products.
+Task ID: 8832 | Direct human resources activities, including the approval of human resource plans or activities, the selection of directors or other high-level staff, or establishment or organization of major departments.
+Task ID: 8831 | Appoint department heads or managers and assign or delegate responsibilities to them.
+Task ID: 8843 | Interpret and explain policies, rules, regulations, or laws to organizations, government or corporate officials, or individuals.
+Task ID: 8830 | Review reports submitted by staff members to recommend approval or to suggest changes.
+Task ID: 8829 | Negotiate or approve contracts or agreements with suppliers, distributors, federal or state agencies, or other organizational entities.
+Task ID: 8835 | Establish departmental responsibilities and coordinate functions among departments and sites.
+Task ID: 8839 | Deliver speeches, write articles, or present information at meetings or conventions to promote services, exchange ideas, or accomplish objectives.
+Task ID: 8840 | Serve as liaisons between organizations, shareholders, and outside organizations.
+Task ID: 8837 | Coordinate the development or implementation of budgetary control systems, recordkeeping systems, or other administrative control processes.
+Task ID: 8833 | Preside over, or serve on, boards of directors, management committees, or other governing boards.
+Task ID: 8849 | Attend and participate in meetings of municipal councils or council committees.
+Task ID: 8850 | Organize or approve promotional campaigns.
+Task ID: 8842 | Nominate citizens to boards or commissions.
+Task ID: 8851 | Conduct or direct investigations or hearings to resolve complaints or violations of laws, or testify at such hearings.
+Task ID: 8847 | Direct or coordinate activities of businesses involved with buying or selling investment products or financial services.
+Task ID: 8853 | Prepare bylaws approved by elected officials, and ensure that bylaws are enforced.
+Task ID: 8844 | Make presentations to legislative or other government committees regarding policies, programs, or budgets.
+Task ID: 20461 | Review and analyze legislation, laws, or public policy and recommend changes to promote or support interests of the general population or special groups.
+Task ID: 8838 | Direct non-merchandising departments, such as advertising, purchasing, credit, or accounting.
+Task ID: 8845 | Refer major policy matters to elected representatives for final decisions.
+Task ID: 8848 | Direct or conduct studies or research on issues affecting areas of responsibility.
+Task ID: 8846 | Administer programs for selection of sites, construction of buildings, or provision of equipment or supplies.
+Task ID: 8852 | Represent organizations or promote their objectives at official functions, or delegate representatives to do so.
