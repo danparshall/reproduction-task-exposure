@@ -11,9 +11,12 @@ build/
 .env.local
 .env.corporate
 
-# Runtime data
-data/checkpoints/
+# Runtime data — checkpoints (expensive API calls, resume-safe)
+data/checkpoints*/
 output/
+
+# Eloundou per-SOC/per-task checkpoint JSONs (aggregated CSVs are committed)
+eloundou/results/*/*.json
 
 # OS
 .DS_Store

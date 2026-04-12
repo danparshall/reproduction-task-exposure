@@ -615,12 +615,16 @@ Examples:
     if args.round == 1:
         print(f"\n=== ROUND 1 -- {len(models)} models x {len(grouped_tasks)} occupations ===")
 
+        all_complete = True
+
         async def run_one_model(label, model_info):
+            nonlocal all_complete
             model_name, api_key = model_info
             remaining = get_remaining_work(target_socs, checkpoint_dir, label)
             if not remaining:
                 print(f"  [{label}] All {len(target_socs)} SOCs already checkpointed -- skipping")
                 return
+            all_complete = False
             print(f"  [{label}] {len(remaining)} SOCs remaining (of {len(target_socs)})")
 
             occupation_prompts = []
@@ -643,6 +647,13 @@ Examples:
 
         # Run all models in parallel (providers have independent rate limits)
         await asyncio.gather(*(run_one_model(label, info) for label, info in models.items()))
+
+        if all_complete:
+            print(f"\nAll {len(models)} models have complete checkpoints for {len(target_socs)} SOCs. No API calls needed.")
+            print("To generate final output files, run:")
+            print(f"  python scripts/aggregate.py --checkpoint-dir {checkpoint_dir} --output-dir {out_dir}")
+            print("To compare against published baseline, run:")
+            print(f"  python scripts/compare_results.py --yours {out_dir}")
 
         # Build consensus from all checkpoints
         print("\n=== Building consensus ===")
@@ -734,7 +745,10 @@ Examples:
             return
 
         # Run c-round through all models in parallel
+        r2_all_complete = True
+
         async def run_c_round_model(label, model_info):
+            nonlocal r2_all_complete
             model_name, api_key = model_info
             remaining = get_remaining_work(
                 [s for s, _, _ in r2_prompts], r2_checkpoint_dir, label,
@@ -743,12 +757,16 @@ Examples:
             if not prompts_to_run:
                 print(f"  [{label}] c-round already complete")
                 return
+            r2_all_complete = False
             print(f"  [{label}] Running c-round on {len(prompts_to_run)} occupations")
             await run_model(label, model_name, api_key, system_prompt, prompts_to_run, r2_checkpoint_dir, temperature=args.temperature, max_tokens=args.max_tokens, reasoning_format="axis_dispute")
 
         await asyncio.gather(*(run_c_round_model(label, info) for label, info in models.items()))
 
-        print("  c-round complete. Run consensus aggregation separately.")
+        if r2_all_complete:
+            print(f"\nAll {len(models)} models have complete c-round checkpoints. No API calls needed.")
+        print("  c-round complete. To generate final output files, run:")
+        print(f"    python scripts/aggregate.py --checkpoint-dir {checkpoint_dir} --output-dir {out_dir}")
 
     # ── Run metadata ─────────────────────────────────────────────────
     metadata = {

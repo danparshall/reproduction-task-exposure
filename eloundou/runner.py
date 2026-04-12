@@ -355,6 +355,10 @@ def run_replication(
     print(f"Output: {output_dir}")
     print()
 
+    if existing == len(soc_list):
+        print(f"All {existing} occupations already checkpointed. No API calls needed.")
+        print(f"Regenerating {output_dir / 'all_results.csv'} from checkpoints.")
+
     async def _run():
         semaphore = asyncio.Semaphore(concurrency)
         tasks_coros = [
@@ -481,6 +485,10 @@ def run_per_task(
     print(f"Concurrency: {concurrency}")
     print(f"Output: {output_dir}")
     print()
+
+    if existing == len(task_list):
+        print(f"All {existing} tasks already checkpointed. No API calls needed.")
+        print(f"Regenerating {output_dir / 'all_results.csv'} from checkpoints.")
 
     async def _run():
         semaphore = asyncio.Semaphore(concurrency)
