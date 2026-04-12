@@ -2,9 +2,9 @@
 """Compare your classification results against published baseline data.
 
 Loads both consensus and disputed files from each dataset, handles format
-differences between R1-only runs and R2 (two-round) published data, and
-reports task-level agreement, distribution-level agreement, and per-model
-divergence.
+differences between i-round-only runs and two-round (i-round + c-round)
+published data, and reports task-level agreement, distribution-level
+agreement, and per-model divergence.
 
 Usage:
   # Compare default output against published mid-tier baseline:
@@ -35,14 +35,17 @@ def load_results(directory: Path) -> dict[str, dict]:
     """Load all task results from a results directory.
 
     Reads both consensus and disputed CSVs, returning a unified dict
-    of task_id -> row. Works with both R1-only format (consensus.csv)
-    and R2 format (consensus_r2.csv).
+    of task_id -> row. Works with i-round-only format (consensus.csv),
+    c-round format (consensus_cr.csv), and legacy format (consensus_r2.csv).
     """
     results = {}
 
-    # Try R2 filenames first, then R1
-    consensus_file = directory / "consensus_r2.csv"
-    disputed_file = directory / "disputed_r2.csv"
+    # Try c-round filenames first, then legacy _r2, then i-round-only
+    consensus_file = directory / "consensus_cr.csv"
+    disputed_file = directory / "disputed_cr.csv"
+    if not consensus_file.exists():
+        consensus_file = directory / "consensus_r2.csv"
+        disputed_file = directory / "disputed_r2.csv"
     if not consensus_file.exists():
         consensus_file = directory / "consensus.csv"
         disputed_file = directory / "disputed.csv"
@@ -63,7 +66,7 @@ def extract_consensus(row: dict) -> dict[str, str]:
 
 
 def extract_model_ratings(row: dict) -> dict[str, dict[str, str]]:
-    """Extract per-model ratings from a row (uses final ratings, not _r1)."""
+    """Extract per-model ratings from a row (uses final ratings, not _ir originals)."""
     ratings = {}
     for label in KNOWN_MODEL_LABELS:
         model_ratings = {}

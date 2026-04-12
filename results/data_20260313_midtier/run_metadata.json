@@ -3,7 +3,7 @@
   "soc_set": "full",
   "n_occupations": 923,
   "n_tasks": 18796,
-  "round": 2,
+  "round": "consensus",
   "model_tier": "mid",
   "models": {
     "sonnet": "claude-sonnet-4-6",

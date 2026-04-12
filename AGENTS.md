@@ -71,8 +71,8 @@ python scripts/classify.py --soc-set expanded
 # Full reproduction — 923 occupations, ~$100:
 python scripts/classify.py --soc-set full
 
-# Round 2 consensus on disputed tasks:
-python scripts/classify.py --soc-set full --round 2
+# Consensus round (c-round) on disputed tasks:
+python scripts/classify.py --soc-set full --round consensus
 ```
 
 ### Checkpoint/Resume
@@ -95,7 +95,7 @@ After a run, `output/results/` contains:
 
 Published results are in `results/data_YYYYMMDD_<tier>/`. To compare:
 1. Run your own classification
-2. Compare `output/results/consensus.csv` with the published `consensus_r2.csv`
+2. Compare `output/results/consensus.csv` with the published `consensus_cr.csv`
 3. Due to LLM non-determinism, expect ~85-95% agreement on individual ratings
 4. Aggregate distributions (% at each C/D/R level) should be within a few percentage points
 
@@ -111,7 +111,7 @@ Single-model classification has ~10-15% noise. Provider identity (Anthropic vs O
 Each model provides separate reasoning for C, D, and R before giving ratings. This was validated through stability experiments: per-axis reasoning produces more consistent classifications than merged reasoning.
 
 ### Why two rounds?
-Round 1 classifies independently. Round 2 shows each model the anonymized reasoning of the other models for disputed axes only. This resolves ~60-70% of initial disagreements.
+The initial round (i-round) classifies independently. The consensus round (c-round) shows each model the anonymized reasoning of the other models for disputed axes only. This resolves ~60-70% of initial disagreements.
 
 ## Common Issues
 
@@ -165,7 +165,7 @@ Pipeline infrastructure:
 Parses pipe-delimited model responses in three formats:
 - `merged` — single reasoning column for all axes
 - `per_axis` — separate reasoning per axis (used in production)
-- `axis_dispute` — round 2 format (one row per disputed axis)
+- `axis_dispute` — consensus round (c-round) format (one row per disputed axis)
 
 ### `src/task_exposure/profiles.py`
 Loads and formats occupation profiles including:

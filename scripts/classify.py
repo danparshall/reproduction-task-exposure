@@ -5,7 +5,8 @@ Classifies O*NET occupational tasks on three axes:
   C (Cognitive complexity), D (Deployment difficulty), R (Regulatory restrictions)
 
 Uses 3-model consensus (one model per provider: Anthropic, OpenAI, Google).
-Supports checkpoint/resume, dry-run prompt inspection, and two-round consensus.
+Supports checkpoint/resume, dry-run prompt inspection, and two-round consensus
+(initial round + consensus round).
 
 Usage:
   # Quick test — 12 occupations, ~$10 in API costs:
@@ -23,8 +24,8 @@ Usage:
   # Run single model (for partial resume):
   python scripts/classify.py --soc-set full --model gemini
 
-  # Round 2 consensus on disputed tasks:
-  python scripts/classify.py --soc-set full --round 2
+  # Consensus round (c-round) on disputed tasks:
+  python scripts/classify.py --soc-set full --round consensus
 
   # 3-occupation pilot for initial API key validation:
   python scripts/classify.py --soc-set pilot
@@ -301,10 +302,10 @@ async def run_model(
     return all_results
 
 
-# ── Round 2 consensus ──────────────────────────────────────────────────
+# ── Consensus round (c-round) prompt ──────────────────────────────────
 
 
-def build_r2_prompt(
+def build_cr_prompt(
     soc: str,
     title: str,
     tasks: list[dict],
@@ -313,7 +314,7 @@ def build_r2_prompt(
     abilities_text: str,
     work_context_text: str,
 ) -> str | None:
-    """Build Round 2 (c-round) axis-dispute prompt for one occupation.
+    """Build consensus round (c-round) axis-dispute prompt for one occupation.
 
     Sends ALL non-unanimous task-axis combinations for re-rating. Each model
     sees the other models' ratings and reasoning (anonymized) for disputed
@@ -424,7 +425,7 @@ Examples:
   python scripts/classify.py --soc-set expanded    # 12 occupations, ~$10
   python scripts/classify.py --soc-set full        # 923 occupations, ~$100
   python scripts/classify.py --dry-run             # Inspect prompts, no API calls
-  python scripts/classify.py --round 2             # Consensus on disputes
+  python scripts/classify.py --round consensus      # Consensus on disputes
 """,
     )
     parser.add_argument(
@@ -435,10 +436,10 @@ Examples:
     )
     parser.add_argument(
         "--round",
-        type=int,
-        choices=[1, 2],
-        default=1,
-        help="Pipeline round: 1 (initial) or 2 (consensus on disputes).",
+        type=str,
+        choices=["initial", "consensus"],
+        default="initial",
+        help="Pipeline round: 'initial' (i-round, independent classification) or 'consensus' (c-round, dispute resolution).",
     )
     parser.add_argument(
         "--model-tier",
@@ -611,9 +612,9 @@ Examples:
         print(f"  {len(target_socs)} user prompts saved to {prompts_dir}")
         return
 
-    # ── Round 1 ──────────────────────────────────────────────────────
-    if args.round == 1:
-        print(f"\n=== ROUND 1 -- {len(models)} models x {len(grouped_tasks)} occupations ===")
+    # ── Initial round (i-round) ─────────────────────────────────────
+    if args.round == "initial":
+        print(f"\n=== INITIAL ROUND -- {len(models)} models x {len(grouped_tasks)} occupations ===")
 
         all_complete = True
 
@@ -677,11 +678,11 @@ Examples:
         else:
             print(f"  Only {len(model_results)} model(s) have results -- need at least 2 for consensus")
 
-    # ── Round 2 ──────────────────────────────────────────────────────
-    elif args.round == 2:
-        print("\n=== ROUND 2 -- consensus on disputes ===")
+    # ── Consensus round (c-round) ───────────────────────────────────
+    elif args.round == "consensus":
+        print("\n=== CONSENSUS ROUND -- resolving disputes ===")
 
-        # Load R1 checkpoints
+        # Load i-round checkpoints
         model_results = {}
         for label in MODEL_TIERS[args.model_tier]:
             checkpoints = load_checkpoints(checkpoint_dir, label)
@@ -692,12 +693,12 @@ Examples:
                 model_results[label] = merged
 
         if len(model_results) < 3:
-            print(f"  ERROR: Need 3 models for R2, found {len(model_results)}")
+            print(f"  ERROR: Need 3 models for c-round, found {len(model_results)}")
             sys.exit(1)
 
         # Find occupations with any non-unanimous task-axis combos
-        r2_checkpoint_dir = checkpoint_dir + "_r2"
-        r2_prompts = []
+        cr_checkpoint_dir = checkpoint_dir + "_cr"
+        cr_prompts = []
         for soc in target_socs:
             tasks = grouped_tasks.get(soc, [])
             if not tasks:
@@ -731,39 +732,39 @@ Examples:
                     lines.append(f"  - {name} ({val:.1f})")
                 wc_text = "\n".join(lines)
 
-            r2_prompt = build_r2_prompt(
+            cr_prompt = build_cr_prompt(
                 soc, title, tasks, soc_model_results,
                 profile_text, abilities_text, wc_text,
             )
-            if r2_prompt:
-                r2_prompts.append((soc, title, r2_prompt))
+            if cr_prompt:
+                cr_prompts.append((soc, title, cr_prompt))
 
-        print(f"  {len(r2_prompts)} occupations have disputes for R2")
+        print(f"  {len(cr_prompts)} occupations have disputes for c-round")
 
-        if not r2_prompts:
+        if not cr_prompts:
             print("  No disputes to resolve!")
             return
 
         # Run c-round through all models in parallel
-        r2_all_complete = True
+        cr_all_complete = True
 
         async def run_c_round_model(label, model_info):
-            nonlocal r2_all_complete
+            nonlocal cr_all_complete
             model_name, api_key = model_info
             remaining = get_remaining_work(
-                [s for s, _, _ in r2_prompts], r2_checkpoint_dir, label,
+                [s for s, _, _ in cr_prompts], cr_checkpoint_dir, label,
             )
-            prompts_to_run = [(s, t, p) for s, t, p in r2_prompts if s in remaining]
+            prompts_to_run = [(s, t, p) for s, t, p in cr_prompts if s in remaining]
             if not prompts_to_run:
                 print(f"  [{label}] c-round already complete")
                 return
-            r2_all_complete = False
+            cr_all_complete = False
             print(f"  [{label}] Running c-round on {len(prompts_to_run)} occupations")
-            await run_model(label, model_name, api_key, system_prompt, prompts_to_run, r2_checkpoint_dir, temperature=args.temperature, max_tokens=args.max_tokens, reasoning_format="axis_dispute")
+            await run_model(label, model_name, api_key, system_prompt, prompts_to_run, cr_checkpoint_dir, temperature=args.temperature, max_tokens=args.max_tokens, reasoning_format="axis_dispute")
 
         await asyncio.gather(*(run_c_round_model(label, info) for label, info in models.items()))
 
-        if r2_all_complete:
+        if cr_all_complete:
             print(f"\nAll {len(models)} models have complete c-round checkpoints. No API calls needed.")
         print("  c-round complete. To generate final output files, run:")
         print(f"    python scripts/aggregate.py --checkpoint-dir {checkpoint_dir} --output-dir {out_dir}")
