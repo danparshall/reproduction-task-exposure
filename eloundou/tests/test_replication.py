@@ -229,10 +229,10 @@ class TestCompareLabels:
             "gpt4_exposure": ["E0", "E2"],
             "gpt4_exposure_alt_rubric": ["E0", "E1"],
         })
-        metrics_r1 = compare_labels(replication, eloundou, target_col="gpt4_exposure")
-        metrics_r2 = compare_labels(replication, eloundou, target_col="gpt4_exposure_alt_rubric")
-        assert metrics_r1["accuracy"] == 0.5  # disagrees on task 2
-        assert metrics_r2["accuracy"] == 1.0  # agrees with alt rubric
+        metrics_rub1 = compare_labels(replication, eloundou, target_col="gpt4_exposure")
+        metrics_rub2 = compare_labels(replication, eloundou, target_col="gpt4_exposure_alt_rubric")
+        assert metrics_rub1["accuracy"] == 0.5  # disagrees on task 2
+        assert metrics_rub2["accuracy"] == 1.0  # agrees with alt rubric
 
 
 # ── Data loading tests (use real files) ──────────────────────────────────

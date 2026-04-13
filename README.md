@@ -74,13 +74,13 @@ The 12-occupation test set includes: Hairdressers, HVAC Mechanics, Registered Nu
 ### Full Reproduction (~$100, 923 occupations)
 
 ```bash
-# Step 1: Round 1 — initial classification
+# Step 1: Initial round (i-round) — independent classification
 python scripts/classify.py --soc-set full
 
-# Step 2: Round 2 — consensus on disputed tasks
-python scripts/classify.py --soc-set full --round 2
+# Step 2: Consensus round (c-round) — resolve disputed tasks
+python scripts/classify.py --soc-set full --round consensus
 
-# Step 3: Aggregate — merge R1+R2 into final CSVs
+# Step 3: Aggregate — merge i-round + c-round into final CSVs
 python scripts/aggregate.py
 
 # Step 4: Compare — check your results against published baseline
@@ -89,9 +89,11 @@ python scripts/compare_results.py --yours output/results
 
 The pipeline checkpoints after each occupation — if interrupted, re-run the same command to resume. Steps 1-2 make API calls; steps 3-4 are local only.
 
+> **Note on round naming:** This codebase uses "initial round" (i-round) and "consensus round" (c-round) for the two pipeline rounds. Internal code uses `ir`/`cr` suffixes (e.g., `_ir` in CSV columns, `_cr` in filenames). If you have checkpoint directories from an older version with `_r2` suffixes, rename them to `_cr` (e.g., `data/checkpoints_r2/` → `data/checkpoints_cr/`) before running `aggregate.py`.
+
 ### Comparing Results
 
-After aggregation, your results appear in `output/results/` as `consensus_r2.csv` and `disputed_r2.csv`. The comparison script reports task-level agreement, distribution-level agreement, and per-model divergence:
+After aggregation, your results appear in `output/results/` as `consensus_cr.csv` and `disputed_cr.csv`. The comparison script reports task-level agreement, distribution-level agreement, and per-model divergence:
 
 ```bash
 python scripts/compare_results.py --yours output/results
@@ -120,7 +122,7 @@ Use `--model-tier` to select: `python scripts/classify.py --model-tier oldest --
 - R axis (regulatory restrictions): 70.1% exact match, most sensitive to model capability (see below)
 - Distribution shapes are preserved: per-level shifts are <5 percentage points for C and D
 
-**R-axis sensitivity:** The R axis requires models to integrate domain-specific context (licensing data, apprenticeship requirements) from the occupation profile enrichment. GPT-4o-mini rates R=0 on ~95% of tasks in Round 1 with template reasoning ("No regulatory barriers"), regardless of the occupation's actual regulatory status. The two-round consensus protocol corrects this — GPT-4o-mini updates ~86% of its R-axis ratings in Round 2 when shown other models' reasoning — but some residual bias remains.
+**R-axis sensitivity:** The R axis requires models to integrate domain-specific context (licensing data, apprenticeship requirements) from the occupation profile enrichment. GPT-4o-mini rates R=0 on ~95% of tasks in the initial round with template reasoning ("No regulatory barriers"), regardless of the occupation's actual regulatory status. The two-round consensus protocol corrects this — GPT-4o-mini updates ~86% of its R-axis ratings in the consensus round when shown other models' reasoning — but some residual bias remains.
 
 **Model sunsetting limits reproducibility:** As of March 2026, no mid-tier models from early 2024 are available via API. Claude 3 Sonnet (March 2024) and Gemini 1.0 Pro (December 2023) are sunset; GPT-3.5-turbo survives but its 16K context window is too small for the framework's enriched prompts (~32K+ required). The practical reproducibility window is ~12 months before models are retired. This framework addresses that by demonstrating stability across model generations rather than pinning to specific model versions.
 
@@ -159,7 +161,7 @@ O*NET data files are bundled in `data/onet/` (public domain). Pre-compiled licen
 
 ```
 ├── scripts/classify.py          # Main classification pipeline
-├── scripts/aggregate.py         # Merge R1+R2 checkpoints into final CSVs
+├── scripts/aggregate.py         # Merge i-round + c-round checkpoints into final CSVs
 ├── scripts/compare_results.py   # Compare your results against published baseline
 ├── src/task_exposure/           # Python package
 │   ├── clients.py               #   LLM API clients (3 providers)

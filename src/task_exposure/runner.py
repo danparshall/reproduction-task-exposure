@@ -117,8 +117,8 @@ def build_consensus(
 
     NOTE: This function does NOT determine c-round eligibility. The c-round
     sends ALL non-unanimous task-axis combos (both 2-1 and 3-way splits)
-    for re-rating — see build_r2_prompt() in run_cdr_production.py. This
-    function is used for output aggregation after both i-round and c-round.
+    for re-rating — see build_cr_prompt() in classify.py. This function
+    is used for output aggregation after both i-round and c-round.
 
     Args:
         model_results: {model_label: {task_id: {C, D, R, ...}}}

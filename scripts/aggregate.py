@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
-"""Aggregate R1 and R2 checkpoints into final consensus CSVs.
+"""Aggregate i-round and c-round checkpoints into final consensus CSVs.
 
 After running both rounds of classification:
-  python scripts/classify.py --soc-set full              # Round 1
-  python scripts/classify.py --soc-set full --round 2    # Round 2
+  python scripts/classify.py --soc-set full                      # Initial round (i-round)
+  python scripts/classify.py --soc-set full --round consensus    # Consensus round (c-round)
 
 Run this script to merge the results:
   python scripts/aggregate.py
 
-This produces consensus_r2.csv and disputed_r2.csv in the output directory,
+This produces consensus_cr.csv and disputed_cr.csv in the output directory,
 which compare_results.py uses for comparison against published baselines.
 
-The merge logic: for each task, R2 ratings override R1 on any axis where
-the model provided an updated rating. Axes not disputed in R2 keep their
-R1 values. The final consensus is computed by majority vote (2-of-3).
+The merge logic: for each task, c-round ratings override i-round on any axis
+where the model provided an updated rating. Axes not disputed in the c-round
+keep their i-round values. The final consensus is computed by majority vote (2-of-3).
 
 Usage:
   # Default: merge data/checkpoints into output/results
@@ -26,8 +26,8 @@ Usage:
   # Custom model tier (determines which model labels to look for):
   python scripts/aggregate.py --model-tier oldest
 
-  # R1 only (no R2 merge):
-  python scripts/aggregate.py --r1-only
+  # i-round only (no c-round merge):
+  python scripts/aggregate.py --ir-only
 """
 
 from __future__ import annotations
@@ -41,7 +41,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
-from task_exposure.runner import build_consensus, save_aggregated_results  # noqa: E402
+from task_exposure.runner import build_consensus  # noqa: E402
 
 AXES = ["C", "D", "R"]
 
@@ -63,46 +63,46 @@ def load_model_checkpoints(checkpoint_dir: Path, model_label: str) -> dict[str, 
     return merged
 
 
-def merge_r1_r2(
-    r1: dict[str, dict],
-    r2: dict[str, dict],
+def merge_ir_cr(
+    ir: dict[str, dict],
+    cr: dict[str, dict],
 ) -> dict[str, dict]:
-    """Overlay R2 ratings onto R1. R2 values override R1 per-axis where present."""
+    """Overlay c-round ratings onto i-round. C-round values override per-axis where present."""
     merged = {}
-    for tid, r1_vals in r1.items():
-        merged[tid] = dict(r1_vals)
+    for tid, ir_vals in ir.items():
+        merged[tid] = dict(ir_vals)
 
-    for tid, r2_vals in r2.items():
+    for tid, cr_vals in cr.items():
         if tid not in merged:
-            merged[tid] = dict(r2_vals)
+            merged[tid] = dict(cr_vals)
             continue
         for axis in AXES:
-            if r2_vals.get(axis):
-                merged[tid][axis] = r2_vals[axis]
+            if cr_vals.get(axis):
+                merged[tid][axis] = cr_vals[axis]
             # Also update reasoning if present
             reasoning_key = f"{axis.lower()}_reasoning"
-            if r2_vals.get(reasoning_key):
-                merged[tid][reasoning_key] = r2_vals[reasoning_key]
+            if cr_vals.get(reasoning_key):
+                merged[tid][reasoning_key] = cr_vals[reasoning_key]
 
     return merged
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Aggregate R1 and R2 checkpoints into final consensus CSVs",
+        description="Aggregate i-round and c-round checkpoints into final consensus CSVs",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   python scripts/aggregate.py
   python scripts/aggregate.py --checkpoint-dir data/checkpoints_oldest_expanded
-  python scripts/aggregate.py --r1-only
+  python scripts/aggregate.py --ir-only
 """,
     )
     parser.add_argument(
         "--checkpoint-dir",
         type=str,
         default="data/checkpoints",
-        help="R1 checkpoint directory. R2 checkpoints are expected at {dir}_r2. Default: data/checkpoints",
+        help="Initial round checkpoint directory. C-round checkpoints are expected at {dir}_cr. Default: data/checkpoints",
     )
     parser.add_argument(
         "--output-dir",
@@ -118,38 +118,38 @@ Examples:
         help=f"Model labels to aggregate. Default: {' '.join(DEFAULT_MODEL_LABELS)}",
     )
     parser.add_argument(
-        "--r1-only",
+        "--ir-only",
         action="store_true",
-        help="Only aggregate R1 checkpoints (skip R2 merge).",
+        help="Only aggregate i-round checkpoints (skip c-round merge).",
     )
     args = parser.parse_args()
 
-    r1_dir = Path(args.checkpoint_dir)
-    r2_dir = Path(f"{args.checkpoint_dir}_r2")
+    ir_dir = Path(args.checkpoint_dir)
+    cr_dir = Path(f"{args.checkpoint_dir}_cr")
     out_dir = Path(args.output_dir)
 
-    if not r1_dir.exists():
-        print(f"ERROR: Checkpoint directory not found: {r1_dir}")
+    if not ir_dir.exists():
+        print(f"ERROR: Checkpoint directory not found: {ir_dir}")
         sys.exit(1)
 
     # Load and merge checkpoints for each model
-    print(f"Loading checkpoints from {r1_dir}")
+    print(f"Loading checkpoints from {ir_dir}")
     model_results = {}
     for label in args.model_labels:
-        r1_data = load_model_checkpoints(r1_dir, label)
+        ir_data = load_model_checkpoints(ir_dir, label)
 
-        if args.r1_only or not r2_dir.exists():
-            final = r1_data
-            r2_count = 0
+        if args.ir_only or not cr_dir.exists():
+            final = ir_data
+            cr_count = 0
         else:
-            r2_data = load_model_checkpoints(r2_dir, label)
-            final = merge_r1_r2(r1_data, r2_data)
-            r2_count = len(r2_data)
+            cr_data = load_model_checkpoints(cr_dir, label)
+            final = merge_ir_cr(ir_data, cr_data)
+            cr_count = len(cr_data)
 
         if final:
             model_results[label] = final
-            r2_note = f" (+{r2_count} R2 updates)" if r2_count else ""
-            print(f"  [{label}] {len(final)} task rows{r2_note}")
+            cr_note = f" (+{cr_count} c-round updates)" if cr_count else ""
+            print(f"  [{label}] {len(final)} task rows{cr_note}")
         else:
             print(f"  [{label}] no checkpoints found")
 
@@ -170,7 +170,7 @@ Examples:
     print(f"  Disputed:  {len(disputed)}/{total} ({100 * len(disputed) / total:.1f}%)")
 
     # Save with appropriate filenames
-    suffix = "" if args.r1_only else "_r2"
+    suffix = "" if args.ir_only else "_cr"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     consensus_file = out_dir / f"consensus{suffix}.csv"

@@ -3,8 +3,8 @@
   "timestamp": "2026-04-01",
   "soc_set": "full",
   "n_occupations": 923,
-  "n_tasks_r2": 23846,
-  "rounds": "R1 + R2 (c-round)",
+  "n_tasks_cr": 23846,
+  "rounds": "initial + consensus (i-round + c-round)",
   "model_tier": "oldest",
   "models": {
     "sonnet": "claude-sonnet-4-20250514",
@@ -25,9 +25,9 @@
   "reasoning_format": "per_axis",
   "notes": {
     "gemini_max_tokens": "32768 (thinking tokens require higher budget than default 16384)",
-    "gemini_coverage": "893/923 SOCs in R1 (30 returned empty responses); all disputes covered in R2",
-    "gpt_r_axis": "GPT-4o-mini rates R=0 on ~95% of tasks in R1; corrects ~86% in R2 c-round",
-    "consensus_rate": "98.2% per-axis after R2",
+    "gemini_coverage": "893/923 SOCs in i-round (30 returned empty responses); all disputes covered in c-round",
+    "gpt_r_axis": "GPT-4o-mini rates R=0 on ~95% of tasks in i-round; corrects ~86% in c-round",
+    "consensus_rate": "98.2% per-axis after c-round",
     "vs_current_midtier": "77.6% exact match, 94.4% within one level"
   }
 }
