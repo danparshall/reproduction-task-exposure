@@ -3,7 +3,7 @@
 Verifies that the codebase uses 'ir' (initial round) and 'cr' (consensus round)
 terminology consistently, avoiding collision with R-axis levels (R0-R4).
 """
-import csv
+
 import json
 import subprocess
 import sys
@@ -26,15 +26,25 @@ class TestCLIRoundFlag:
         """--round initial should be accepted by the argument parser."""
         result = subprocess.run(
             [sys.executable, "scripts/classify.py", "--round", "initial", "--dry-run"],
-            capture_output=True, text=True, cwd=str(PROJECT_ROOT),
+            capture_output=True,
+            text=True,
+            cwd=str(PROJECT_ROOT),
         )
         assert result.returncode == 0, f"--round initial rejected: {result.stderr}"
 
     def test_round_consensus_accepted(self):
         """--round consensus should be accepted by the argument parser."""
         result = subprocess.run(
-            [sys.executable, "scripts/classify.py", "--round", "consensus", "--dry-run"],
-            capture_output=True, text=True, cwd=str(PROJECT_ROOT),
+            [
+                sys.executable,
+                "scripts/classify.py",
+                "--round",
+                "consensus",
+                "--dry-run",
+            ],
+            capture_output=True,
+            text=True,
+            cwd=str(PROJECT_ROOT),
         )
         assert result.returncode == 0, f"--round consensus rejected: {result.stderr}"
 
@@ -42,7 +52,9 @@ class TestCLIRoundFlag:
         """--round 1 (old convention) should be rejected."""
         result = subprocess.run(
             [sys.executable, "scripts/classify.py", "--round", "1", "--dry-run"],
-            capture_output=True, text=True, cwd=str(PROJECT_ROOT),
+            capture_output=True,
+            text=True,
+            cwd=str(PROJECT_ROOT),
         )
         assert result.returncode != 0, "--round 1 should be rejected"
 
@@ -50,7 +62,9 @@ class TestCLIRoundFlag:
         """--round 2 (old convention) should be rejected."""
         result = subprocess.run(
             [sys.executable, "scripts/classify.py", "--round", "2", "--dry-run"],
-            capture_output=True, text=True, cwd=str(PROJECT_ROOT),
+            capture_output=True,
+            text=True,
+            cwd=str(PROJECT_ROOT),
         )
         assert result.returncode != 0, "--round 2 should be rejected"
 
@@ -62,7 +76,9 @@ class TestAggregateCLI:
         """--ir-only should be a valid flag."""
         result = subprocess.run(
             [sys.executable, "scripts/aggregate.py", "--help"],
-            capture_output=True, text=True, cwd=str(PROJECT_ROOT),
+            capture_output=True,
+            text=True,
+            cwd=str(PROJECT_ROOT),
         )
         assert "--ir-only" in result.stdout, f"--ir-only not in help: {result.stdout}"
 
@@ -70,7 +86,9 @@ class TestAggregateCLI:
         """--r1-only (old convention) should not appear in help."""
         result = subprocess.run(
             [sys.executable, "scripts/aggregate.py", "--help"],
-            capture_output=True, text=True, cwd=str(PROJECT_ROOT),
+            capture_output=True,
+            text=True,
+            cwd=str(PROJECT_ROOT),
         )
         assert "--r1-only" not in result.stdout, "--r1-only still present in help"
 
@@ -85,14 +103,20 @@ class TestFunctionNaming:
         """classify.py should define build_cr_prompt (not build_r2_prompt)."""
         # Import the module's namespace by reading the source
         source = (PROJECT_ROOT / "scripts" / "classify.py").read_text()
-        assert "def build_cr_prompt(" in source, "build_cr_prompt not found in classify.py"
-        assert "def build_r2_prompt(" not in source, "build_r2_prompt still present in classify.py"
+        assert "def build_cr_prompt(" in source, (
+            "build_cr_prompt not found in classify.py"
+        )
+        assert "def build_r2_prompt(" not in source, (
+            "build_r2_prompt still present in classify.py"
+        )
 
     def test_merge_ir_cr_exists(self):
         """aggregate.py should define merge_ir_cr (not merge_r1_r2)."""
         source = (PROJECT_ROOT / "scripts" / "aggregate.py").read_text()
         assert "def merge_ir_cr(" in source, "merge_ir_cr not found in aggregate.py"
-        assert "def merge_r1_r2(" not in source, "merge_r1_r2 still present in aggregate.py"
+        assert "def merge_r1_r2(" not in source, (
+            "merge_r1_r2 still present in aggregate.py"
+        )
 
 
 # ── Checkpoint directory naming ────────────────────────────────────────
@@ -104,16 +128,24 @@ class TestCheckpointNaming:
     def test_cr_suffix_in_classify(self):
         """classify.py should append '_cr' for consensus round checkpoints."""
         source = (PROJECT_ROOT / "scripts" / "classify.py").read_text()
-        assert '"_cr"' in source or "'_cr'" in source, "_cr suffix not found in classify.py"
+        assert '"_cr"' in source or "'_cr'" in source, (
+            "_cr suffix not found in classify.py"
+        )
         # The old _r2 suffix should not appear (except possibly in comments about the change)
         # Check the actual checkpoint_dir assignment line
-        assert 'checkpoint_dir + "_r2"' not in source, '_r2 checkpoint suffix still in classify.py'
+        assert 'checkpoint_dir + "_r2"' not in source, (
+            "_r2 checkpoint suffix still in classify.py"
+        )
 
     def test_cr_suffix_in_aggregate(self):
         """aggregate.py should look for _cr checkpoint dirs."""
         source = (PROJECT_ROOT / "scripts" / "aggregate.py").read_text()
-        assert '"_cr"' in source or "'_cr'" in source, "_cr suffix not found in aggregate.py"
-        assert 'checkpoint_dir}_r2"' not in source, '_r2 checkpoint suffix still in aggregate.py'
+        assert '"_cr"' in source or "'_cr'" in source, (
+            "_cr suffix not found in aggregate.py"
+        )
+        assert 'checkpoint_dir}_r2"' not in source, (
+            "_r2 checkpoint suffix still in aggregate.py"
+        )
 
 
 # ── Published result file naming ───────────────────────────────────────
@@ -141,8 +173,12 @@ class TestPublishedFileNames:
     def test_old_r2_files_gone(self):
         """Old _r2 filenames should not exist alongside new _cr ones."""
         for d in [RESULTS_MIDTIER, RESULTS_OLDEST]:
-            assert not (d / "consensus_r2.csv").exists(), f"Legacy consensus_r2.csv still in {d}"
-            assert not (d / "disputed_r2.csv").exists(), f"Legacy disputed_r2.csv still in {d}"
+            assert not (d / "consensus_r2.csv").exists(), (
+                f"Legacy consensus_r2.csv still in {d}"
+            )
+            assert not (d / "disputed_r2.csv").exists(), (
+                f"Legacy disputed_r2.csv still in {d}"
+            )
 
 
 # ── CSV column headers ─────────────────────────────────────────────────
@@ -189,6 +225,7 @@ class TestCompareResultsBackwardCompat:
         try:
             # We need to import load_results from compare_results
             import importlib
+
             spec = importlib.util.spec_from_file_location(
                 "compare_results", PROJECT_ROOT / "scripts" / "compare_results.py"
             )
@@ -207,13 +244,17 @@ class TestCompareResultsBackwardCompat:
         sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
         try:
             import importlib
+
             spec = importlib.util.spec_from_file_location(
-                "compare_results_fallback", PROJECT_ROOT / "scripts" / "compare_results.py"
+                "compare_results_fallback",
+                PROJECT_ROOT / "scripts" / "compare_results.py",
             )
             mod = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(mod)
             results = mod.load_results(tmp_path)
-            assert "legacy1" in results, f"load_results didn't fall back to _r2: {results}"
+            assert "legacy1" in results, (
+                f"load_results didn't fall back to _r2: {results}"
+            )
         finally:
             sys.path.pop(0)
 
@@ -229,7 +270,9 @@ class TestMetadataJSON:
         data = json.loads(path.read_text())
         # Should be "consensus" not 2
         assert data.get("round") != 2, 'Metadata still has "round": 2'
-        assert data.get("round") == "consensus", f'Expected "consensus", got {data.get("round")}'
+        assert data.get("round") == "consensus", (
+            f'Expected "consensus", got {data.get("round")}'
+        )
 
     def test_oldest_metadata_no_r1_r2_keys(self):
         path = RESULTS_OLDEST / "run_metadata.json"
@@ -251,7 +294,11 @@ class TestAggregateOutputNaming:
         # The line that sets the suffix should use _cr
         assert '"_cr"' in source or "'_cr'" in source, "_cr suffix not in aggregate.py"
         # Should not generate _r2 filenames
-        assert 'f"consensus{suffix}.csv"' in source or "f\"consensus{suffix}.csv\"" in source or 'f"consensus' in source
+        assert (
+            'f"consensus{suffix}.csv"' in source
+            or 'f"consensus{suffix}.csv"' in source
+            or 'f"consensus' in source
+        )
 
 
 # ── Eloundou rubric variable naming ──────────────────────────────────
@@ -262,8 +309,14 @@ class TestEloundouRubricNaming:
 
     def test_metrics_rub_naming(self):
         """metrics_r1/metrics_r2 should be renamed to metrics_rub1/metrics_rub2."""
-        source = (PROJECT_ROOT / "eloundou" / "tests" / "test_replication.py").read_text()
+        source = (
+            PROJECT_ROOT / "eloundou" / "tests" / "test_replication.py"
+        ).read_text()
         assert "metrics_rub1" in source, "metrics_rub1 not found in test_replication.py"
         assert "metrics_rub2" in source, "metrics_rub2 not found in test_replication.py"
-        assert "metrics_r1" not in source, "metrics_r1 still present in test_replication.py"
-        assert "metrics_r2" not in source, "metrics_r2 still present in test_replication.py"
+        assert "metrics_r1" not in source, (
+            "metrics_r1 still present in test_replication.py"
+        )
+        assert "metrics_r2" not in source, (
+            "metrics_r2 still present in test_replication.py"
+        )

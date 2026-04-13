@@ -41,7 +41,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
-from task_exposure.runner import build_consensus, save_aggregated_results  # noqa: E402
+from task_exposure.runner import build_consensus  # noqa: E402
 
 AXES = ["C", "D", "R"]
 
