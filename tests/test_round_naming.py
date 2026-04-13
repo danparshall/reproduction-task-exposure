@@ -294,10 +294,8 @@ class TestAggregateOutputNaming:
         # The line that sets the suffix should use _cr
         assert '"_cr"' in source or "'_cr'" in source, "_cr suffix not in aggregate.py"
         # Should not generate _r2 filenames
-        assert (
-            'f"consensus{suffix}.csv"' in source
-            or 'f"consensus{suffix}.csv"' in source
-            or 'f"consensus' in source
+        assert '"_r2"' not in source and "'_r2'" not in source, (
+            "_r2 suffix still in aggregate.py"
         )
 
 

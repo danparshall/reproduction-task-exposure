@@ -41,7 +41,7 @@ dispute_axes                  # Which axes (if any) remain disputed
 **Consensus methods:**
 - `unanimous` — All 3 models agreed in the initial round (i-round)
 - `majority` — 2/3 models agreed (majority vote)
-- `cr_unanimous` / `cr_majority` — Resolved during the consensus round (c-round)
+- Consensus methods are `unanimous` or `majority` regardless of which round resolved them
 - Empty `consensus_*` + listed in `dispute_axes` — Unresolved 3-way split
 
 ## Reproducing These Results

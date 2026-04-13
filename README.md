@@ -89,6 +89,8 @@ python scripts/compare_results.py --yours output/results
 
 The pipeline checkpoints after each occupation — if interrupted, re-run the same command to resume. Steps 1-2 make API calls; steps 3-4 are local only.
 
+> **Note on round naming:** This codebase uses "initial round" (i-round) and "consensus round" (c-round) for the two pipeline rounds. Internal code uses `ir`/`cr` suffixes (e.g., `_ir` in CSV columns, `_cr` in filenames). If you have checkpoint directories from an older version with `_r2` suffixes, rename them to `_cr` (e.g., `data/checkpoints_r2/` → `data/checkpoints_cr/`) before running `aggregate.py`.
+
 ### Comparing Results
 
 After aggregation, your results appear in `output/results/` as `consensus_cr.csv` and `disputed_cr.csv`. The comparison script reports task-level agreement, distribution-level agreement, and per-model divergence:
