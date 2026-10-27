@@ -22,10 +22,14 @@ RESULTS_OLDEST = PROJECT_ROOT / "results" / "data_oldest_available"
 class TestCLIRoundFlag:
     """The --round flag should accept 'initial'/'consensus', not 1/2."""
 
+    # argparse validates --round's choices before it reaches --help, so a bad
+    # value still exits 2; --help then exits 0 without loading O*NET data or
+    # writing into output/results/ the way a --dry-run does.
+
     def test_round_initial_accepted(self):
         """--round initial should be accepted by the argument parser."""
         result = subprocess.run(
-            [sys.executable, "scripts/classify.py", "--round", "initial", "--dry-run"],
+            [sys.executable, "scripts/classify.py", "--round", "initial", "--help"],
             capture_output=True,
             text=True,
             cwd=str(PROJECT_ROOT),
@@ -35,13 +39,7 @@ class TestCLIRoundFlag:
     def test_round_consensus_accepted(self):
         """--round consensus should be accepted by the argument parser."""
         result = subprocess.run(
-            [
-                sys.executable,
-                "scripts/classify.py",
-                "--round",
-                "consensus",
-                "--dry-run",
-            ],
+            [sys.executable, "scripts/classify.py", "--round", "consensus", "--help"],
             capture_output=True,
             text=True,
             cwd=str(PROJECT_ROOT),
